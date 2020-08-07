@@ -1,8 +1,8 @@
 staging:
   profile: ~
-  whoami:  
+  whoami:  master
  
  
 publish:
-  whoami:  
+  whoami:  master
   
