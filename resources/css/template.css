@@ -1,0 +1,62 @@
+
+.app-nav {
+	width: calc(100% - 300px - 50px);
+}
+
+body.close .app-nav {
+	width: calc(100% - 50px);
+}
+
+.app-name img {
+	height: 75px;
+}
+
+.sidebar > h1.app-name {
+	margin: 10px;
+}
+
+img.apache {
+	height: 50px;
+	margin: 5px;
+	display: block;
+	float: right;
+}
+
+img.myfaces {
+	height: 50px;
+	margin: 5px;
+	display: block;
+	float: left;
+}
+
+.content {
+	background: linear-gradient(to bottom, #e1e1e1 1%,#ffffff 15%);
+}
+
+.markdown-section {
+	max-width: 100%;
+	padding: 40px 60px 20px 60px;
+}
+
+.sidebar .sidebar-nav {
+    line-height: 1.3em;
+}
+
+.markdown-section p, .markdown-section ul, .markdown-section ol {
+    line-height: 1.3rem;
+    word-spacing: 0.05rem;
+}
+
+.markdown-section figure, .markdown-section p {
+    margin: 0.8em 0;
+}
+
+.markdown-section h2 {
+    font-size: 1.75rem;
+    margin: 35px 0 0.8rem;
+}
+
+.markdown-section h3 {
+    font-size: 1.4rem;
+    margin: 40px 0 0.6rem;
+}
