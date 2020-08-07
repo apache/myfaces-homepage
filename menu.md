@@ -3,6 +3,7 @@
 
 - [Core](/core.md)
   - [Getting Started](/coregettingstarted.md)
+  - [Release Checklist](/coreReleaseChecklist.md)
   - Concepts
     - [View Pooling](/coreConceptsViewPooling.md)
 	- [Cache EL expressions](/coreConceptsCacheElExpressions.md)
@@ -17,6 +18,7 @@
   - [2.3](/core23.md)
   - [2.3-next](/core23next.md)
   - [3.0](/core30.md)
+
 
 - Tobago
   - [Getting Started](/tobago/gettingstarted.md)
