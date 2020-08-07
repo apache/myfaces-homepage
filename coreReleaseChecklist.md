@@ -260,6 +260,10 @@ Add the release version and date to the Apache Committee Report Helper: [Add Rel
 
 ## 8. Update Homepage
 
+* Checkout the homapage via [GitBox](https://gitbox.apache.org/repos/asf?p=myfaces-homepage.git)
+* Update coreX.md: Update the links in the Download section and the version in the Depedency section
+* Update news.md: Add a new entry for the release
+* The Apache Bot will synchronize it after some minutes
 
 ## 9. Announce
 
