@@ -1,8 +1,8 @@
 staging:
   profile: ~
-  whoami:  asf-staging
+  whoami:  
  
  
 publish:
-  whoami:  asf-site
+  whoami:  
   
