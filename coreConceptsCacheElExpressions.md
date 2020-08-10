@@ -7,7 +7,7 @@ Just add this to your web.xml file:
 ```xml
 <context-param>
     <param-name>org.apache.myfaces.CACHE_EL_EXPRESSIONS</param-name>
-    <param-value>always</param-value>
+    <param-value>alwaysRecompile</param-value>
 </context-param>
 ```
 
