@@ -155,7 +155,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.VIEWID_DERIVE_CACHE_ENABLED| 2.3-next| true| true, false| Enable or disable the cache used to 'remember' the derived viewId from the rawViewId.|
 | o.a.m.JSP_SUFFIX| 2.3| .jsp| | no description|
 | o.a.m.VIEW_UNIQUE_IDS_CACHE_ENABLED| 2.0.13, 2.1.7| true| true, false| Enable or disable a cache used to 'remember'  the generated facelets unique ids " + "and reduce the impact over memory usage.|
-| o.a.m.COMPONENT_UNIQUE_IDS_CACHE_SIZE| 2.0.13, 2.1.7| 100| | Set the size of the cache used to store strings generated using SectionUniqueIdCounter for component ids|
+| o.a.m.COMPONENT_UNIQUE_IDS_CACHE_SIZE| 2.0.13, 2.1.7| 200| | Set the size of the cache used to store strings generated using SectionUniqueIdCounter for component ids|
 | o.a.m.STRICT_JSF_2_VIEW_NOT_FOUND| 2.1.13| false| true,false| If this param is set to true, a check will be done in Restore View Phase to check if the viewId exists or not and if it does not exists, a 404 response will be thrown|
 | o.a.m.STRICT_JSF_2_FACELETS_COMPATIBILITY| 2.2.0| false| true,false| This param makes components like c:set, ui:param and templating components like ui:decorate, ui:composition and ui:include to behave like the ones provided originally in facelets 1_1_x|
 
