@@ -2,7 +2,8 @@
 
 (Almost) Implementation of the JavaServer™ Faces (JSF) 2.3 specification.  
 2.3-next equals the JSF 2.3 API but delegates @ManagedBeans to CDI.  
-The implementation of the old FacesEL (javax.faces.el.*) has been completely removed.  
+ManagedBeans configured via XML are completely ignored.  
+The implementation of the old FacesEL (javax.faces.el.*) also has been completely removed.  
 It will be the base of the upcoming JSF 4.0.  
 
 ## Requirements
