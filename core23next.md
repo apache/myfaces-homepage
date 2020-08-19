@@ -11,7 +11,7 @@ What are the benefits compared to 2.3?
 * No dependencies
 * Up to 15% faster
 * Much more maintainable codebase
-* Better default parameters, optimized for usability and performance
+* Better default parameters, optimized for developer-usability and performance
 
 What are the disadvantages compared to 2.3?
 * We completely removed the `ManagedBeans` implementaiton, but we delegate the `@ManagedBean` and scope annotations to CDI
