@@ -1,10 +1,22 @@
 # Apache MyFaces Core 2.3-next
 
 (Almost) Implementation of the JavaServer™ Faces (JSF) 2.3 specification.  
-2.3-next equals the JSF 2.3 API but delegates @ManagedBeans to CDI.  
-ManagedBeans configured via XML are completely ignored.  
-The implementation of the old FacesEL (javax.faces.el.*) also has been completely removed.  
+  
+2.3-next equals the JSF 2.3 API but is a completely new version and codebase.  It also comes with a Quarkus extension.  
+We removed shared modules, dependencies, removed unused code, unified code, cleanup everything.  
 It will be the base of the upcoming JSF 4.0.  
+  
+What are the benefits compared to 2.3?
+* 1MB less size (including dependencies)
+* No dependencies
+* Up to 15% faster
+* Much more maintainable codebase
+* Better default parameters, optimized for usability and performance
+
+What are the disadvantages compared to 2.3?
+* We completely removed the `ManagedBeans` implementaiton, but we delegate the `@ManagedBean` and scope annotations to CDI
+* `ManagedBeans` configured via XML are completely ignored
+* The implementation of the old FacesEL (`javax.faces.el.*`) also has been completely removed.  
 
 ## Requirements
 * Java 1.8
