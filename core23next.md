@@ -33,22 +33,22 @@ What are the disadvantages compared to 2.3?
 
 |     | Mirrors                                                                                                                      | Checksum                                                                                                                     | Signature                                                                                                                                |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| binary (tar.gz) | [myfaces-core-assembly-2.3-next-M3-bin.tar.gz](http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-2.3-next-M3-bin.tar.gz) | [myfaces-core-assembly-2.3-next-M3-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3-next-M3-bin.tar.gz.sha512) | [myfaces-core-assembly-2.3-next-M3-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3-next-M3-bin.tar.gz.asc) |
-| binary (zip)    | [myfaces-core-assembly-2.3-next-M3-bin.zip](http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-2.3-next-M3-bin.zip)       | [myfaces-core-assembly-2.3-next-M3-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3-next-M3-bin.zip.sha512)       | [myfaces-core-assembly-2.3-next-M3-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3-next-M3-bin.zip.asc)       |
-| source (tar.gz) | [myfaces-core-assembly-2.3-next-M3-src.tar.gz](http://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-2.3-next-M3-src.tar.gz)   | [myfaces-core-assembly-2.3-next-M3-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3-next-M3-src.tar.gz.sha512)   | [myfaces-core-assembly-2.3-next-M3-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3-next-M3-src.tar.gz.asc)   |
-| source (zip)    | [myfaces-core-assembly-2.3-next-M3-src.zip](http://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-2.3-next-M3-src.zip)         | [myfaces-core-assembly-2.3-next-M3-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3-next-M3-src.zip.sha512)         | [myfaces-core-assembly-2.3-next-M3-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3-next-M3-src.zip.asc)         |
+| binary (tar.gz) | [myfaces-core-assembly-2.3-next-M4-bin.tar.gz](http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-2.3-next-M4-bin.tar.gz) | [myfaces-core-assembly-2.3-next-M4-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3-next-M4-bin.tar.gz.sha512) | [myfaces-core-assembly-2.3-next-M4-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3-next-M4-bin.tar.gz.asc) |
+| binary (zip)    | [myfaces-core-assembly-2.3-next-M4-bin.zip](http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-2.3-next-M4-bin.zip)       | [myfaces-core-assembly-2.3-next-M4-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3-next-M4-bin.zip.sha512)       | [myfaces-core-assembly-2.3-next-M4-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3-next-M4-bin.zip.asc)       |
+| source (tar.gz) | [myfaces-core-assembly-2.3-next-M4-src.tar.gz](http://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-2.3-next-M4-src.tar.gz)   | [myfaces-core-assembly-2.3-next-M4-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3-next-M4-src.tar.gz.sha512)   | [myfaces-core-assembly-2.3-next-M4-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3-next-M4-src.tar.gz.asc)   |
+| source (zip)    | [myfaces-core-assembly-2.3-next-M4-src.zip](http://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-2.3-next-M4-src.zip)         | [myfaces-core-assembly-2.3-next-M4-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3-next-M4-src.zip.sha512)         | [myfaces-core-assembly-2.3-next-M4-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3-next-M4-src.zip.asc)         |
 
 ## Dependency
 ```xml
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-api</artifactId>
-  <version>2.3-next-M3</version>
+  <version>2.3-next-M4</version>
 </dependency>
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-impl</artifactId>
-  <version>2.3-next-M3</version>
+  <version>2.3-next-M4</version>
 </dependency>
 ```
 
@@ -100,7 +100,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.spi.InjectionProvider| 2.2| | | Define the class implementing InjectionProvider interface to handle dependendy injection, PostConstruct and PreDestroy callbacks|
 | o.a.m.WEBSOCKET_MAX_CONNECTIONS| 2.3| | | no description|
 | o.a.m.RENDER_CLIENTBEHAVIOR_SCRIPTS_AS_STRING| 2.3-next| false| | Defines if the clientbehavior scripts are passed as string or function to the jsf|
-| o.a.m.ALWAYS_FORCE_SESSION_CREATION| 2.3-next-M3| false| true,false| Defines if a session should be created (if one does not exist) before response rendering|
+| o.a.m.ALWAYS_FORCE_SESSION_CREATION| 2.3-next| false| true,false| Defines if a session should be created (if one does not exist) before response rendering|
 | o.a.m.RESOURCE_BUNDLE_CONTROL| 2.3-next| | | Defines the {@link java|
 | o.a.m.DEFAULT_WINDOW_MODE| 2.2| url| | no description|
 | o.a.m.ERROR_TEMPLATE_RESOURCE| 1.2.4| META-INF/rsc/myfaces-dev-error.xml| | Indicate the template name used to render the default error page used by MyFaces specific  error handler implementation|
