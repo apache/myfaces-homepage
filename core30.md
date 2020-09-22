@@ -1,25 +1,41 @@
 # Apache MyFaces Core 3.0
 
-Implementation of the Jakarta Faces 3.0 specification.
+Implementation of the Jakarta Server Faces 3.0 specification.
 
 ## Requirements
 * Java 1.8
-* Servlet 2.5
-* EL 2.1
-* CDI 1.0 (optional)
-* JSTL 1.2 (optional)
-* BV 1.0 (optional)
+* Servlet 5.0
+* EL 4.0
+* CDI 3.0 (optional)
+* JSTL 2.0 (optional)
+* BV 2.0 (optional)
 
 ## Source
 [Apache GitBox](https://gitbox.apache.org/repos/asf?p=myfaces.git;a=shortlog;h=refs/heads/3.0.x) / [GitHub](https://github.com/apache/myfaces/tree/3.0.x)
 
 ## Downloads
 
-Not released yet
+|     | Mirrors                                                                                                                      | Checksum                                                                                                                     | Signature                                                                                                                                |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| binary (tar.gz) | [myfaces-core-assembly-3.0.0-RC1-bin.tar.gz](http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-3.0.0-RC1-bin.tar.gz) | [myfaces-core-assembly-3.0.0-RC1-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-3.0.0-RC1-bin.tar.gz.sha512) | [myfaces-core-assembly-3.0.0-RC1-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-3.0.0-RC1-bin.tar.gz.asc) |
+| binary (zip)    | [myfaces-core-assembly-3.0.0-RC1-bin.zip](http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-3.0.0-RC1-bin.zip)       | [myfaces-core-assembly-3.0.0-RC1-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-3.0.0-RC1-bin.zip.sha512)       | [myfaces-core-assembly-3.0.0-RC1-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-3.0.0-RC1-bin.zip.asc)       |
+| source (tar.gz) | [myfaces-core-assembly-3.0.0-RC1-src.tar.gz](http://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-3.0.0-RC1-src.tar.gz)   | [myfaces-core-assembly-3.0.0-RC1-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-3.0.0-RC1-src.tar.gz.sha512)   | [myfaces-core-assembly-3.0.0-RC1-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-3.0.0-RC1-src.tar.gz.asc)   |
+| source (zip)    | [myfaces-core-assembly-3.0.0-RC1-src.zip](http://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-3.0.0-RC1-src.zip)         | [myfaces-core-assembly-3.0.0-RC1-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-3.0.0-RC1-src.zip.sha512)         | [myfaces-core-assembly-3.0.0-RC1-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-3.0.0-RC1-src.zip.asc)         |
 
 ## Dependency
 
-Not released yet
+```xml
+<dependency>
+    <groupId>org.apache.myfaces.core</groupId>
+    <artifactId>myfaces-api</artifactId>
+    <version>3.0.0-RC1</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.myfaces.core</groupId>
+    <artifactId>myfaces-impl</artifactId>
+    <version>3.0.0-RC1</version>
+</dependency>
+```
 
 ## Configuration
 
@@ -232,11 +248,3 @@ Below there is a table of the "points of integration" used by application and we
 | Scan for annotated Flows and manage Flow scope                             | org.apache.myfaces.spi.FacesFlowProvider <br/> org.apache.myfaces.spi.FacesFlowProviderFactory                         | In this interface @FlowDefinition annotation is scanned for flows defined programatically and it is also managed the flow scope logic. By default MyFaces provides two implementations, one using CDI and one without CDI (that only manages flow scope)                                                                                                          | 2.2.0           |
 | Manage View scope                                                          | org.apache.myfaces.spi.ViewScopeProvider <br/> org.apache.myfaces.spi.ViewScopeProviderFactory                          | This interface manage the logic to plug the view scope with JSF. It has some methods to handle view scope destroy or session destroy                                                                                                                                                                                                                              | 2.2.0           |
 | Scan for available contracts                                               | org.apache.myfaces.spi.ResourceLibraryContractsProvider <br/> org.apache.myfaces.spi.ResourceLibraryContractsProviderFactory           | Provides an interface to scan for the available resource library contracts in the current environment. By default it scans using external context getResource(...) methods and in the classpath according to JSF spec.                                                                                                                                            | 2.2.0            |
-
-
-
-
-
-
-
-
