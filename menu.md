@@ -18,6 +18,7 @@
   - [2.3](/core23.md)
   - [2.3-next](/core23next.md)
   - [3.0](/core30.md)
+  - [4.0](/core40.md)
 
 
 - Tobago
