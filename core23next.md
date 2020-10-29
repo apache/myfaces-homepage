@@ -27,7 +27,7 @@ What are the disadvantages compared to 2.3?
 * BV 1.1 (optional)
 
 ## Source
-[Apache GitBox](https://gitbox.apache.org/repos/asf?p=myfaces.git;a=shortlog;h=refs/heads/master) / [GitHub](https://github.com/apache/myfaces/tree/master)
+[Apache GitBox](https://gitbox.apache.org/repos/asf?p=myfaces.git;a=shortlog;h=refs/heads/2.3-next) / [GitHub](https://github.com/apache/myfaces/tree/2.3-next)
 
 ## Downloads
 
