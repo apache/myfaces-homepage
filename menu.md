@@ -21,10 +21,7 @@
   - [4.0](/core40.md)
 
 
-- Tobago
-  - [Getting Started](/tobago/gettingstarted.md)
-  - [Source](/tobago/source.md)
-  - [Downloads](/tobago/downloads.md)
+- [Tobago](/tobago.md)
 
 - Inactive / Maintenance
   - [Commons](/commons.md)
