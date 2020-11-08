@@ -1,28 +1,15 @@
 - [Home](/)
 - [News](/news.md)
 
-- [Core](/core.md)
+- Core
   - [Getting Started](/coregettingstarted.md)
   - [Release Checklist](/coreReleaseChecklist.md)
-  - Concepts
-    - [View Pooling](/coreConceptsViewPooling.md)
-	- [Cache EL expressions](/coreConceptsCacheElExpressions.md)
-	- [ELResolver ordering](/coreConceptsELResolverOrdering.md)
-	- [Immediate Attribute](/coreConceptsImmediateAttribute.md)	
-	- [Whitespace Compression](/coreConceptsWhitespaceCompression.md)
-  - [1.1](/core11.md)
-  - [1.2](/core12.md)
-  - [2.0](/core20.md)
-  - [2.1](/core21.md)
-  - [2.2](/core22.md)
-  - [2.3](/core23.md)
-  - [2.3-next](/core23next.md)
-  - [3.0](/core30.md)
-  - [4.0](/core40.md)
+  - [Concepts](/coreConcepts.md)
+  - [Versions](/versions.md)
 
-
-- [Tobago](/tobago.md)
-
+- Tobago
+  - [Getting Started](/tobago.md)
+  
 - Inactive / Maintenance
   - [Commons](/commons.md)
   - [Tomahawk](/tomahawk.md)
