@@ -122,7 +122,6 @@ MyFaces core behavior can be customized, adding some web config params into your
 ### EL
 | Name | Since | Default value | Expected values | Description |
 | ---- | ---- | ---- | ---- | ---- |
-| o.a.m.SUPPORT_JSP| 2.0.13,2.1.7| true| true,false| If set false, myfaces won't support JSP. JSP are deprecated in " + "JSF 2.X. Default value is true.|
 | o.a.m.SUPPORT_EL_3_IMPORT_HANDLER| 2.2.9| false| true,false| This parameter specifies whether or not the ImportHandler will be supported|
 | o.a.m.EL_RESOLVER_COMPARATOR| 1.2.10, 2.0.2| | | The Class of an Comparator&lt;ELResolver&gt; implementation.|
 | o.a.m.EL_RESOLVER_PREDICATE| 2.1.0| | | The Class of an java.util.function.Predicate&lt;ELResolver&gt; implementation." + "If used and returns false for a ELResolver instance, such resolver will not be installed in " + "ELResolvers chain. Use with caution - can break functionality defined in JSF specification " + "'ELResolver Instances Provided by Faces'|
@@ -145,14 +144,13 @@ MyFaces core behavior can be customized, adding some web config params into your
 ### ViewHandler
 | Name | Since | Default value | Expected values | Description |
 | ---- | ---- | ---- | ---- | ---- |
-| javax.faces.DEFAULT_SUFFIX| 1.1| .xhtml .view.xml .jsp| | Indicate the default suffixes, separated by spaces to derive the default file URI used by JSF to create views and render pages|
+| javax.faces.DEFAULT_SUFFIX| 1.1| .xhtml .view.xml | | Indicate the default suffixes, separated by spaces to derive the default file URI used by JSF to create views and render pages|
 | javax.faces.FACELETS_SUFFIX| 2.0| .xhtml| | The default extension used to handle facelets pages|
 | javax.faces.FACELETS_VIEW_MAPPINGS| 2.0| | | Set of extensions handled by facelets, separated by ';'|
 | o.a.m.VIEWID_CACHE_SIZE| 2.0.2| 500| | Controls the size of the viewId related caches: " + "VIEWID_EXISTS_CACHE_ENABLED, VIEWID_PROTECTED_CACHE_ENABLED, VIEWID_DERIVE_CACHE_ENABLED|
 | o.a.m.VIEWID_EXISTS_CACHE_ENABLED| 2.0.2| true| true, false| Enable or disable the cache used to 'remember' if a view exists or not and reduce the impact " + "of sucesive calls to ExternalContext.getResource().|
 | o.a.m.VIEWID_PROTECTED_CACHE_ENABLED| 2.3-next| true| true, false| Enable or disable the cache used to 'remember' if a view is protected or not.|
 | o.a.m.VIEWID_DERIVE_CACHE_ENABLED| 2.3-next| true| true, false| Enable or disable the cache used to 'remember' the derived viewId from the rawViewId.|
-| o.a.m.JSP_SUFFIX| 2.3| .jsp| | no description|
 | o.a.m.VIEW_UNIQUE_IDS_CACHE_ENABLED| 2.0.13, 2.1.7| true| true, false| Enable or disable a cache used to 'remember'  the generated facelets unique ids " + "and reduce the impact over memory usage.|
 | o.a.m.COMPONENT_UNIQUE_IDS_CACHE_SIZE| 2.0.13, 2.1.7| 200| | Set the size of the cache used to store strings generated using SectionUniqueIdCounter for component ids|
 | o.a.m.STRICT_JSF_2_VIEW_NOT_FOUND| 2.1.13| false| true,false| If this param is set to true, a check will be done in Restore View Phase to check if the viewId exists or not and if it does not exists, a 404 response will be thrown|
