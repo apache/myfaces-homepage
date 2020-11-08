@@ -17,7 +17,7 @@ If you want to deploy it, instead of Mojarra, inside a Application Server like G
 We also have a Quarkus extensions since 2.3-next.  
 
 
-## Dependency
+### Dependency
 ```xml
 <dependency>
     <groupId>org.apache.myfaces.core</groupId>
@@ -31,7 +31,7 @@ We also have a Quarkus extensions since 2.3-next.
 </dependency>
 ```
 
-## web.xml
+### web.xml
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
@@ -51,7 +51,7 @@ We also have a Quarkus extensions since 2.3-next.
 </web-app>
 ```
 
-## index.xhtml
+### index.xhtml
 ```xml
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
@@ -70,7 +70,7 @@ We also have a Quarkus extensions since 2.3-next.
 </html>
 ```
 
-## Quarkus
+### Quarkus
 
 Since 2.3-next a Quarkus extension is available: 
 
