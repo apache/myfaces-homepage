@@ -1,6 +1,5 @@
 # Apache MyFaces Core Versions
 
-[Apache MyFaces Core 2.2](#apache-myfaces-core-22)
 
 [Apache MyFaces Core 2.1](#apache-myfaces-core-21)
 
@@ -9,8 +8,6 @@
 [Apache MyFaces Core 1.2](#apache-myfaces-core-12)
 
 [Apache MyFaces Core 1.1](#apache-myfaces-core-11)
-
-[2.2](/core22.md ':include')
 
 [2.1](/core21.md ':include')
 
