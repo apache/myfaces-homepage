@@ -6,10 +6,17 @@
   - [Getting Started](/coregettingstarted.md)
   - [Release Checklist](/coreReleaseChecklist.md)
   - [Concepts](/coreConcepts.md)
-  - [Versions](/versions.md)
-
+  - Versions
+    - [4.0](/core40.md)
+    - [3.0](/core30.md)    
+    - [2.3-next](/core23next.md )     
+    - [2.3](/core23.md)
+    - [2.2](/core22.md)        
+    - [Old Versions](/oldVersions.md)
+    
 - Tobago
   - [Getting Started](/tobago.md)
+  - [Demo](http://tobago-vm.apache.org/)
   
 - [Inactive Projects](/inactiveProjects.md)
   
