@@ -1,11 +1,11 @@
 # Apache MyFaces Core Concepts
 
-[View Pooling](/coreConceptsViewPooling.md ':include')
+[View Pooling](/coreConceptsViewPooling.md)
 
-[Cache EL expressions](/coreConceptsCacheElExpressions.md ':include')
+[Cache EL expressions](/coreConceptsCacheElExpressions.md)
 
-[ELResolver ordering](/coreConceptsELResolverOrdering.md ':include')
+[ELResolver ordering](/coreConceptsELResolverOrdering.md)
 
-[Immediate Attribute](/coreConceptsImmediateAttribute.md ':include')	
+[Immediate Attribute](/coreConceptsImmediateAttribute.md)	
 
-[Whitespace Compression](/coreConceptsWhitespaceCompression.md ':include')
+[Whitespace Compression](/coreConceptsWhitespaceCompression.md)
