@@ -11,15 +11,7 @@
 - Tobago
   - [Getting Started](/tobago.md)
   
-- Inactive / Maintenance
-  - [Commons](/commons.md)
-  - [Tomahawk](/tomahawk.md)
-  - [Trinidad](/trinidad.md)
-  - [Orchestra](/orchestra.md)
-  - [Validator / ExtVal](/extvalidator.md)
-  - [CDI / CODI](/extcdi.md)
-  - [Scripting](/extscripting.md)
-  - [Portlet Bridge](/portletbridge.md)
+- [Inactive Projects](/inactiveProjects.md)
   
 - ASF
   - [Foundation](https://www.apache.org/)
