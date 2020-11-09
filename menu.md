@@ -1,39 +1,29 @@
 - [Home](/)
 - [News](/news.md)
+- [Community](/community.md)
 
-- [Core](/core.md)
+- Core
   - [Getting Started](/coregettingstarted.md)
   - [Release Checklist](/coreReleaseChecklist.md)
-  - Concepts
-    - [View Pooling](/coreConceptsViewPooling.md)
-	- [Cache EL expressions](/coreConceptsCacheElExpressions.md)
-	- [ELResolver ordering](/coreConceptsELResolverOrdering.md)
-	- [Immediate Attribute](/coreConceptsImmediateAttribute.md)	
-	- [Whitespace Compression](/coreConceptsWhitespaceCompression.md)
-  - [1.1](/core11.md)
-  - [1.2](/core12.md)
-  - [2.0](/core20.md)
-  - [2.1](/core21.md)
-  - [2.2](/core22.md)
-  - [2.3](/core23.md)
-  - [2.3-next](/core23next.md)
-  - [3.0](/core30.md)
-  - [4.0](/core40.md)
-
-
+  - [Concepts](/coreConcepts.md)
+  - Versions
+    - [4.0](/core40.md)
+    - [3.0](/core30.md)    
+    - [2.3-next](/core23next.md )     
+    - [2.3](/core23.md)
+    - [2.2](/core22.md)        
+    - [Old Versions](/oldVersions.md)
+    
 - Tobago
-  - [Getting Started](/tobago/gettingstarted.md)
-  - [Source](/tobago/source.md)
-  - [Downloads](/tobago/downloads.md)
-
-- Inactive / Maintenance
-  - [Commons](/commons.md)
-  - [Tomahawk](/tomahawk.md)
-  - [Trinidad](/trinidad.md)
-  - [Orchestra](/orchestra.md)
-  - [Validator / ExtVal](/extvalidator.md)
-  - [CDI / CODI](/extcdi.md)
-  - [Scripting](/extscripting.md)
-  - [Portlet Bridge](/portletbridge.md)
+  - [Getting Started](/tobago.md)
+  - [Demo](http://tobago-vm.apache.org/)
   
-- [Community](/community.md)
+- [Inactive Projects](/inactiveProjects.md)
+  
+- ASF
+  - [Foundation](https://www.apache.org/)
+  - [License](https://www.apache.org/licenses/)
+  - [Events](https://www.apache.org/events/)
+  - [Security](https://www.apache.org/security/)
+  - [Sponsorship](https://www.apache.org/foundation/sponsorship.html)
+  - [Thanks](https://www.apache.org/foundation/thanks.html)

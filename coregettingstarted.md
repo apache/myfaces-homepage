@@ -1,12 +1,23 @@
 # Apache MyFaces Core - Getting Started
 
+## Build
+Checkout from [Apache GitBox](https://gitbox.apache.org/repos/asf?p=myfaces.git) or [GitHub](https://github.com/apache/myfaces) and run `mvn clean install`
+
+## Useful links
+* Builds: [Jenkins](https://ci-builds.apache.org/job/MyFaces/), [Travis](https://travis-ci.org/apache/myfaces)
+* Issue Management: [JIRA](https://issues.apache.org/jira/projects/MYFACES/) 
+* Javadocs: [javadoc.io](https://javadoc.io/doc/org.apache.myfaces.core/myfaces-api/latest/index.html)
+* Wiki: [Wiki](https://cwiki.apache.org/confluence/display/MYFACES/Index)
+
+## Usage
+
 Apache MyFaces Core can be deployed to any Servlet Container (like Tomcat, Jetty) inside the WAR or inside the container (/tomcat/lib).  
 If you want to deploy it, instead of Mojarra, inside a Application Server like Glassfish or JBoss, please check the documentation of the Application Server.  
 
 We also have a Quarkus extensions since 2.3-next.  
 
 
-## Dependency
+### Dependency
 ```xml
 <dependency>
     <groupId>org.apache.myfaces.core</groupId>
@@ -20,7 +31,7 @@ We also have a Quarkus extensions since 2.3-next.
 </dependency>
 ```
 
-## web.xml
+### web.xml
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
@@ -40,7 +51,7 @@ We also have a Quarkus extensions since 2.3-next.
 </web-app>
 ```
 
-## index.xhtml
+### index.xhtml
 ```xml
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
@@ -59,7 +70,7 @@ We also have a Quarkus extensions since 2.3-next.
 </html>
 ```
 
-## Quarkus
+### Quarkus
 
 Since 2.3-next a Quarkus extension is available: 
 

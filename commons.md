@@ -1,4 +1,4 @@
-# Apache MyFaces Extensions Scripting / Ext-Scripting
+# Apache MyFaces Commons
 
 > :warning: **This project is in maintaneance mode**
 
