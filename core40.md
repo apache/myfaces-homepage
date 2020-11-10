@@ -38,6 +38,8 @@ What are the benefits compared to our older versions?
 </dependency>
 ```
 
+[Release Verification](/releaseVerification.md ':include')
+
 ## Configuration
 
 MyFaces core behavior can be customized, adding some web config params into your WEB-INF/web.xml or META-INF/web-fragment.xml file for your custom project in this way:
