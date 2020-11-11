@@ -26,7 +26,7 @@ Tobago is more than just a tag library. The following statements characterize To
 
 ### Downloads
 
-[Download page](http://tobago-vm.apache.org/demo-4-release/content/10-intro/85-download/download.xhtml)
+[Download page](http://tobago-vm.apache.org/download.html)
   
 ## News
 
