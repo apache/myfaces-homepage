@@ -2,10 +2,9 @@
 
 Upcoming implementation of the Jakarta Faces 4.0 specification.  
   
-4.0 is based on 2.3-next and is a completely new version and codebase (compared to 3.0 or older). It also comes with a Quarkus extension.  
+4.0 is based on 2.3-next and is a completely new version and codebase (compared to 3.0 or 2.3).
 We removed shared modules, dependencies, removed unused code, unified code, cleanup everything.  
-It will be the base of the upcoming JSF 4.0.  
-  
+
 What are the benefits compared to our older versions?
 * 1MB less size (including dependencies)
 * No dependencies
