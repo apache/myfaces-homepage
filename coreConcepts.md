@@ -9,3 +9,5 @@
 [Immediate Attribute](/coreConceptsImmediateAttribute.md)	
 
 [Whitespace Compression](/coreConceptsWhitespaceCompression.md)
+
+[Using JSTL tags with Facelets](/coreConceptsJSTL.md)
