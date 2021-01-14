@@ -191,7 +191,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.CLIENT_VIEW_STATE_TIMEOUT | 2.1.9, 2.0.15 | 0 |  | Define the time in minutes where the view state is valid when client side state saving is used |
 | o.a.m.COMPRESS_STATE_IN_SESSION | 1.1 | true | true,false | Indicates that the serialized state will be compressed before it is written to the session |
 | o.a.m.USE_FLASH_SCOPE_PURGE_VIEWS_IN_SESSION | 2.0.6 | false | true, false | Allow use flash scope to keep track of the views used in session and the previous ones, so server side state saving can delete old views even if POST-REDIRECT-GET pattern is used |
-| o.a.m.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN | 2.1.9, 2.0.15 | none | secureRandom, random, none | Adds a random key to the generated view state session token |
+| o.a.m.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN | 2.1.9, 2.0.15 | secureRandom | secureRandom, random | Adds a random key to the generated view state session token |
 | o.a.m.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN_LENGTH | 2.1.9, 2.0.15 | 8 |  | Set the default length of the random key added to the view state session token |
 | o.a.m.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN_SECURE_RANDOM_CLASS | 2.1.9, 2.0.15 |  |  | Sets the random class to initialize the secure random id generator |
 | o.a.m.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN_SECURE_RANDOM_PROVIDER | 2.1.9, 2.0.15 |  |  | Sets the random provider to initialize the secure random id generator |
@@ -204,7 +204,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.NUMBER_OF_SEQUENTIAL_VIEWS_IN_SESSION | 2.0.6 | 4 |  | Indicates the amount of views (default is not active) that should be stored in session between sequential POST or POST-REDIRECT-GET if org |
 | o.a.m.NUMBER_OF_FLASH_TOKENS_IN_SESSION | 2.2.6 |  |  | Indicate the max number of flash tokens stored into session |
 | o.a.m.FACES_FLOW_CLIENT_WINDOW_IDS_IN_SESSION | 2.2.6 |  |  | Indicate the max number of client window ids stored into session by faces flow |
-| o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN | 2.2.0 | none | secureRandom, random | Defines how to generate the csrf session token |
+| o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN | 2.2.0 | secureRandom | secureRandom, random | Defines how to generate the csrf session token |
 | o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN_LENGTH | 2.2.0 | 16 |  | Set the default length of the random key used for the csrf session token |
 | o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN_SECURE_RANDOM_CLASS | 2.2.0 |  |  | Sets the random class to initialize the secure random id generator |
 | o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN_SECURE_RANDOM_PROVIDER | 2.2.0 |  |  | Sets the random provider to initialize the secure random id generator |

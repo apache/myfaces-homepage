@@ -167,7 +167,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.COMPRESS_STATE_IN_SESSION| 1.1| true| true,false| Indicates that the serialized state will be compressed before it is written to the session |
 | o.a.m.CACHE_OLD_VIEWS_IN_SESSION_MODE| 1.2.5| off| off, no, hard-soft, soft, soft-weak, weak| Define the way of handle old view references(views removed from session), making possible to store it in a cache, so the state manager first try to get the view from the session |
 | o.a.m.USE_FLASH_SCOPE_PURGE_VIEWS_IN_SESSION| 2.0.6| false| true, false| Allow use flash scope to keep track of the views used in session and the previous ones, so server side state saving can delete old views even if POST-REDIRECT-GET pattern is used |
-| o.a.m.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN| 2.1.9, 2.0.15| none| secureRandom, random, none| Adds a random key to the generated view state session token |
+| o.a.m.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN| 2.1.9, 2.0.15| secureRandom| secureRandom, random, none| Adds a random key to the generated view state session token |
 | o.a.m.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN_LENGTH| 2.1.9, 2.0.15|8|| Set the default length of the random key added to the view state session token |
 | o.a.m.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN_SECURE_RANDOM_CLASS| 2.1.9, 2.0.15||| Sets the random class to initialize the secure random id generator |
 | o.a.m.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN_SECURE_RANDOM_PROVIDER| 2.1.9, 2.0.15||| Sets the random provider to initialize the secure random id generator |
