@@ -204,7 +204,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.MAC_ALGORITHM| | HmacSHA1| | Indicate the algorithm used to calculate the Message Authentication Code that is added to the view state|
 | o.a.m.MAC_SECRET| | | | Define the initialization code that are used to initialize the secret key used on the Message Authentication Code algorithm|
 | o.a.m.MAC_SECRET.CACHE| | | | If is set to "false", the secret key used for MAC algorithm is not cached|
-| o.a.m.RENDER_VIEWSTATE_ID | 1.1 | true | true, false, on, off, yes, no | efine if the input field that should store the state (javax.faces.ViewState) should render id="javax.faces.ViewState". |
+| o.a.m.RENDER_VIEWSTATE_ID | 1.1 | true | true, false, on, off, yes, no | Define if the input field that should store the state (javax.faces.ViewState) should render id="javax.faces.ViewState". |
 | o.a.m.REFRESH_TRANSIENT_BUILD_ON_PSS| 2.0| auto| true,false,auto| Indicate if the facelet associated to the view should be reapplied when the view is refreshed|
 | o.a.m.REFRESH_TRANSIENT_BUILD_ON_PSS_PRESERVE_STATE| 2.0| false| true, false, on, off, yes, no| Enable or disable a special mode that enable full state for parent components containing c:if, c:forEach, c:choose and ui:include with src=ELExpression| will be validated during application start up|
 | o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN_LENGTH| 2.2.0| 16| | Set the default length of the random key used for the csrf session token|

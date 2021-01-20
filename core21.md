@@ -148,7 +148,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | javax.faces.STATE_SAVING_METHOD| 1.1| server| server,client| Define the state method to be used. There are two different options defined by the specification: 'client' and 'server' state. |
 | javax.faces.FULL_STATE_SAVING_VIEW_IDS| 2.0||| Indicate the viewId(s) separated by commas that should be saved and restored fully, without use Partial State Saving (PSS) |
 | javax.faces.PARTIAL_STATE_SAVING| 2.0| true (false with 1.2 webapps)| true,false| Enable or disable partial state saving algorithm |
-| o.a.m.RENDER_VIEWSTATE_ID | 1.1 | true | true, false, on, off, yes, no | efine if the input field that should store the state (javax.faces.ViewState) should render id="javax.faces.ViewState". |
+| o.a.m.RENDER_VIEWSTATE_ID | 1.1 | true | true, false, on, off, yes, no | Define if the input field that should store the state (javax.faces.ViewState) should render id="javax.faces.ViewState". |
 | o.a.m.USE_ENCRYPTION| 1.1| true| true,false| Indicate if the view state is encrypted or not |
 | o.a.m.SECRET| 1.1||| Defines the secret (Base64 encoded) used to initialize the secret key for encryption algorithm |
 | o.a.m.ALGORITHM| 1.1| DES|| Indicate the encryption algorithm used for encrypt the view state |

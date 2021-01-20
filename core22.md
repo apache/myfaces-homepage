@@ -199,7 +199,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.CHECK_ID_PRODUCTION_MODE | 2.0.12, 2.1.6 | auto | true, auto, false | Define how duplicate ids are checked when ProjectStage is Production, by default (auto) it only check ids of components that does not encapsulate markup (like facelets UILeaf) |
 | o.a.m.REFRESH_TRANSIENT_BUILD_ON_PSS | 2.0 | auto | true,false,auto | Indicate if the facelet associated to the view should be reapplied when the view is refreshed |
 | o.a.m.REFRESH_TRANSIENT_BUILD_ON_PSS_PRESERVE_STATE | 2.0 | false | true, false, on, off, yes, no | Enable or disable a special mode that enable full state for parent components containing c:if, c:forEach,  c:choose and ui:include with src=ELExpression |
-| o.a.m.RENDER_VIEWSTATE_ID | 1.1 | true | true, false, on, off, yes, no | efine if the input field that should store the state (javax.faces.ViewState) should render id="javax.faces.ViewState". |
+| o.a.m.RENDER_VIEWSTATE_ID | 1.1 | true | true, false, on, off, yes, no | Define if the input field that should store the state (javax.faces.ViewState) should render id="javax.faces.ViewState". |
 | o.a.m.NUMBER_OF_VIEWS_IN_SESSION | 1.1 | 20 |  | Defines the amount (default = 20) of the latest views are stored in session |
 | o.a.m.NUMBER_OF_SEQUENTIAL_VIEWS_IN_SESSION | 2.0.6 | 4 |  | Indicates the amount of views (default is not active) that should be stored in session between sequential POST or POST-REDIRECT-GET if org |
 | o.a.m.NUMBER_OF_FLASH_TOKENS_IN_SESSION | 2.2.6 |  |  | Indicate the max number of flash tokens stored into session |
