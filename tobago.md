@@ -1,8 +1,10 @@
 # Apache Tobago
 
-The goal of Apache Tobago™ is to provide the community with a well designed set of user interface components based on JSF and run on MyFaces.
+The goal of Apache Tobago is to provide the community with a well-designed set of user 
+interface components based on JSF and run on MyFaces or other JSF implementations.
 
-Tobago is more than just a tag library. The following statements characterize Tobago and make it different from other frameworks:
+Tobago is more than just a tag library. The following statements characterize Tobago and make 
+it different from other frameworks:
 
   * The focus of Tobago is to create business applications without the need of coding
     HTML, CSS and JavaScript. The development of Tobago pages follows more the development of
@@ -30,30 +32,30 @@ Tobago is more than just a tag library. The following statements characterize To
   
 ## News
 
-### February 5, 2021 MyFaces Tobago 4.5.2 Released
+### February 5, 2021 Apache Tobago 4.5.2 Released
 
-The MyFaces Tobago component library in version 4.5.2 has been released.
+The Apache Tobago component library in version 4.5.2 has been released.
 
 Release notes can be found in
 [Jira](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12310273&styleName=Html&version=12349344).
 
-### February 5, 2021 MyFaces Tobago 2.4.4 Released
+### February 5, 2021 Apache Tobago 2.4.4 Released
 
-The MyFaces Tobago component library in version 2.4.4 has been released.
+The Apache Tobago component library in version 2.4.4 has been released.
 
 Release notes can be found in
 [Jira](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12310273&styleName=Html&version=12349632).
 
-### January 12, 2021 MyFaces Tobago 2.4.3 Released
+### January 12, 2021 Apache Tobago 2.4.3 Released
 
-The MyFaces Tobago component library in version 2.4.3 has been released.
+The Apache Tobago component library in version 2.4.3 has been released.
 
 Release notes can be found in
 [Jira](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12310273&styleName=Html&version=12346997).
 
-### November 3, 2020 MyFaces Tobago 4.5.1 Released
+### November 3, 2020 Apache Tobago 4.5.1 Released
 
-The MyFaces Tobago component library in version 4.5.1 has been released.
+The Apache Tobago component library in version 4.5.1 has been released.
 
 Release notes can be found in 
 [Jira](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12310273&styleName=Html&version=12348200).

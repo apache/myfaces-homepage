@@ -4,7 +4,7 @@ Apache MyFaces is a project of the Apache Software Foundation, and hosts several
 
 ## Projects
 * MyFaces Core | Implementation of the JSF specification
-* MyFaces Tobago | A component library
+* Apache Tobago | A component library
 
 ## Inactive Projects (Maintenance Mode)
 * MyFaces Commons | Utilities like components, converters, validators
