@@ -33,22 +33,22 @@ What are the disadvantages compared to 2.3?
 
 |     | Mirrors                                                                                                                      | Checksum                                                                                                                     | Signature                                                                                                                                |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| binary (tar.gz) | [myfaces-core-assembly-2.3-next-M4-bin.tar.gz](http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-2.3-next-M4-bin.tar.gz) | [myfaces-core-assembly-2.3-next-M4-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3-next-M4-bin.tar.gz.sha512) | [myfaces-core-assembly-2.3-next-M4-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3-next-M4-bin.tar.gz.asc) |
-| binary (zip)    | [myfaces-core-assembly-2.3-next-M4-bin.zip](http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-2.3-next-M4-bin.zip)       | [myfaces-core-assembly-2.3-next-M4-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3-next-M4-bin.zip.sha512)       | [myfaces-core-assembly-2.3-next-M4-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3-next-M4-bin.zip.asc)       |
-| source (tar.gz) | [myfaces-core-assembly-2.3-next-M4-src.tar.gz](http://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-2.3-next-M4-src.tar.gz)   | [myfaces-core-assembly-2.3-next-M4-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3-next-M4-src.tar.gz.sha512)   | [myfaces-core-assembly-2.3-next-M4-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3-next-M4-src.tar.gz.asc)   |
-| source (zip)    | [myfaces-core-assembly-2.3-next-M4-src.zip](http://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-2.3-next-M4-src.zip)         | [myfaces-core-assembly-2.3-next-M4-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3-next-M4-src.zip.sha512)         | [myfaces-core-assembly-2.3-next-M4-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3-next-M4-src.zip.asc)         |
+| binary (tar.gz) | [myfaces-core-assembly-2.3-next-M5-bin.tar.gz](http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-2.3-next-M5-bin.tar.gz) | [myfaces-core-assembly-2.3-next-M5-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3-next-M5-bin.tar.gz.sha512) | [myfaces-core-assembly-2.3-next-M5-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3-next-M5-bin.tar.gz.asc) |
+| binary (zip)    | [myfaces-core-assembly-2.3-next-M5-bin.zip](http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-2.3-next-M5-bin.zip)       | [myfaces-core-assembly-2.3-next-M5-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3-next-M5-bin.zip.sha512)       | [myfaces-core-assembly-2.3-next-M5-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3-next-M5-bin.zip.asc)       |
+| source (tar.gz) | [myfaces-core-assembly-2.3-next-M5-src.tar.gz](http://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-2.3-next-M5-src.tar.gz)   | [myfaces-core-assembly-2.3-next-M5-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3-next-M5-src.tar.gz.sha512)   | [myfaces-core-assembly-2.3-next-M5-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3-next-M5-src.tar.gz.asc)   |
+| source (zip)    | [myfaces-core-assembly-2.3-next-M5-src.zip](http://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-2.3-next-M5-src.zip)         | [myfaces-core-assembly-2.3-next-M5-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3-next-M5-src.zip.sha512)         | [myfaces-core-assembly-2.3-next-M5-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3-next-M5-src.zip.asc)         |
 
 ## Dependency
 ```xml
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-api</artifactId>
-  <version>2.3-next-M4</version>
+  <version>2.3-next-M5</version>
 </dependency>
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-impl</artifactId>
-  <version>2.3-next-M4</version>
+  <version>2.3-next-M5</version>
 </dependency>
 ```
 
@@ -195,13 +195,13 @@ MyFaces core behavior can be customized, adding some web config params into your
 | javax.faces.SERIALIZE_SERVER_STATE| 2.2| false| true,false| Indicate if the state should be serialized before save it on the session|
 | o.a.m.USE_ENCRYPTION| 1.1| true| true,false| Indicate if the view state is encrypted or not|
 | o.a.m.SECRET| 1.1| | | Defines the secret (Base64 encoded) used to initialize the secret key for encryption algorithm|
-| o.a.m.ALGORITHM| 1.1| DES| | Indicate the encryption algorithm used for encrypt the view state|
+| o.a.m.ALGORITHM| 1.1| AES | | Indicate the encryption algorithm used for encrypt the view state. As of version 2.3-next-M5 the default switched from `DES` to `AES`. |
 | o.a.m.SECRET.CACHE| 1.1| | | If is set to "false", the secret key used for encryption algorithm is not cached|
 | o.a.m.ALGORITHM.IV| 1.1| | | Defines the initialization vector (Base64 encoded) used for the encryption algorithm|
 | o.a.m.ALGORITHM.PARAMETERS| 1.1| ECB/PKCS5Padding| | Defines the default mode and padding used for the encryption algorithm|
 | o.a.m.SERIAL_FACTORY| 1.1| | | Defines the factory class name using for serialize/deserialize the view state returned by state manager into a byte array|
 | o.a.m.COMPRESS_STATE_IN_CLIENT| 1.1| false| true,false| Indicate if the view state should be compressed before encrypted(optional) and encoded|
-| o.a.m.MAC_ALGORITHM| | HmacSHA1| | Indicate the algorithm used to calculate the Message Authentication Code that is added to the view state|
+| o.a.m.MAC_ALGORITHM| | HmacSHA256 | | Indicate the algorithm used to calculate the Message Authentication Code that is added to the view state. As of version 2.3-next-MF the default switched from `HmacSHA1` to `HmacSHA256`. |
 | o.a.m.MAC_SECRET| | | | Define the initialization code that are used to initialize the secret key used on the Message Authentication Code algorithm|
 | o.a.m.MAC_SECRET.CACHE| | | | If is set to "false", the secret key used for MAC algorithm is not cached|
 | o.a.m.RENDER_VIEWSTATE_ID | 1.1 | true | true, false, on, off, yes, no | Define if the input field that should store the state (javax.faces.ViewState) should render id="javax.faces.ViewState". |
@@ -211,14 +211,14 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN_SECURE_RANDOM_CLASS| 2.2.0| | | Sets the random class to initialize the secure random id generator|
 | o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN_SECURE_RANDOM_PROVIDER| 2.2.0| | | Sets the random provider to initialize the secure random id generator|
 | o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN_SECURE_RANDOM_ALGORITM| 2.2.0| SHA1PRNG| | Sets the random algorithm to initialize the secure random id generator|´
-| o.a.m.RANDOM_KEY_IN_WEBSOCKET_SESSION_TOKEN| 2.2.0| none| secureRandom, random| Defines how to generate the csrf session token|
+| o.a.m.RANDOM_KEY_IN_WEBSOCKET_SESSION_TOKEN| 2.2.0| secureRandom | secureRandom, random| Defines how to generate the csrf session token. As of version 2.3-next-M5 the default switched from `random` to `secureRandom`. |
 | o.a.m.CLIENT_VIEW_STATE_TIMEOUT| 2.1.9, 2.0.15| 0| | Define the time in minutes where the view state is valid when client side state saving is used|
-| o.a.m.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN| 2.1.9, 2.0.15| random| secureRandom, random| Adds a random key to the generated view state session token|
+| o.a.m.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN| 2.1.9, 2.0.15| secureRandom | secureRandom, random| Adds a random key to the generated view state session token. As of version 2.3-next-M5 the default switched from `random` to `secureRandom`.|
 | o.a.m.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN_LENGTH| 2.1.9, 2.0.15| 8| | Set the default length of the random key added to the view state session token|
 | o.a.m.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN_SECURE_RANDOM_CLASS| 2.1.9, 2.0.15| | | Sets the random class to initialize the secure random id generator|
 | o.a.m.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN_SECURE_RANDOM_PROVIDER| 2.1.9, 2.0.15| | | Sets the random provider to initialize the secure random id generator|
 | o.a.m.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN_SECURE_RANDOM_ALGORITHM| 2.1.9, 2.0.15| SHA1PRNG| | Sets the random algorithm to initialize the secure random id generator|
-| o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN| 2.2.0| none| secureRandom, random| Defines how to generate the csrf session token|
+| o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN| 2.2.0| secureRandom | secureRandom, random | Defines how to generate the csrf session token. As of version 2.3-next-M5 the default switched from `random` to `secureRandom`. |
 | o.a.m.COMPRESS_STATE_IN_SESSION| 1.1| true| true,false| Indicates that the serialized state will be compressed before it is written to the session|
 | o.a.m.USE_FLASH_SCOPE_PURGE_VIEWS_IN_SESSION| 2.0.6| false| true, false| Allow use flash scope to keep track of the views used in session and the previous ones, so server side state saving can delete old views even if POST-REDIRECT-GET pattern is used|
 | o.a.m.AUTOCOMPLETE_OFF_VIEW_STATE| 2.2.8, 2.1.18, 2.0.24| true| true, false| Add autocomplete="off" to the view state hidden field|
