@@ -12,12 +12,13 @@ Just add this into your `faces-config.xml` file:
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
               xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd"
               version="2.2">
-<faces-config-extension>
-    <facelets-processing>
-        <file-extension>.xhtml</file-extension>
-        <process-as>xhtml</process-as>
-        <oam-compress-spaces>true</oam-compress-spaces>
-    </facelets-processing>
+    <faces-config-extension>
+        <facelets-processing>
+            <file-extension>.xhtml</file-extension>
+            <process-as>xhtml</process-as>
+            <oam-compress-spaces>true</oam-compress-spaces>
+        </facelets-processing>
+    </faces-config-extension>
 </faces-config>
 ```
 
