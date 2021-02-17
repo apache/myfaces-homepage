@@ -41,8 +41,8 @@ b.xhtml
 c.xhtml
 ```xml
 <ui:composition>
-   <h:outputText value="#{var1}/>
-   <h:outputText value="#{var2}/>
+   <h:outputText value="#{var1}"/>
+   <h:outputText value="#{var2}"/>
 </ui:composition>
 ```
 If a.xhtml view is constructed before b.xhtml, #{var2} will be cached, even if this is not wanted and then when b.xhtml is called, the expression will not work correctly.
