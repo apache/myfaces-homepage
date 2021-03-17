@@ -210,6 +210,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.CHECK_ID_PRODUCTION_MODE| 2.0.12, 2.1.6| auto| true, auto, false| Define how duplicate ids are checked when ProjectStage is Production, by default (auto) it only check ids of components that does not encapsulate markup (like facelets UILeaf)|
 | o.a.m.NUMBER_OF_FLASH_TOKENS_IN_SESSION| 2.2.6| | | Indicate the max number of flash tokens stored into session|
 | o.a.m.FACES_FLOW_CLIENT_WINDOW_IDS_IN_SESSION| 2.2.6| | | Indicate the max number of client window ids stored into session by faces flow|
+| o.a.m.NUMBER_OF_CLIENT_WINDOWS_IN_SESSION| 4.0.0| 10 | | Indicate the max number of ClientWindows stored into session|
 
 ## Integration / SPI
 
