@@ -17,22 +17,22 @@ Implementation of the JavaServer™ Faces (JSF) 2.3 specification.
 
 |     | Mirrors                                                                                                                      | Checksum                                                                                                                     | Signature                                                                                                                                |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| binary (tar.gz) | [myfaces-core-assembly-2.3.8-bin.tar.gz](http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-2.3.8-bin.tar.gz) | [myfaces-core-assembly-2.3.8-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3.8-bin.tar.gz.sha512) | [myfaces-core-assembly-2.3.8-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3.8-bin.tar.gz.asc) |
-| binary (zip)    | [myfaces-core-assembly-2.3.8-bin.zip](http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-2.3.8-bin.zip)       | [myfaces-core-assembly-2.3.8-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3.8-bin.zip.sha512)       | [myfaces-core-assembly-2.3.8-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3.8-bin.zip.asc)       |
-| source (tar.gz) | [myfaces-core-assembly-2.3.8-src.tar.gz](http://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-2.3.8-src.tar.gz)   | [myfaces-core-assembly-2.3.8-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3.8-src.tar.gz.sha512)   | [myfaces-core-assembly-2.3.8-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3.8-src.tar.gz.asc)   |
-| source (zip)    | [myfaces-core-assembly-2.3.8-src.zip](http://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-2.3.8-src.zip)         | [myfaces-core-assembly-2.3.8-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3.8-src.zip.sha512)         | [myfaces-core-assembly-2.3.8-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3.8-src.zip.asc)         |
+| binary (tar.gz) | [myfaces-core-assembly-2.3.9-bin.tar.gz](http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-2.3.9-bin.tar.gz) | [myfaces-core-assembly-2.3.9-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3.9-bin.tar.gz.sha512) | [myfaces-core-assembly-2.3.9-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3.9-bin.tar.gz.asc) |
+| binary (zip)    | [myfaces-core-assembly-2.3.9-bin.zip](http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-2.3.9-bin.zip)       | [myfaces-core-assembly-2.3.9-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3.9-bin.zip.sha512)       | [myfaces-core-assembly-2.3.9-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3.9-bin.zip.asc)       |
+| source (tar.gz) | [myfaces-core-assembly-2.3.9-src.tar.gz](http://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-2.3.9-src.tar.gz)   | [myfaces-core-assembly-2.3.9-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3.9-src.tar.gz.sha512)   | [myfaces-core-assembly-2.3.9-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3.9-src.tar.gz.asc)   |
+| source (zip)    | [myfaces-core-assembly-2.3.9-src.zip](http://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-2.3.9-src.zip)         | [myfaces-core-assembly-2.3.9-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3.9-src.zip.sha512)         | [myfaces-core-assembly-2.3.9-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3.9-src.zip.asc)         |
 
 ## Dependency
 ```xml
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-api</artifactId>
-  <version>2.3.8</version>
+  <version>2.3.9</version>
 </dependency>
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-impl</artifactId>
-  <version>2.3.8</version>
+  <version>2.3.9</version>
 </dependency>
 ```
 
