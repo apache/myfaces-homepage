@@ -22,6 +22,9 @@ Implementation of the JavaServer™ Faces (JSF) 2.0 specification.
 | source (tar.gz) | [myfaces-core-assembly-2.0.25-src.tar.gz](http://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-2.0.25-src.tar.gz)   | [myfaces-core-assembly-2.0.25-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.0.25-src.tar.gz.sha512)   | [myfaces-core-assembly-2.0.25-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.0.25-src.tar.gz.asc)   |
 | source (zip)    | [myfaces-core-assembly-2.0.25-src.zip](http://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-2.0.25-src.zip)         | [myfaces-core-assembly-2.0.25-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.0.25-src.zip.sha512)         | [myfaces-core-assembly-2.0.25-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.0.25-src.zip.asc)         |
 
+## Release Verification
+Steps for checksum & signature verification can be found [here](/releaseVerification.md)
+
 ## Dependency
 ```xml
 <dependency>
