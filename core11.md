@@ -14,6 +14,9 @@ Implementation of the JavaServer™ Faces (JSF) 1.1 specification.
 | source (tar.gz) | [myfaces-core-assembly-1.1.10-src.tar.gz](http://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-1.1.10-src.tar.gz)   | [myfaces-core-assembly-1.1.10-src.tar.gz.md5](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-1.1.10-src.tar.gz.md5)   | [myfaces-core-assembly-1.1.10-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-1.1.10-src.tar.gz.asc)   |
 | source (zip)    | [myfaces-core-assembly-1.1.10-src.zip](http://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-1.1.10-src.zip)         | [myfaces-core-assembly-1.1.10-src.zip.md5](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-1.1.10-src.zip.md5)         | [myfaces-core-assembly-1.1.10-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-1.1.10-src.zip.asc)         |
 
+## Release Verification
+Steps for checksum & signature verification can be found [here](/releaseVerification.md)
+
 ## Dependency
 ```xml
 <dependency>
