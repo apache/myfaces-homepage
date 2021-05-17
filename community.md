@@ -4,20 +4,17 @@
 Everybody is welcome to get involved with our community. You can find general information at http://apache.org/foundation/getinvolved.html and http://apache.org/foundation/how-it-works.html. The following sections provides some details about the different levels of getting involved.
 
 ### Contributors
-We appreciate any help and involvement from users: you can help other users, participate in discussions on the dev list, contribute to documentation, submit bug reports and patches, etc.
+We appreciate any help and involvement from users: you can help other users, participate in discussions on the dev list, contribute to documentation, submit bug reports and patches, etc. It’s essential for interested contributors to file a/n ICLA or CCLA and send it to secretary at apache dot org (or fax it) as early as possible - see [ASF Contributor Agreements](https://www.apache.org/licenses/contributor-agreements.html) for more information.
 
 If you would like to report a bug, please start by opening an issue on our [JIRA](https://issues.apache.org/jira/projects/MYFACES/) issue tracker. Provide as much information as possible with any bug report. If you have a potential fix for the bug you're reporting, please provide the patch - either as an attachment to the JIRA issue for the bug, or via a pull request on [github](https://github.com/apache/myfaces).
 ### Committers
-Potential committers must actively make contributions to our effort, as described in the Contributors section. Additionally, it’s essential for interested committers to file a/n ICLA or CCLA and send it to secretary at apache dot org (or fax it) as early as possible.
-
-All are welcome to join our development effort. Subscribe our mailing list for developers and start contributing and help users.
+All are welcome to join our development effort. Subscribe our mailing list for developers and start contributing and help users. Potential committers must actively make contributions to our effort, as described in section above.
 
 Optionally subscribe our mailing list for commits.
 
-Furthermore, you can check our mail-archives.
+Furthermore, you can check our mail-archives (see below).
 
 Further details are available at http://www.apache.org/dev/.
-
 
 ## Mailing lists
 
