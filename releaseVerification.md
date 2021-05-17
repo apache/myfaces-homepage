@@ -19,31 +19,19 @@ and Windows.
   
 ## Verifying signatures
 
-PGP verification ensures that the file came from a certain person.  We strongly recommend 
-you verify your downloads with both PGP and MD5/SHA512.
+Signature verification ensures that the file came from a certain person.  We strongly recommend 
+you verify your downloads. 
  
-The PGP signatures can be verified using [PGP](http://www.pgpi.org/) or 
-[GPG](http://www.gnupg.org/).  First download the Apache MyFaces 
+The PGP signatures can be verified using tools that implement the [OpenPGP](http://www.pgpi.org/) standard, such as 
+[GnuPG](http://www.gnupg.org/).  First download the Apache MyFaces 
 [KEYS](https://www.apache.org/dist/myfaces/KEYS) as well as the _asc_ signature file 
 for the particular distribution. It is important that you get these files from the ultimate
 trusted source - the main ASF distribution site, rather than from a mirror.
-Then verify the signatures using:
-
-```
-% pgpk -a KEYS
-% pgpv myfaces-core-X.Y.Z-bin.tar.gz.asc
-```
-	
-_or_
-
-```
-% pgp -ka KEYS
-% pgp myfaces-core-X.Y.Z-bin.tar.gz.asc
-```
-	
-_or_
+Then, to verify the signatures through the gpg command line, use the following command:
 
 ```
 % gpg --import KEYS
 % gpg --verify myfaces-core-X.Y.Z-bin.tar.gz.asc myfaces-core-X.Y.Z-bin.tar.gz
 ```
+
+More can be read about verifying downloads [here](https://www.apache.org/info/verification.html#). 
