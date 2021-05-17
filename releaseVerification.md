@@ -45,5 +45,5 @@ _or_
 
 ```
 % gpg --import KEYS
-% gpg --verify myfaces-core-X.Y.Z-bin.tar.gz.asc
+% gpg --verify myfaces-core-X.Y.Z-bin.tar.gz.asc myfaces-core-X.Y.Z-bin.tar.gz
 ```
