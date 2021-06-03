@@ -52,7 +52,8 @@ What are the disadvantages compared to 2.3?
 </dependency>
 ```
 
-[Release Verification](/releaseVerification.md ':include')
+## Release Verification
+Steps for checksum & signature verification can be found [here](/releaseVerification.md)
 
 ## Configuration
 

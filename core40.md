@@ -37,7 +37,8 @@ What are the benefits compared to our older versions?
 </dependency>
 ```
 
-[Release Verification](/releaseVerification.md ':include')
+## Release Verification
+Steps for checksum & signature verification can be found [here](/releaseVerification.md)
 
 ## Configuration
 

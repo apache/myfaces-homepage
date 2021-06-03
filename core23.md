@@ -36,7 +36,8 @@ Implementation of the JavaServer™ Faces (JSF) 2.3 specification.
 </dependency>
 ```
 
-[Release Verification](/releaseVerification.md ':include')
+## Release Verification
+Steps for checksum & signature verification can be found [here](/releaseVerification.md)
 
 ## Configuration
 
