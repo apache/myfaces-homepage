@@ -34,4 +34,4 @@ Then, to verify the signatures through the gpg command line, use the following c
 % gpg --verify myfaces-core-X.Y.Z-bin.tar.gz.asc myfaces-core-X.Y.Z-bin.tar.gz
 ```
 
-More can be read about verifying downloads [here](https://www.apache.org/info/verification.html#). 
+More can be read about verifying downloads [here](https://www.apache.org/info/verification.html#CheckingSignatures). 

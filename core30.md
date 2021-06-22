@@ -37,7 +37,8 @@ Implementation of the Jakarta Server Faces 3.0 specification.
 </dependency>
 ```
 
-[Release Verification](/releaseVerification.md ':include')
+## Release Verification
+Steps for checksum & signature verification can be found [here](/releaseVerification.md)
 
 ## Configuration
 
