@@ -32,6 +32,16 @@ it different from other frameworks:
   
 ## News
 
+### May 31, 2021 Apache Tobago 4.5.4 and Apache Tobago 5.0.0-alpha-1 Released
+
+The Apache Tobago component library in version 4.5.3 and in version 5.0.0-alpha-1 has been released.
+
+Release notes for 4.5.4 can be found in
+[Jira](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12310273&styleName=Html&version=12350057).
+       
+Release notes for 5.0.0-alpha-1 can be found in
+[Jira](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12310273&styleName=Html&version=12350237).
+
 ### March 1, 2021 Apache Tobago 4.5.3 Released
 
 The Apache Tobago component library in version 4.5.3 has been released.
