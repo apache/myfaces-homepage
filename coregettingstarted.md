@@ -4,7 +4,7 @@
 Checkout from [Apache GitBox](https://gitbox.apache.org/repos/asf?p=myfaces.git) or [GitHub](https://github.com/apache/myfaces) and run `mvn clean install`
 
 ## Useful links
-* Builds: [Jenkins](https://ci-builds.apache.org/job/MyFaces/), [Travis](https://travis-ci.org/apache/myfaces)
+* Builds: [Jenkins](https://ci-builds.apache.org/job/MyFaces/), [GitHub Actions](https://github.com/apache/myfaces/actions)
 * Issue Management: [JIRA](https://issues.apache.org/jira/projects/MYFACES/) 
 * Javadocs: [javadoc.io](https://javadoc.io/doc/org.apache.myfaces.core/myfaces-api/latest/index.html)
 * Wiki: [Wiki](https://cwiki.apache.org/confluence/display/MYFACES/Index)
