@@ -70,6 +70,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | javax.faces.DISABLE_FACESSERVLET_TO_XHTML| 2.3| | | Disable automatic FacesServlet xhtml mapping|
 | javax.faces.FACELETS_RESOURCE_RESOLVER| 2.0| | | Class implementing ResourceResolver interface used to locate facelet resources|
 | javax.faces.WEBSOCKET_ENDPOINT_PORT| 2.3| | | Indicates the port used for websocket connections|
+| javax.faces.AUTOMATIC_EXTENSIONLESS_MAPPING| 4.0| false| true, false| This parameter enables automatic extensionless mapping for all JSF views|
 | o.a.m.VIEW_POOL_MAX_POOL_SIZE| | 5| | Defines the number of views to be hold per each view metadata definition|
 | o.a.m.VIEW_POOL_MAX_DYNAMIC_PARTIAL_LIMIT| | 2| | Defines the limit of the views that cannot be reused partially|
 | o.a.m.VIEW_POOL_ENTRY_MODE| | soft| weak,soft| Defines the type of memory reference that is used to hold the view into memory|
@@ -83,7 +84,6 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.WRAP_TAG_EXCEPTIONS_AS_CONTEXT_AWARE| 2.0.9, 2.1.3| true| true, false| Wrap exception caused by calls to EL expressions, so information like the location, expression string and tag name can be retrieved by the ExceptionHandler implementation and used to output meaningful information about itself|
 | o.a.m.RESOURCE_CACHE_LAST_MODIFIED| 2.3-next| true| true, false| Defines if the last-modified should be cached of the resources when the ProjectStage is Production|
 | o.a.m.LOG_WEB_CONTEXT_PARAMS| | auto| true, auto, false| Indicate if log all web config params should be done before initialize the webapp|
-| o.a.m.AUTOMATIC_EXTENSIONLESS_MAPPING| 2.3| false| true, false| This parameter enables automatic extensionless mapping for all JSF views|
 | o.a.m.FACES_INITIALIZER| 2.0.1| | | Class name of a custom FacesInitializer implementation.|
 | o.a.m.spi.InjectionProvider| 2.2| | | Define the class implementing InjectionProvider interface to handle dependendy injection, PostConstruct and PreDestroy callbacks|
 | o.a.m.WEBSOCKET_MAX_CONNECTIONS| 2.3| | | no description|
