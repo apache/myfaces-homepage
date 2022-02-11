@@ -2,7 +2,10 @@
 
 set -e
 
-curl https://codeload.github.com/apache/myfaces-homepage/tar.gz/refs/heads/master | tar xz --strip=2 myfaces-homepage-master/tobago/tobago-vm
+#BRANCH=master
+BRANCH=tobago-vm
+
+curl https://codeload.github.com/apache/myfaces-homepage/tar.gz/refs/heads/${BRANCH} | tar xz --strip=2 myfaces-homepage-tobago-vm/tobago/${BRANCH}
 
 cd tobago-vm
 

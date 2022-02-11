@@ -30,4 +30,6 @@ RUN chmod +x /usr/local/tomcat/bin/download-deploy-and-run.sh
 #ENV TOBAGO_VERSION undefined
 #ENV CONTEXT_PATH ROOT
 
+USER www-data
+
 CMD ["download-deploy-and-run.sh"]
