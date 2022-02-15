@@ -11,5 +11,5 @@ cd tobago-vm
 
 docker-compose down
 docker system prune
-docker-build
+docker-compose build -f
 docker-compose up -d
