@@ -59,8 +59,6 @@ services:
 #    environment:
 #      - TOBAGO_VERSION=5.0.0
 #      - CONTEXT_PATH=demo-5-release
-#    volumes:
-#      - ~/tobago-vm/artifacts:/opt/docker/artifacts
 #    ports:
 #      - "8500:8080"
 #    logging:
@@ -73,8 +71,6 @@ services:
 #      - TOBAGO_VERSION=5.0.0
 #      - STAGING_NUMBER=1196
 #      - CONTEXT_PATH=demo-5-staging
-#    volumes:
-#      - ~/tobago-vm/artifacts:/opt/docker/artifacts
 #    ports:
 #      - "8501:8080"
 #    logging:
@@ -86,8 +82,6 @@ services:
     environment:
       - TOBAGO_VERSION=5.1.0-SNAPSHOT
       - CONTEXT_PATH=demo-5-snapshot
-    volumes:
-      - ~/tobago-vm/artifacts:/opt/docker/artifacts
     ports:
       - "8502:8080"
     logging:
@@ -99,8 +93,6 @@ services:
 #    environment:
 #      - TOBAGO_VERSION=4.5.4
 #      - CONTEXT_PATH=demo-4-release
-#    volumes:
-#      - ~/tobago-vm/artifacts:/opt/docker/artifacts
 #    ports:
 #      - "8400:8080"
 #    logging:
@@ -113,8 +105,6 @@ services:
 #      - TOBAGO_VERSION=4.5.4
 #      - STAGING_NUMBER=1191
 #      - CONTEXT_PATH=demo-4-staging
-#    volumes:
-#      - ~/tobago-vm/artifacts:/opt/docker/artifacts
 #    ports:
 #      - "8401:8080"
 #    logging:
@@ -126,8 +116,6 @@ services:
     environment:
       - TOBAGO_VERSION=4.5.5-SNAPSHOT
       - CONTEXT_PATH=demo-4-snapshot
-    volumes:
-      - ~/tobago-vm/artifacts:/opt/docker/artifacts
     ports:
       - "8402:8080"
     logging:
@@ -139,8 +127,6 @@ services:
 #    environment:
 #      - TOBAGO_VERSION=3.1.1
 #      - CONTEXT_PATH=demo-3-release
-#    volumes:
-#      - ~/tobago-vm/artifacts:/opt/docker/artifacts
 #    ports:
 #      - "8300:8080"
 #    logging:
@@ -152,8 +138,6 @@ services:
 #    environment:
 #      - TOBAGO_VERSION=2.4.4
 #      - CONTEXT_PATH=demo-2-release
-#    volumes:
-#      - ~/tobago-vm/artifacts:/opt/docker/artifacts
 #    ports:
 #      - "8200:8080"
 #    logging:
@@ -166,8 +150,6 @@ services:
 #      - TOBAGO_VERSION=2.4.4
 #      - STAGING_NUMBER=1179
 #      - CONTEXT_PATH=demo-2-staging
-#    volumes:
-#      - ~/tobago-vm/artifacts:/opt/docker/artifacts
 #    ports:
 #      - "8201:8080"
 #    logging:
@@ -179,8 +161,6 @@ services:
     environment:
       - TOBAGO_VERSION=2.4.5-SNAPSHOT
       - CONTEXT_PATH=demo-2-snapshot
-    volumes:
-      - ~/tobago-vm/artifacts:/opt/docker/artifacts
     ports:
       - "8202:8080"
     logging:
@@ -192,8 +172,6 @@ services:
 #    environment:
 #      - TOBAGO_VERSION=1.5.13
 #      - CONTEXT_PATH=demo-1-5-release
-#    volumes:
-#      - ~/tobago-vm/artifacts:/opt/docker/artifacts
 #    ports:
 #      - "8150:8080"
 #    logging:
@@ -205,8 +183,6 @@ services:
 #    environment:
 #      - TOBAGO_VERSION=1.0.42
 #      - CONTEXT_PATH=demo-1-0-release
-#    volumes:
-#      - ~/tobago-vm/artifacts:/opt/docker/artifacts
 #    ports:
 #      - "8100:8080"
 #    logging:
