@@ -1,6 +1,6 @@
-# Run the different Tobago versions on tobago-vm.apache.org 
+# Run the different Tobago versions on tobago-demo.apache.org 
 
-The demo on tobago-vm works with docker. 
+The demo on tobago-demo works with docker. 
 Each user with an account on the vm and 
 member of the docker group can manage the containers.
 
@@ -16,7 +16,7 @@ in ```tobago-example/tobago-example-demo/src/main/tobago-vm/docker/```.
 Copy these file to the server and login there:
 
 ```
-ssh tobago-vm.apache.org
+ssh tobago-demo.apache.org
 
 cd
 git clone https://github.com/apache/myfaces-tobago
