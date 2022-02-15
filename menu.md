@@ -18,7 +18,7 @@
 - Tobago
   - [Getting Started](/tobago.md)
   - [Issue Tracker](https://issues.apache.org/jira/projects/TOBAGO/issues/)
-  - [Demo](http://tobago-vm.apache.org/)
+  - [Demo](http://tobago-demo.apache.org/)
   
 - [Legacy Wiki](https://cwiki.apache.org/confluence/display/MYFACES2/Home)
 - [Inactive Projects](/inactiveProjects.md)
