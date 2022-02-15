@@ -10,6 +10,6 @@ curl https://codeload.github.com/apache/myfaces-homepage/tar.gz/refs/heads/${BRA
 cd tobago-vm
 
 docker-compose down
-docker system prune
-docker-compose build -f
+docker system prune -f
+docker-compose build
 docker-compose up -d
