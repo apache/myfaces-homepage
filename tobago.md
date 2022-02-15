@@ -24,11 +24,11 @@ it different from other frameworks:
   
 ### Getting Started
          
-[Getting started page](http://tobago-demo.apache.org/getting-started.html) 
+[Getting started page](https://tobago-demo.apache.org/getting-started.html) 
 
 ### Downloads
 
-[Download page](http://tobago-demo.apache.org/download.html)
+[Download page](https://tobago-demo.apache.org/download.html)
   
 ## News
 
