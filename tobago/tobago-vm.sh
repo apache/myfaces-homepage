@@ -13,3 +13,7 @@ docker-compose down
 docker system prune -f
 docker-compose build
 docker-compose up -d
+
+# need to wait for Let's encrypt
+sleep 20s
+docker exec -it tobago-vm_apache_1 apachectl graceful
