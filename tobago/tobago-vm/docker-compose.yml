@@ -159,7 +159,7 @@ services:
   demo-2-snapshot:
     build: tomcat
     environment:
-      - TOBAGO_VERSION=2.4.5-SNAPSHOT
+      - TOBAGO_VERSION=2.4.6-SNAPSHOT
       - CONTEXT_PATH=demo-2-snapshot
     ports:
       - "8202:8080"
