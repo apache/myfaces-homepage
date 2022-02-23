@@ -8,6 +8,7 @@ set -e
 BRANCH=master
 #BRANCH=tobago-vm
 
+cd /home/tobago
 curl https://codeload.github.com/apache/myfaces-homepage/tar.gz/refs/heads/${BRANCH} | tar xz --strip=2 myfaces-homepage-${BRANCH}/tobago/tobago-vm
 
 cd tobago-vm
