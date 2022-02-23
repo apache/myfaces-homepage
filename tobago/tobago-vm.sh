@@ -1,5 +1,8 @@
 #! /bin/bash
 
+# This script can be called directly like this.
+# curl -s -o /tmp/tobago-vm.sh https://raw.githubusercontent.com/apache/myfaces-homepage/master/tobago/tobago-vm.sh | bash
+
 set -e
 
 BRANCH=master
@@ -9,11 +12,11 @@ curl https://codeload.github.com/apache/myfaces-homepage/tar.gz/refs/heads/${BRA
 
 cd tobago-vm
 
-docker-compose down
-docker system prune -f
-docker-compose build
-docker-compose up -d
+/usr/local/bin/docker-compose down
+/usr/bin/docker system prune -f
+/usr/local/bin/docker-compose build
+/usr/local/bin/docker-compose up -d
 
 # need to wait for Let's encrypt
-sleep 20s
-docker exec -it tobago-vm_apache_1 apachectl graceful
+sleep 20
+/usr/bin/docker exec -it tobago-vm_apache_1 apachectl graceful
