@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # This script can be called directly like this.
-# curl -s -o /tmp/tobago-vm.sh https://raw.githubusercontent.com/apache/myfaces-homepage/master/tobago/tobago-vm.sh | bash
+# curl -s -f https://raw.githubusercontent.com/apache/myfaces-homepage/master/tobago/tobago-vm/setup.sh | bash
 
 set -e
 
@@ -20,4 +20,4 @@ cd tobago-vm
 
 # need to wait for Let's encrypt
 sleep 20
-/usr/bin/docker exec -it tobago-vm_apache_1 apachectl graceful
+/usr/bin/docker exec tobago-vm_apache_1 apachectl graceful
