@@ -20,6 +20,8 @@ services:
     ports:
       - "80:80"
       - "443:443"
+#    volumes:
+#      - /var/log/tobago:/var/log/apache2
     logging:
       options:
         max-size: "1m"
