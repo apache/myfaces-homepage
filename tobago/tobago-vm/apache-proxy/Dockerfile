@@ -13,22 +13,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM debian:buster-slim
-
-RUN echo "deb http://deb.debian.org/debian buster-backports main" >/etc/apt/sources.list.d/buster-backports.list
+FROM debian:bullseye-slim
 
 RUN apt-get update \
  && apt-get upgrade -y \
- && apt-get install -y less vim \
- && apt-get install -y -t buster-backports apache2 \
+ && apt-get install -y apache2 \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
 RUN a2enmod proxy proxy_http ssl md
 
 COPY 000-default.conf 001-ssl.conf /etc/apache2/sites-enabled/
-COPY *.html /var/www/html/
-COPY *.css *.css.map /var/www/html/
+COPY *.html *.css *.css.map /var/www/html/
 
 ENV APACHE_RUN_USER www-data
 ENV APACHE_RUN_GROUP www-data
