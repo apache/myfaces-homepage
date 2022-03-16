@@ -25,6 +25,7 @@ RUN a2enmod proxy proxy_http ssl md
 
 COPY 000-default.conf 001-ssl.conf /etc/apache2/sites-enabled/
 COPY *.html *.css *.css.map /var/www/html/
+RUN rm /etc/apache2/sites-available/*
 
 ENV APACHE_RUN_USER www-data
 ENV APACHE_RUN_GROUP www-data
