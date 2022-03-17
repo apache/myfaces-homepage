@@ -56,6 +56,7 @@ services:
       - demo-2-snapshot
 #      - demo-1-5-release
 #      - demo-1-0-release
+    restart: unless-stopped
 #  demo-5-release:
 #    build: tomcat
 #    environment:
@@ -90,6 +91,7 @@ services:
       options:
         max-size: "1m"
         max-file: "5"
+    restart: unless-stopped
 #  demo-4-release:
 #    build: tomcat
 #    environment:
@@ -124,6 +126,7 @@ services:
       options:
         max-size: "1m"
         max-file: "5"
+    restart: unless-stopped
 #  demo-3-release:
 #    build: tomcat
 #    environment:
@@ -169,6 +172,7 @@ services:
       options:
         max-size: "1m"
         max-file: "5"
+    restart: unless-stopped
 #  demo-1-5-release:
 #    build: tomcat
 #    environment:
