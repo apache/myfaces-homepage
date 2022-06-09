@@ -70,7 +70,7 @@ We also have a Quarkus extensions since 2.3-next.
 </html>
 ```
 
-### Quarkus
+## Quarkus
 
 Since 2.3-next a Quarkus extension is available: 
 
@@ -82,7 +82,7 @@ Since 2.3-next a Quarkus extension is available:
 </dependency>
 ```
 
-The easiest way to getting started is to clone our sample project, whic can be found here: https://github.com/apache/myfaces/blob/master/extensions/quarkus/showcase/
+The easiest way to getting started is to clone our sample project, which can be found here: https://github.com/apache/myfaces/blob/master/extensions/quarkus/showcase/
 
 Uber-JARs are not supported by design currently.  
   
