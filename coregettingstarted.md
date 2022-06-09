@@ -87,8 +87,8 @@ The easiest way to getting started is to clone our sample project, which can be 
 Uber-JARs are not supported by design currently.  
   
   
-What are the differences when develope a JSF app on Quarkus compared to a normal servlet container:
-* You need to put your views under src/main/resources/META-INF/resources as Quarkus doesn't create a WAR and src/main/webapp is ignored!
+What are the differences when develope a JSF app on Quarkus compared to a normal servlet container?
+* You need to put your views under `src/main/resources/META-INF/resources` as Quarkus doesn't create a WAR and `src/main/webapp` is ignored!
 * Session replication / passivation / clustering is not supported yet by Quarkus
 * `@ConversationScoped` is not supported by Quarkus
 
