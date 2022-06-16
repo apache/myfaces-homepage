@@ -1,5 +1,10 @@
 # News
 
+##  June 16, 2022 - MyFaces Core 2.2.15 released
+MyFaces Core 2.2.15 have been released. It is available from the [Download](/core22?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
+
+Release notes can be found here: [2.2.15](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12349664)
+
 ## June 6, 2022 - MyFaces Core 2.3.10, 2.3-next-M7, and 3.0.2 released
 MyFaces Core 2.3.10 have been released. It is available from the [Download](/core23?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
