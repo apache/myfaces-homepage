@@ -19,5 +19,5 @@ cd tobago-vm
 /usr/local/bin/docker-compose up -d
 
 # need to wait for Let's encrypt
-sleep 20
+sleep 60
 /usr/bin/docker exec tobago-vm_apache_1 apachectl graceful
