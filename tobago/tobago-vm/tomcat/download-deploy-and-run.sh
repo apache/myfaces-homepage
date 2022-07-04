@@ -30,7 +30,7 @@ ARTIFACT=/usr/local/tomcat/tobago-example-demo-${TOBAGO_VERSION}.war
 set -x
 curl -o ${ARTIFACT} "https://repository.apache.org/service/local/artifact/maven/content?r=${REPO}&g=org.apache.myfaces.tobago&a=tobago-example-demo&p=war&v=${TOBAGO_VERSION}"
 
-mkdir ${TARGET}
+mkdir -p ${TARGET}
 pushd ${TARGET} && jar xf ${ARTIFACT}
 
 catalina.sh run
