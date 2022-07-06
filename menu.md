@@ -19,8 +19,8 @@
   - [Overview](/tobago.md)
   - [Versions](/tobago-versions.md)
   - [Demos](http://tobago-demo.apache.org/)
-    - [Getting started](https://tobago-demo.apache.org/getting-started.html)
-    - [Download](/tobago-download.md)
+  - [Getting started](https://tobago-demo.apache.org/getting-started.html)
+  - [Download](/tobago-download.md)
   - [Issue Tracker](https://issues.apache.org/jira/projects/TOBAGO/issues/)
   - [Github](https://github.com/apache/myfaces-tobago/tree/tobago-5.x)
   
