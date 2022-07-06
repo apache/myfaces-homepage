@@ -1,0 +1,332 @@
+<html xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>sheet
+          (Tobago Core Tag library documentation)
+        </title>
+        <meta name="keywords" content="$title">
+        <link rel="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+    </head>
+    <script>
+            function asd()
+            {
+            parent.document.title="sheet (Tobago Core Tag library documentation)";
+            }
+          </script>
+    <body bgcolor="white" onload="asd();">
+        <a name="navbar_top"></a>
+        <table border="0" width="100%" cellpadding="1" cellspacing="0">
+            <tr>
+                <td COLSPAN="3" BGCOLOR="#EEEEFF" CLASS="NavBarCell1"><a NAME="navbar_top_firstrow"></a>
+                    <table BORDER="0" CELLPADDING="0" CELLSPACING="3">
+                        <tr ALIGN="center" VALIGN="top">
+                            <td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="../overview-summary.html"><font CLASS="NavBarFont1"><b>Overview</b></font></a>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="tld-summary.html"><font CLASS="NavBarFont1"><b>Library</b></font></a>&nbsp;</td><td BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<font CLASS="NavBarFont1Rev">&nbsp;Tag&nbsp;</font>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a HREF="../help-doc.html"><font CLASS="NavBarFont1"><b>Help</b></font></a>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td><td ALIGN="right" VALIGN="top" ROWSPAN="3"><em></em></td>
+            </tr>
+            <tr>
+                <td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2"></font></td><td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2">
+                &nbsp;<a HREF="../index.html" TARGET="_top"><b>FRAMES</b></a>&nbsp;
+                &nbsp;<a href="sheet.html" target="_top"><b>NO FRAMES</b></a>&nbsp;
+                <script></script>
+                        <noscript>
+                            <a HREF="../alltags-noframe.html" TARGET=""><b>All Tags</b></a>
+                        </noscript>
+                    </font></td>
+            </tr>
+        </table>
+        <hr>
+        <h2>
+            <font size="-1">tc</font>
+            <br>
+                        Tag sheet
+        </h2>
+        <hr>
+        Render a sheet element.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISheet</p><p><b>RendererType: </b>Sheet</p><p><b>Supported facets:</b></p><dl><dt><b>reload</b></dt><dd>Contains an instance of UIReload</dd></dl>
+        <br>
+        <p></p>
+        <hr>
+        <table border="1" cellpadding="3" cellspacing="0" width="100%">
+            <tr bgcolor="#CCCCFF" class="TableHeadingColor">
+                <td colspan="2"><font size="+2"><b>Tag Information</b></font></td>
+            </tr>
+            <tr>
+                <td>Tag Class</td><td>org.apache.myfaces.tobago.internal.taglib.SheetTag</td>
+            </tr>
+            <tr>
+                <td>TagExtraInfo Class</td><td><i>None</i></td>
+            </tr>
+            <tr>
+                <td>Body Content</td><td>JSP</td>
+            </tr>
+            <tr>
+                <td>Display Name</td><td><i>None</i></td>
+            </tr>
+        </table>
+        <br>
+        <p></p>
+        <table border="1" cellpadding="3" cellspacing="0" width="100%">
+            <tr bgcolor="#CCCCFF" class="TableHeadingColor">
+                <td colspan="5"><font size="+2"><b>Attributes</b></font></td>
+            </tr>
+            <tr>
+                <td><b>Name</b></td><td><b>Required</b></td><td><b>Request-time</b></td><td><b>Type</b></td><td><b>Description</b></td>
+            </tr>
+            <tr valign="top">
+                <td>binding</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>javax.faces.component.UIComponent</code>)
+                    </td><td>The value binding expression linking this component to a property in a backing bean.
+ <p/>
+ Warning: For the tobago extension library <b>tx</b> the binding differs from JSP and Facelets:
+ <ul>
+ <li>JSP: The component is the inner main control (e. g. UIInput).</li>
+ <li>Facelets: The component is the outer UIPanel.</li>
+ </ul><br />Type: <code>javax.faces.component.UIComponent</code></td>
+            </tr>
+            <tr valign="top">
+                <td>columns</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.String</code>)
+                    </td><td>LayoutConstraints for column layout. Semicolon separated list of layout tokens ('<x>*', '<x>px' or
+ '<x>%').<br />Type: <code>java.lang.String</code></td>
+            </tr>
+            <tr valign="top">
+                <td>directLinkCount</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Integer</code>)
+                    </td><td>The count of rendered direct paging links in the sheet's footer.<br /><br />Type: <code>java.lang.Integer</code><br />Default: <code>9</code></td>
+            </tr>
+            <tr valign="top">
+                <td>first</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Integer</code>)
+                    </td><td>Zero-relative row number of the first row to be displayed.<br />Type: <code>int</code><br />Default: <code>0</code></td>
+            </tr>
+            <tr valign="top">
+                <td>forceVerticalScrollbar</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.String</code>)
+                    </td><td>Flag indicating whether or not this sheet should reserve space for vertical toolbar when calculating column
+ width's.<br />
+ Possible values are: <pre>
+      'auto'  : sheet try to estimate the need of scrollbar.
+      'true'  : space for scrollbar is reserved.
+      'false' : no space is reserved.
+      </pre><br />Type: <code>java.lang.String</code><br />Default: <code>auto</code><br />Allowed Values: <code>[auto, true, false]</code></td>
+            </tr>
+            <tr valign="top">
+                <td>id</td><td>false</td><td>true</td><td><code>java.lang.String</code></td><td>The component identifier for this component. This value must be unique within the closest parent component that is
+ a naming container.<br />Type: <code>java.lang.String</code></td>
+            </tr>
+            <tr valign="top">
+                <td>markup</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>org.apache.myfaces.tobago.context.Markup</code>)
+                    </td><td>Indicate markup of this component. The allowed markups can be defined or overridden in the theme. The value 'none'
+ should not be used any longer. Just leave the attribute empty, or use a NULL pointer.<br />Type: <code>org.apache.myfaces.tobago.context.Markup</code></td>
+            </tr>
+            <tr valign="top">
+                <td>rendered</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+                    </td><td>Flag indicating whether or not this component should be rendered (during Render Response Phase), or processed on
+ any subsequent form submit.<br />Type: <code>boolean</code><br />Default: <code>true</code></td>
+            </tr>
+            <tr valign="top">
+                <td>renderedPartially</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.String[]</code>)
+                    </td><td><p>
+ Indicate the partially rendered components in a case of a submit.
+ </p>
+ <p>
+ The search depends on the number of prefixed colons in the relativeId:
+ <dl>
+   <dd>number of prefixed colons == 0</dd>
+   <dt>fully relative</dt>
+   <dd>number of prefixed colons == 1</dd>
+   <dt>absolute (still normal findComponent syntax)</dt>
+   <dd>number of prefixed colons == 2</dd>
+   <dt>search in the current naming container (same as 0 colons)</dt>
+   <dd>number of prefixed colons == 3</dd>
+   <dt>search in the parent naming container of the current naming container</dt>
+   <dd>number of prefixed colons > 3</dd>
+   <dt>go to the next parent naming container for each additional colon</dt>
+ </dl>
+ </p>
+ <p>
+ If a literal is specified: to use more than one identifier the identifiers must be space delimited.
+ </p>
+ <p>
+ Using this in a UISheet or UITabGroup component this list indicates components to update when calling
+ internal AJAX requests like sort or paging commands.
+ Don't forget to add the sheet-id or tagGroup-id in that case, if needed.
+ </p>
+ <p>
+ You can also use<br />Type: <code>java.lang.String[]</code></td>
+            </tr>
+            <tr valign="top">
+                <td>rows</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Integer</code>)
+                    </td><td>The number of rows to display, starting with the one identified by the "first" property. <br/> The default has been
+ changed from 100 to 0 because this is the default in the JSF standard (since Tobago 1.5).<br />Type: <code>int</code><br />Default: <code>0</code></td>
+            </tr>
+            <tr valign="top">
+                <td>selectable</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.String</code>)
+                    </td><td>Flag indicating whether or not the sheet should be selectable.<br />Type: <code>java.lang.String</code><br />Default: <code>multi</code><br />Allowed Values: <code>[none, single, singleOrNone, multi]</code></td>
+            </tr>
+            <tr valign="top">
+                <td>showDirectLinks</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.String</code>)
+                    </td><td>Flag indicating whether or not a range of direct paging links should be rendered in the sheet's footer.<br />Type: <code>java.lang.String</code><br />Default: <code>center</code><br />Allowed Values: <code>[left, center, right, none]</code></td>
+            </tr>
+            <tr valign="top">
+                <td>showDirectLinksArrows</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+                    </td><td>Flag indicating if paging arrows are shown near direct links<br />Type: <code>boolean</code><br />Default: <code>false</code></td>
+            </tr>
+            <tr valign="top">
+                <td>showHeader</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+                    </td><td>Flag indicating the header should be rendered.<br />Type: <code>boolean</code><br />Default: <code>true</code></td>
+            </tr>
+            <tr valign="top">
+                <td>showPageRange</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.String</code>)
+                    </td><td>Flag indicating whether and where the range pages should rendered in the sheet's footer. Rendering this range also
+ offers the capability to enter the index displayed page directly.<br />Type: <code>java.lang.String</code><br />Default: <code>right</code><br />Allowed Values: <code>[left, center, right, none]</code></td>
+            </tr>
+            <tr valign="top">
+                <td>showPageRangeArrows</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+                    </td><td>Flag indicating if paging arrows are shown near page range<br />Type: <code>boolean</code><br />Default: <code>true</code></td>
+            </tr>
+            <tr valign="top">
+                <td>showPagingAlways</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+                    </td><td>Flag indicating whether or not the paging panel should be display, if it is not needed for paging.<br />
+ <ul>
+ <li>showPagingAlways="false" which is the default means, that the paging footer should be displayed,
+ only when it is needed.</li>
+ <ul>
+ <li>When the rows="0" paging is not needed, so the footer will not be rendered,</li>
+ <li>when rows="N", N &gt; 0 and the size of the data value is <= N paging is not needed
+ and the footer will not be rendered,</li>
+ <li>in any other case the paging footer will be displayed.</li>
+ </ul>
+ <li>showPagingAlways="true" means, that the paging footer should be displayed in any case.</li>
+ </ul><br />Type: <code>boolean</code><br />Default: <code>false</code></td>
+            </tr>
+            <tr valign="top">
+                <td>showRoot</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+                    </td><td>Only applicable in the case that the data model is a tree. This flag indicates that the root node should be
+ displayed. Often in tree structures the root node is special and should not be displayed.<br />Type: <code>boolean</code><br />Default: <code>false</code></td>
+            </tr>
+            <tr valign="top">
+                <td>showRootJunction</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+                    </td><td>Only applicable in the case that the data model is a tree. This flag indicates that the root node should be
+ displayed with an open-close-switch.<br />Type: <code>boolean</code><br />Default: <code>false</code></td>
+            </tr>
+            <tr valign="top">
+                <td>showRowRange</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.String</code>)
+                    </td><td>Flag indicating whether or not the range of displayed rows should rendered in the sheet's footer. Rendering this
+ range also offers the capability to enter the index of the start row directly.<br />Type: <code>java.lang.String</code><br />Default: <code>left</code><br />Allowed Values: <code>[left, center, right, none]</code></td>
+            </tr>
+            <tr valign="top">
+                <td>sortActionListener</td><td>false</td><td>false</td><td><code>javax.el.MethodExpression</code>
+                    <br>
+                    (<i>signature must match </i><code>void sortActionListener(javax.faces.event.ActionEvent)</code>)
+                    </td><td>Method binding representing an actionListener method that will be invoked when sorting was requested by the user.
+ Use this if your application needs special handling for sorting columns. If this is not set and the sortable
+ attribute column is set to true the sheet implementation will use a default sort method. The expression must
+ evaluate to a public method which takes an ActionEvent as parameter and with a return type of void. The method will
+ receive a {@link org.apache.myfaces.tobago.event.SortActionEvent}. The method should sort according to the
+ sortColumnId and direction getting from the sheet's {@link org.apache.myfaces.tobago.model.SheetState} object.</td>
+            </tr>
+            <tr valign="top">
+                <td>state</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>org.apache.myfaces.tobago.model.SheetState</code>)
+                    </td><td>Sheet state saving object.<br />Type: <code>org.apache.myfaces.tobago.model.SheetState</code></td>
+            </tr>
+            <tr valign="top">
+                <td>stateChangeListener</td><td>false</td><td>false</td><td><code>javax.el.MethodExpression</code>
+                    <br>
+                    (<i>signature must match </i><code>void stateChangeListener(javax.faces.event.ActionEvent)</code>)
+                    </td><td>Method binding representing a stateChangeListener method that will be notified when the state was changed by the
+ user. The expression must evaluate to a public method that takes a SheetStateChangeEvent parameter, with a return
+ type of void.</td>
+            </tr>
+            <tr valign="top">
+                <td>value</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Object</code>)
+                    </td><td>The sheet's data.<br />Type: <code>[java.lang.Object[], java.util.List, javax.servlet.jsp.jstl.sql.Result, java.sql.ResultSet, java.lang.Object, javax.faces.model.DataModel]</code></td>
+            </tr>
+            <tr valign="top">
+                <td>var</td><td>true</td><td>false</td><td><code>java.lang.String</code></td><td>Name of a request-scope attribute under which the model data for the row selected by the current value of the
+ "rowIndex" property (i.e. also the current value of the "rowData" property) will be exposed.<br />Type: <code>java.lang.String</code></td>
+            </tr>
+        </table>
+        <br>
+        <p></p>
+        <table border="1" cellpadding="3" cellspacing="0" width="100%">
+            <tr bgcolor="#CCCCFF" class="TableHeadingColor">
+                <td colspan="5"><font size="+2"><b>Variables</b></font></td>
+            </tr>
+            <td colspan="2"><i>No Variables Defined.</i></td>
+        </table>
+        <br>
+        <p></p>
+        <a name="navbar_bottom"></a>
+        <table border="0" width="100%" cellpadding="1" cellspacing="0">
+            <tr>
+                <td COLSPAN="3" BGCOLOR="#EEEEFF" CLASS="NavBarCell1"><a NAME="navbar_bottom_firstrow"></a>
+                    <table BORDER="0" CELLPADDING="0" CELLSPACING="3">
+                        <tr ALIGN="center" VALIGN="top">
+                            <td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="../overview-summary.html"><font CLASS="NavBarFont1"><b>Overview</b></font></a>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="tld-summary.html"><font CLASS="NavBarFont1"><b>Library</b></font></a>&nbsp;</td><td BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<font CLASS="NavBarFont1Rev">&nbsp;Tag&nbsp;</font>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a HREF="../help-doc.html"><font CLASS="NavBarFont1"><b>Help</b></font></a>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td><td ALIGN="right" VALIGN="top" ROWSPAN="3"><em></em></td>
+            </tr>
+            <tr>
+                <td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2"></font></td><td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2">
+                &nbsp;<a HREF="../index.html" TARGET="_top"><b>FRAMES</b></a>&nbsp;
+                &nbsp;<a href="sheet.html" target="_top"><b>NO FRAMES</b></a>&nbsp;
+                <script></script>
+                        <noscript>
+                            <a HREF="../alltags-noframe.html" TARGET=""><b>All Tags</b></a>
+                        </noscript>
+                    </font></td>
+            </tr>
+        </table>
+        <hr>
+        <small><i>
+            Output Generated by
+            <a href="http://taglibrarydoc.dev.java.net/" target="_blank">Tag Library Documentation Generator</a>.
+            Java, JSP, and JavaServer Pages are trademarks or
+            registered trademarks of Sun Microsystems, Inc. in the US and other
+            countries.  Copyright 2002-4 Sun Microsystems, Inc.
+            4150 Network Circle
+            Santa Clara, CA 95054, U.S.A.
+            All Rights Reserved.
+            </i></small>
+    </body>
+</html>

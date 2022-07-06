@@ -1,0 +1,286 @@
+<html xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>gridLayout
+          (Tobago Core Tag library documentation)
+        </title>
+        <meta name="keywords" content="$title">
+        <link rel="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+    </head>
+    <script>
+            function asd()
+            {
+            parent.document.title="gridLayout (Tobago Core Tag library documentation)";
+            }
+          </script>
+    <body bgcolor="white" onload="asd();">
+        <a name="navbar_top"></a>
+        <table border="0" width="100%" cellpadding="1" cellspacing="0">
+            <tr>
+                <td COLSPAN="3" BGCOLOR="#EEEEFF" CLASS="NavBarCell1"><a NAME="navbar_top_firstrow"></a>
+                    <table BORDER="0" CELLPADDING="0" CELLSPACING="3">
+                        <tr ALIGN="center" VALIGN="top">
+                            <td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="../overview-summary.html"><font CLASS="NavBarFont1"><b>Overview</b></font></a>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="tld-summary.html"><font CLASS="NavBarFont1"><b>Library</b></font></a>&nbsp;</td><td BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<font CLASS="NavBarFont1Rev">&nbsp;Tag&nbsp;</font>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a HREF="../help-doc.html"><font CLASS="NavBarFont1"><b>Help</b></font></a>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td><td ALIGN="right" VALIGN="top" ROWSPAN="3"><em></em></td>
+            </tr>
+            <tr>
+                <td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2"></font></td><td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2">
+                &nbsp;<a HREF="../index.html" TARGET="_top"><b>FRAMES</b></a>&nbsp;
+                &nbsp;<a href="gridLayout.html" target="_top"><b>NO FRAMES</b></a>&nbsp;
+                <script></script>
+                        <noscript>
+                            <a HREF="../alltags-noframe.html" TARGET=""><b>All Tags</b></a>
+                        </noscript>
+                    </font></td>
+            </tr>
+        </table>
+        <hr>
+        <h2>
+            <font size="-1">tc</font>
+            <br>
+                        Tag gridLayout
+        </h2>
+        <hr>
+        Renders a GridLayout.
+ <pre>
+ columns/rows ::= LAYOUT
+ LAYOUT       ::= TOKEN [";" TOKEN]+
+ TOKEN        ::= AUTO | PIXEL | PROPORTIONAL
+ AUTO         ::= "auto" | "fixed"
+ PIXEL        ::= NUMBER "px"
+ PROPORTIONAL ::= [NUMBER] "*"
+ </pre>
+ <p/>
+ <table border="1">
+ <tr>
+ <th>Parent</th>
+ <th>Child</th>
+ <th>Okay?</th>
+ <th>Remarks</th>
+ </tr>
+ <tr>
+ <td>AUTO</td>
+ <td>any combination of AUTO or PIXEL but no PROPORTIONAL</td>
+ <td>okay</td>
+ <td>-</td>
+ </tr>
+ <tr>
+ <td>AUTO</td>
+ <td>any combination with at least one PROPORTIONAL</td>
+ <td>wrong</td>
+ <td>LayoutManager cannot compute the auto value.</td>
+ </tr>
+ <tr>
+ <td>PIXEL</td>
+ <td>any combination of AUTO or PIXEL but no PROPORTIONAL</td>
+ <td>potentially wrong</td>
+ <td>The values depend on each other, the programmer has to keep consistency manually.</td>
+ </tr>
+ <tr>
+ <td>PIXEL</td>
+ <td>any combination with at least one PROPORTIONAL</td>
+ <td>okay</td>
+ <td>-</td>
+ </tr>
+ <tr>
+ <td>PROPORTIONAL</td>
+ <td>any combination of AUTO or PIXEL but no PROPORTIONAL</td>
+ <td>potentially wrong</td>
+ <td>No automatic matching:<ul><li>too little space: scroll bar</li>
+ <li>too much space: elements will be spread.</li></ul></td>
+ </tr>
+ <tr>
+ <td>PROPORTIONAL</td>
+ <td>any combination with at least one PROPORTIONAL</td>
+ <td>okay</td>
+ <td>-</td>
+ </tr>
+ </table><p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIGridLayout</p><p><b>RendererType: </b>GridLayout</p>
+        <br>
+        <p></p>
+        <hr>
+        <table border="1" cellpadding="3" cellspacing="0" width="100%">
+            <tr bgcolor="#CCCCFF" class="TableHeadingColor">
+                <td colspan="2"><font size="+2"><b>Tag Information</b></font></td>
+            </tr>
+            <tr>
+                <td>Tag Class</td><td>org.apache.myfaces.tobago.internal.taglib.GridLayoutTag</td>
+            </tr>
+            <tr>
+                <td>TagExtraInfo Class</td><td><i>None</i></td>
+            </tr>
+            <tr>
+                <td>Body Content</td><td>JSP</td>
+            </tr>
+            <tr>
+                <td>Display Name</td><td><i>None</i></td>
+            </tr>
+        </table>
+        <br>
+        <p></p>
+        <table border="1" cellpadding="3" cellspacing="0" width="100%">
+            <tr bgcolor="#CCCCFF" class="TableHeadingColor">
+                <td colspan="5"><font size="+2"><b>Attributes</b></font></td>
+            </tr>
+            <tr>
+                <td><b>Name</b></td><td><b>Required</b></td><td><b>Request-time</b></td><td><b>Type</b></td><td><b>Description</b></td>
+            </tr>
+            <tr valign="top">
+                <td>binding</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>javax.faces.component.UIComponent</code>)
+                    </td><td>The value binding expression linking this component to a property in a backing bean.
+ <p/>
+ Warning: For the tobago extension library <b>tx</b> the binding differs from JSP and Facelets:
+ <ul>
+ <li>JSP: The component is the inner main control (e. g. UIInput).</li>
+ <li>Facelets: The component is the outer UIPanel.</li>
+ </ul><br />Type: <code>javax.faces.component.UIComponent</code></td>
+            </tr>
+            <tr valign="top">
+                <td>border</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.String</code>)
+                    </td><td>Border size of this component.<br />Type: <code>java.lang.String</code></td>
+            </tr>
+            <tr valign="top">
+                <td>cellspacing</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>org.apache.myfaces.tobago.layout.Measure</code>)
+                    </td><td><p>**** @deprecated. Will be removed in a future version **** </p><p>Spacing between component and layout cell's. Can be overwritten by columnSpacing and rowSpacing.</p>Spacing between component and layout cell's. Can be overwritten by columnSpacing and rowSpacing.<br />Type: <code>org.apache.myfaces.tobago.layout.Measure</code></td>
+            </tr>
+            <tr valign="top">
+                <td>columnOverflow</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+                    </td><td>This attribute is a hint for the layout manager. Should not be used in most cases.<br />Type: <code>boolean</code></td>
+            </tr>
+            <tr valign="top">
+                <td>columnSpacing</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>org.apache.myfaces.tobago.layout.Measure</code>)
+                    </td><td>Spacing between the columns in the actual layout.<br />Type: <code>org.apache.myfaces.tobago.layout.Measure</code></td>
+            </tr>
+            <tr valign="top">
+                <td>columns</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.String</code>)
+                    </td><td>This value defines the layout constraints for column layout. It is a semicolon separated list of layout tokens
+ '[<n>]*', '<n>px' or 'auto'. Where <n> is a non negative integer and the square brackets means optional.
+ Example: '2*;*;100px;auto'.<br />Type: <code>java.lang.String</code><br />Default: <code>1*</code></td>
+            </tr>
+            <tr valign="top">
+                <td>id</td><td>false</td><td>true</td><td><code>java.lang.String</code></td><td>The component identifier for this component. This value must be unique within the closest parent component that is
+ a naming container.<br />Type: <code>java.lang.String</code></td>
+            </tr>
+            <tr valign="top">
+                <td>margin</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>org.apache.myfaces.tobago.layout.Measure</code>)
+                    </td><td><p>**** @deprecated. Will be removed in a future version **** </p><p>Margin between container component and the children.</p>Margin between container component and the children.<br />Type: <code>org.apache.myfaces.tobago.layout.Measure</code></td>
+            </tr>
+            <tr valign="top">
+                <td>marginBottom</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>org.apache.myfaces.tobago.layout.Measure</code>)
+                    </td><td>Bottom margin between container component and the children.<br />Type: <code>org.apache.myfaces.tobago.layout.Measure</code></td>
+            </tr>
+            <tr valign="top">
+                <td>marginLeft</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>org.apache.myfaces.tobago.layout.Measure</code>)
+                    </td><td>Left margin between container component and the children.<br />Type: <code>org.apache.myfaces.tobago.layout.Measure</code></td>
+            </tr>
+            <tr valign="top">
+                <td>marginRight</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>org.apache.myfaces.tobago.layout.Measure</code>)
+                    </td><td>Right margin between container component and the children.<br />Type: <code>org.apache.myfaces.tobago.layout.Measure</code></td>
+            </tr>
+            <tr valign="top">
+                <td>marginTop</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>org.apache.myfaces.tobago.layout.Measure</code>)
+                    </td><td>Top margin between container component and the children.<br />Type: <code>org.apache.myfaces.tobago.layout.Measure</code></td>
+            </tr>
+            <tr valign="top">
+                <td>markup</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>org.apache.myfaces.tobago.context.Markup</code>)
+                    </td><td>Indicate markup of this component. The allowed markups can be defined or overridden in the theme. The value 'none'
+ should not be used any longer. Just leave the attribute empty, or use a NULL pointer.<br />Type: <code>org.apache.myfaces.tobago.context.Markup</code></td>
+            </tr>
+            <tr valign="top">
+                <td>rigid</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+                    </td><td>This attribute advises the layout manager, to not use space that comes from non rendered components.<br />Type: <code>boolean</code></td>
+            </tr>
+            <tr valign="top">
+                <td>rowOverflow</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+                    </td><td>This attribute is a hint for the layout manager. Should not be used in most cases.<br />Type: <code>boolean</code></td>
+            </tr>
+            <tr valign="top">
+                <td>rowSpacing</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>org.apache.myfaces.tobago.layout.Measure</code>)
+                    </td><td>Spacing between the rows in the actual layout.<br />Type: <code>org.apache.myfaces.tobago.layout.Measure</code></td>
+            </tr>
+            <tr valign="top">
+                <td>rows</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.String</code>)
+                    </td><td>This value defines the layout constraints for column layout. It is a semicolon separated list of layout tokens
+ '[<n>]*', '<n>px' or 'auto'. Where <n> is a non negative integer and the square brackets means optional.
+ Example: '2*;*;100px;auto'.<br />Type: <code>java.lang.String</code><br />Default: <code>1*</code></td>
+            </tr>
+        </table>
+        <br>
+        <p></p>
+        <table border="1" cellpadding="3" cellspacing="0" width="100%">
+            <tr bgcolor="#CCCCFF" class="TableHeadingColor">
+                <td colspan="5"><font size="+2"><b>Variables</b></font></td>
+            </tr>
+            <td colspan="2"><i>No Variables Defined.</i></td>
+        </table>
+        <br>
+        <p></p>
+        <a name="navbar_bottom"></a>
+        <table border="0" width="100%" cellpadding="1" cellspacing="0">
+            <tr>
+                <td COLSPAN="3" BGCOLOR="#EEEEFF" CLASS="NavBarCell1"><a NAME="navbar_bottom_firstrow"></a>
+                    <table BORDER="0" CELLPADDING="0" CELLSPACING="3">
+                        <tr ALIGN="center" VALIGN="top">
+                            <td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="../overview-summary.html"><font CLASS="NavBarFont1"><b>Overview</b></font></a>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="tld-summary.html"><font CLASS="NavBarFont1"><b>Library</b></font></a>&nbsp;</td><td BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<font CLASS="NavBarFont1Rev">&nbsp;Tag&nbsp;</font>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a HREF="../help-doc.html"><font CLASS="NavBarFont1"><b>Help</b></font></a>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td><td ALIGN="right" VALIGN="top" ROWSPAN="3"><em></em></td>
+            </tr>
+            <tr>
+                <td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2"></font></td><td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2">
+                &nbsp;<a HREF="../index.html" TARGET="_top"><b>FRAMES</b></a>&nbsp;
+                &nbsp;<a href="gridLayout.html" target="_top"><b>NO FRAMES</b></a>&nbsp;
+                <script></script>
+                        <noscript>
+                            <a HREF="../alltags-noframe.html" TARGET=""><b>All Tags</b></a>
+                        </noscript>
+                    </font></td>
+            </tr>
+        </table>
+        <hr>
+        <small><i>
+            Output Generated by
+            <a href="http://taglibrarydoc.dev.java.net/" target="_blank">Tag Library Documentation Generator</a>.
+            Java, JSP, and JavaServer Pages are trademarks or
+            registered trademarks of Sun Microsystems, Inc. in the US and other
+            countries.  Copyright 2002-4 Sun Microsystems, Inc.
+            4150 Network Circle
+            Santa Clara, CA 95054, U.S.A.
+            All Rights Reserved.
+            </i></small>
+    </body>
+</html>

@@ -1,0 +1,338 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en" xmlns:vdldoc="http://vdldoc.omnifaces.org" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:jakartaee="https://jakarta.ee/xml/ns/jakartaee">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>button (Tobago Core VDL Documentation)
+			</title>
+        <meta name="keywords" content="$title">
+        <link rel="stylesheet" type="text/css" title="Style" href="../stylesheet.css">
+    </head>
+    <body>
+        <noscript>
+            <div>JavaScript is disabled on your browser.</div>
+        </noscript>
+        <div class="topNav">
+            <a name="navbar_top"></a><a href="#skip-navbar_top" title="Skip navigation links"></a><a name="navbar_top_firstrow"></a>
+            <ul class="navList" title="Navigation">
+                <li>
+                    <a href="../overview-summary.html">Overview</a>
+                </li>
+                <li>
+                    <a href="tld-summary.html">Library</a>
+                </li>
+                <li class="navBarCell1Rev">Tag</li>
+                <li>
+                    <a href="../help-doc.html">Help</a>
+                </li>
+            </ul>
+        </div>
+        <div class="subNav">
+            <ul class="navList">
+                <li>
+                    <a target="_top" href="../index.html?tc/button.html">
+									Frames
+								</a>
+                </li>
+                <li>
+                    <a target="_top" href="button.html">
+									No Frames
+								</a>
+                </li>
+            </ul>
+            <ul class="navList" id="alltags_navbar_top">
+                <li>
+                    <a href="../alltags-noframe.html">All Tags</a>
+                </li>
+            </ul>
+            <div>
+                <script type="text/javascript">
+								document.getElementById("alltags_navbar_top").style.display = (window == top) ? "block" : "none";
+							</script>
+            </div>
+            <a name="skip-navbar_top"></a>
+        </div>
+        <div class="header">
+            <h1 title="Library" class="title">tc</h1>
+            <h2 class="title">
+							Tag
+							button</h2>
+        </div>
+        <div class="contentContainer">
+            <div class="description">
+                <ul class="blockList">
+                    <li class="blockList">
+                        <dl>
+                            <dt>Description:</dt>
+                            <dd>
+                                <div class="block">Renders a button element.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIButton</p><p><b>RendererType: </b><ul><li>Button (default)</li></ul></p><p><b>Supported facets:</b></p><dl><dt><b>confirmation</b></dt><dd>Contains a UIOutput instance with the confirmation message.</dd></dl><p><b>Supported markups:</b></p><dl><dt><b>primary</b></dt><dd>Set button color to primary color of the theme.</dd><dt><b>secondary</b></dt><dd>Set button color to secondary color of the theme.</dd><dt><b>success</b></dt><dd>Set button color to success color of the theme.</dd><dt><b>danger</b></dt><dd>Set button color to danger color of the theme.</dd><dt><b>warning</b></dt><dd>Set button color to warning color of the theme.</dd><dt><b>info</b></dt><dd>Set button color to info color of the theme.</dd><dt><b>light</b></dt><dd>Set button color to light color of the theme.</dd><dt><b>dark</b></dt><dd>Set button color to dark color of the theme.</dd><dt><b>none</b></dt><dd>Colorless button.</dd><dt><b>badge</b></dt><dd>Display the button as a badge.</dd><dt><b>pill</b></dt><dd>Make badges more rounded if button is displayed as a badge.</dd></dl></div>
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+            <div class="summary">
+                <table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Component summary table, listing component information">
+                    <caption>
+                        <span>Component Information</span><span class="tabEnd">&nbsp;</span>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th class="colFirst" scope="col">Info</th><th class="colLast" scope="col">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="rowColor">
+                            <td class="colFirst">Component Type</td><td class="colLast"><code>org.apache.myfaces.tobago.Button</code></td>
+                        </tr>
+                        <tr class="altColor">
+                            <td class="colFirst">Handler Class</td><td class="colLast"><code>org.apache.myfaces.tobago.facelets.TobagoComponentHandler</code></td>
+                        </tr>
+                        <tr class="rowColor">
+                            <td class="colFirst">Renderer Type</td><td class="colLast"><code>Button</code></td>
+                        </tr>
+                        <tr class="altColor">
+                            <td class="colFirst">Description</td><td class="colLast"><i>None</i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="summary">
+                <table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Attribute summary table, listing attribute information">
+                    <caption>
+                        <span>Attributes</span><span class="tabEnd">&nbsp;</span>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th class="colFirst">Name</th><th class="colOne">Required</th><th class="colOne">Type</th><th class="colLast">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="accessKey" class="rowColor">
+                            <td class="colFirst"><a href="#accessKey"><code>accessKey</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Character</code>)
+					</td><td class="colLast">The access key of this control.<br />Type: <code>java.lang.Character</code></td>
+                        </tr>
+                        <tr id="action" class="altColor">
+                            <td class="colFirst"><a href="#action"><code>action</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>java.lang.String</code></td><td class="colLast">Action to invoke when clicked.
+ This must be a MethodExpression or a String representing the application action to invoke when
+ this component is activated by the user.
+ The {@link javax.el.MethodExpression} must evaluate to a public method that takes no parameters,
+ and returns a {@link String} (the logical outcome) which is passed to the
+ {@link javax.faces.application.NavigationHandler} for this application.
+ The string is directly passed to the navigation handler.</td>
+                        </tr>
+                        <tr id="actionListener" class="rowColor">
+                            <td class="colFirst"><a href="#actionListener"><code>actionListener</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>java.lang.String</code></td><td class="colLast">MethodExpression representing an action listener method that will be
+ notified when this component is activated by the user.
+ The expression must evaluate to a public method that takes an ActionEvent
+ parameter, with a return type of void.</td>
+                        </tr>
+                        <tr id="autoSpacing" class="altColor">
+                            <td class="colFirst"><a href="#autoSpacing"><code>autoSpacing</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+					</td><td class="colLast">Automatically add spacing (margins/paddings) to the component for better positioning.
+ Default is 'true' except the component is inside a:
+ - header
+ - footer
+ - bar
+ - sheet
+ - tree
+ - link group
+ - button group
+ - before facet
+ - after facet
+ - label facet
+ - bar facet<br />Type: <code>java.lang.Boolean</code></td>
+                        </tr>
+                        <tr id="binding" class="rowColor">
+                            <td class="colFirst"><a href="#binding"><code>binding</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>javax.faces.component.UIComponent</code>)
+					</td><td class="colLast">The value binding expression linking this component to a property in a backing bean.
+ For Facelets, the component is the outer UIPanel, not the input control.<br />Type: <code>javax.faces.component.UIComponent</code></td>
+                        </tr>
+                        <tr id="confirmation" class="altColor">
+                            <td class="colFirst"><a href="#confirmation"><code>confirmation</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.String</code>)
+					</td><td class="colLast">Text to use as confirmation message.<br />Type: <code>java.lang.String</code></td>
+                        </tr>
+                        <tr id="defaultCommand" class="rowColor">
+                            <td class="colFirst"><a href="#defaultCommand"><code>defaultCommand</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+					</td><td class="colLast">If true the command is executed as default -- for example if the
+ user presses the enter key inside a related input field.<br />Type: <code>boolean</code><br />Default: <code>false</code></td>
+                        </tr>
+                        <tr id="disabled" class="altColor">
+                            <td class="colFirst"><a href="#disabled"><code>disabled</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+					</td><td class="colLast">Flag indicating that this element is disabled. If configured so in the tobago-config.xml the action will be
+ checked for the annotations {@link javax.annotation.security.RolesAllowed},
+ {@link javax.annotation.security.PermitAll} or {@link javax.annotation.security.DenyAll}.<br />Type: <code>boolean</code></td>
+                        </tr>
+                        <tr id="fragment" class="rowColor">
+                            <td class="colFirst"><a href="#fragment"><code>fragment</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.String</code>)
+					</td><td class="colLast">The identifier of the page fragment which should
+ be brought into focus when the target page is
+ rendered. The value of this attribute is appended
+ to the end of target URL following a hash (#) mark.
+ This notation is part of the standard URL syntax.<br />Type: <code>java.lang.String</code></td>
+                        </tr>
+                        <tr id="id" class="altColor">
+                            <td class="colFirst"><a href="#id"><code>id</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>java.lang.String</code></td><td class="colLast">The component identifier for this component.
+ This value must be unique within the closest parent component that is a naming container.<br />Type: <code>java.lang.String</code></td>
+                        </tr>
+                        <tr id="image" class="rowColor">
+                            <td class="colFirst"><a href="#image"><code>image</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.String</code>)
+					</td><td class="colLast">Url to an image to display.<br />Type: <code>java.lang.String</code></td>
+                        </tr>
+                        <tr id="immediate" class="altColor">
+                            <td class="colFirst"><a href="#immediate"><code>immediate</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+					</td><td class="colLast">Flag indicating that, if this component is activated by the user,
+ notifications should be delivered to interested listeners and actions
+ immediately (that is, during Apply Request Values phase) rather than
+ waiting until Invoke Application phase.<br />Type: <code>boolean</code><br />Default: <code>false</code></td>
+                        </tr>
+                        <tr id="label" class="rowColor">
+                            <td class="colFirst"><a href="#label"><code>label</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.String</code>)
+					</td><td class="colLast">A localized user presentable label for this component.<br />Type: <code>java.lang.String</code></td>
+                        </tr>
+                        <tr id="link" class="altColor">
+                            <td class="colFirst"><a href="#link"><code>link</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.String</code>)
+					</td><td class="colLast"><p>
+ Link to an arbitrary URL, either an internal link or an external link. For internal URLs, a session id will be
+ added, if needed (when cookies disabled). The context path needs to be added manually e.g. #{request.contextPath}.
+ For JSF navigation to a viewId use the outcome attribute!
+ </p>
+
+ <p>
+ The semantic of this attributes has been changed from Tobago 3 to 4!
+ </p><br />Type: <code>java.lang.String</code></td>
+                        </tr>
+                        <tr id="markup" class="rowColor">
+                            <td class="colFirst"><a href="#markup"><code>markup</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>org.apache.myfaces.tobago.context.Markup</code>)
+					</td><td class="colLast">Indicate markup of this component.
+ The allowed markups can be defined or overridden in the theme.
+ The value 'none' should not be used any longer. Just leave the attribute empty, or use a NULL pointer.<br />Type: <code>org.apache.myfaces.tobago.context.Markup</code></td>
+                        </tr>
+                        <tr id="omit" class="altColor">
+                            <td class="colFirst"><a href="#omit"><code>omit</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+					</td><td class="colLast">Flag indicating that the action of this element, will not be executed from client side
+ (e. g. when the user clicks a button.
+ When setting this value to true, the action will not be executed by the Tobago, but it can executed
+ by JavaScript.
+ This attribute is useful, when you want to add JavaScript event handlers to commands manually.
+ In this case you usually don't want a submit with a full reload of the page.<br />Type: <code>boolean</code><br />Default: <code>false</code></td>
+                        </tr>
+                        <tr id="outcome" class="rowColor">
+                            <td class="colFirst"><a href="#outcome"><code>outcome</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.String</code>)
+					</td><td class="colLast">Link to an internal facelet page, like the outcome of an action.
+ The context path will be added.
+ A session id will be added, if needed.<br />Type: <code>java.lang.String</code></td>
+                        </tr>
+                        <tr id="rendered" class="altColor">
+                            <td class="colFirst"><a href="#rendered"><code>rendered</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+					</td><td class="colLast">Flag indicating whether or not this component should be rendered
+ (during Render Response Phase), or processed on any subsequent form submit.<br />Type: <code>boolean</code><br />Default: <code>true</code></td>
+                        </tr>
+                        <tr id="tabIndex" class="rowColor">
+                            <td class="colFirst"><a href="#tabIndex"><code>tabIndex</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Integer</code>)
+					</td><td class="colLast">Controls the navigation of the focus through the
+ input controls on a page with the Tab-Key.
+ The navigation starts from the element with
+ the lowest tabIndex value to the element with the highest value.
+ Elements that have identical tabIndex values should be navigated
+ in the order they appear in the character stream
+ Elements that are disabled or with a negative tabIndex
+ do not participate in the tabbing order.<br />Type: <code>java.lang.Integer</code></td>
+                        </tr>
+                        <tr id="target" class="altColor">
+                            <td class="colFirst"><a href="#target"><code>target</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.String</code>)
+					</td><td class="colLast">Name of a frame where the resource retrieved via this hyperlink is to be
+ displayed.<br />Type: <code>java.lang.String</code></td>
+                        </tr>
+                        <tr id="tip" class="rowColor">
+                            <td class="colFirst"><a href="#tip"><code>tip</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.String</code>)
+					</td><td class="colLast">Text value to display as tooltip.<br />Type: <code>java.lang.String</code></td>
+                        </tr>
+                        <tr id="transition" class="altColor">
+                            <td class="colFirst"><a href="#transition"><code>transition</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+					</td><td class="colLast">Specify, if the command calls an JSF-Action.
+ Useful to switch off the Double-Submit-Check and Waiting-Behavior.<br />Type: <code>boolean</code><br />Default: <code>true</code></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="bottomNav">
+            <a name="navbar_bottom"></a><a href="#skip-navbar_bottom" title="Skip navigation links"></a><a name="navbar_bottom_firstrow"></a>
+            <ul class="navList" title="Navigation">
+                <li>
+                    <a href="../overview-summary.html">Overview</a>
+                </li>
+                <li>
+                    <a href="tld-summary.html">Library</a>
+                </li>
+                <li class="navBarCell1Rev">Tag</li>
+                <li>
+                    <a href="../help-doc.html">Help</a>
+                </li>
+            </ul>
+        </div>
+        <div class="subNav">
+            <ul class="navList">
+                <li>
+                    <a target="_bottom" href="../index.html?tc/button.html">
+									Frames
+								</a>
+                </li>
+                <li>
+                    <a target="_bottom" href="button.html">
+									No Frames
+								</a>
+                </li>
+            </ul>
+            <ul class="navList" id="alltags_navbar_bottom">
+                <li>
+                    <a href="../alltags-noframe.html">All Tags</a>
+                </li>
+            </ul>
+            <script type="text/javascript">
+							document.getElementById("alltags_navbar_bottom").style.display = (window == top) ? "block" : "none";
+						</script><a name="skip-navbar_bottom"></a>
+        </div>
+        <p class="about">
+            Output generated by <a href="http://vdldoc.omnifaces.org" target="_blank">Vdldoc</a> View Declaration Language Documentation Generator.
+        </p>
+    </body>
+</html>

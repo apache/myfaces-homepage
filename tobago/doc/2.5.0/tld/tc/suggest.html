@@ -1,0 +1,233 @@
+<html xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>suggest
+          (Tobago Core Tag library documentation)
+        </title>
+        <meta name="keywords" content="$title">
+        <link rel="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+    </head>
+    <script>
+            function asd()
+            {
+            parent.document.title="suggest (Tobago Core Tag library documentation)";
+            }
+          </script>
+    <body bgcolor="white" onload="asd();">
+        <a name="navbar_top"></a>
+        <table border="0" width="100%" cellpadding="1" cellspacing="0">
+            <tr>
+                <td COLSPAN="3" BGCOLOR="#EEEEFF" CLASS="NavBarCell1"><a NAME="navbar_top_firstrow"></a>
+                    <table BORDER="0" CELLPADDING="0" CELLSPACING="3">
+                        <tr ALIGN="center" VALIGN="top">
+                            <td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="../overview-summary.html"><font CLASS="NavBarFont1"><b>Overview</b></font></a>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="tld-summary.html"><font CLASS="NavBarFont1"><b>Library</b></font></a>&nbsp;</td><td BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<font CLASS="NavBarFont1Rev">&nbsp;Tag&nbsp;</font>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a HREF="../help-doc.html"><font CLASS="NavBarFont1"><b>Help</b></font></a>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td><td ALIGN="right" VALIGN="top" ROWSPAN="3"><em></em></td>
+            </tr>
+            <tr>
+                <td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2"></font></td><td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2">
+                &nbsp;<a HREF="../index.html" TARGET="_top"><b>FRAMES</b></a>&nbsp;
+                &nbsp;<a href="suggest.html" target="_top"><b>NO FRAMES</b></a>&nbsp;
+                <script></script>
+                        <noscript>
+                            <a HREF="../alltags-noframe.html" TARGET=""><b>All Tags</b></a>
+                        </noscript>
+                    </font></td>
+            </tr>
+        </table>
+        <hr>
+        <h2>
+            <font size="-1">tc</font>
+            <br>
+                        Tag suggest
+        </h2>
+        <hr>
+        Renders a list of suggested texts for a given input field.
+ <p>
+ Basic features:
+ <ul>
+   <li>provide a list directly while rendering (not AJAX needed) [todo]</li>
+   <li>update by typing (AJAX)</li>
+   <li>minimum number of typed characters (to avoid useless requests)</li>
+   <li>update delay (useful for optimization)</li>
+   <li>filter on client side (useful for optimization) [todo]</li>
+ </ul><p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISuggest</p><p><b>RendererType: </b>Suggest</p>
+        <br>
+        <p></p>
+        <hr>
+        <table border="1" cellpadding="3" cellspacing="0" width="100%">
+            <tr bgcolor="#CCCCFF" class="TableHeadingColor">
+                <td colspan="2"><font size="+2"><b>Tag Information</b></font></td>
+            </tr>
+            <tr>
+                <td>Tag Class</td><td>org.apache.myfaces.tobago.internal.taglib.SuggestTag</td>
+            </tr>
+            <tr>
+                <td>TagExtraInfo Class</td><td><i>None</i></td>
+            </tr>
+            <tr>
+                <td>Body Content</td><td>JSP</td>
+            </tr>
+            <tr>
+                <td>Display Name</td><td><i>None</i></td>
+            </tr>
+        </table>
+        <br>
+        <p></p>
+        <table border="1" cellpadding="3" cellspacing="0" width="100%">
+            <tr bgcolor="#CCCCFF" class="TableHeadingColor">
+                <td colspan="5"><font size="+2"><b>Attributes</b></font></td>
+            </tr>
+            <tr>
+                <td><b>Name</b></td><td><b>Required</b></td><td><b>Request-time</b></td><td><b>Type</b></td><td><b>Description</b></td>
+            </tr>
+            <tr valign="top">
+                <td>binding</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>javax.faces.component.UIComponent</code>)
+                    </td><td>The value binding expression linking this component to a property in a backing bean.
+ <p/>
+ Warning: For the tobago extension library <b>tx</b> the binding differs from JSP and Facelets:
+ <ul>
+ <li>JSP: The component is the inner main control (e. g. UIInput).</li>
+ <li>Facelets: The component is the outer UIPanel.</li>
+ </ul><br />Type: <code>javax.faces.component.UIComponent</code></td>
+            </tr>
+            <tr valign="top">
+                <td>delay</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Integer</code>)
+                    </td><td>Time in milli seconds before the list will be requested (by AJAX).<br />Type: <code>java.lang.Integer</code><br />Default: <code>300</code></td>
+            </tr>
+            <tr valign="top">
+                <td>filter</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Object</code>)
+                    </td><td>TODO: not implemented yet
+ <p/>
+ Additional client side filtering of the result list.
+ This is useful when sending the full list initially to the client and
+ setting <code>update=false</code>.
+ <p/>
+ Possible values are:
+ <dl>
+   <dt>all</dt>
+   <dd>no filtering</dd>
+   <dt>prefix</dt>
+   <dd>checks if the suggested string starts with the typed text</dd>
+   <dt>contains</dt>
+   <dd>checks if the typed text is inside of the suggested string</dd>
+ </dl>
+ <p/>
+ The filter will only applied on the client side and
+ only if server updated (by AJAX) are turned off (<code>update=false</code>);<br />Type: <code>org.apache.myfaces.tobago.model.SuggestFilter</code><br />Default: <code>SuggestFilter.ALL</code><br />Allowed Values: <code>[all, prefix, contains]</code></td>
+            </tr>
+            <tr valign="top">
+                <td>id</td><td>false</td><td>true</td><td><code>java.lang.String</code></td><td>The component identifier for this component. This value must be unique within the closest parent component that is
+ a naming container.<br />Type: <code>java.lang.String</code></td>
+            </tr>
+            <tr valign="top">
+                <td>markup</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>org.apache.myfaces.tobago.context.Markup</code>)
+                    </td><td>Indicate markup of this component. The allowed markups can be defined or overridden in the theme. The value 'none'
+ should not be used any longer. Just leave the attribute empty, or use a NULL pointer.<br />Type: <code>org.apache.myfaces.tobago.context.Markup</code></td>
+            </tr>
+            <tr valign="top">
+                <td>maximumItems</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Integer</code>)
+                    </td><td>The maximum number of item to display in the drop down list.<br />Type: <code>java.lang.Integer</code><br />Default: <code>10</code></td>
+            </tr>
+            <tr valign="top">
+                <td>minimumCharacters</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Integer</code>)
+                    </td><td>Minimum number of characters to type before the list will be requested. If the value is 0, there will be send an
+ initial list to the client. So, if you set <pre>update="false"</pre> this value should be 0.<br />Type: <code>java.lang.Integer</code><br />Default: <code>1</code></td>
+            </tr>
+            <tr valign="top">
+                <td>rendered</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+                    </td><td>Flag indicating whether or not this component should be rendered (during Render Response Phase), or processed on
+ any subsequent form submit.<br />Type: <code>boolean</code><br />Default: <code>true</code></td>
+            </tr>
+            <tr valign="top">
+                <td>suggestMethod</td><td>false</td><td>false</td><td><code>javax.el.MethodExpression</code>
+                    <br>
+                    (<i>signature must match </i><code>java.lang.Object suggestMethod(javax.faces.component.UIInput)</code>)
+                    </td><td><p>**** @deprecated. Will be removed in a future version **** </p><p>MethodBinding which generates a list of suggested input values based on
+ the currently entered text, which could be retrieved via getSubmittedValue() on the UIIn.
+ The expression has to evaluate to a public method which has a javax.faces.component.UIInput parameter
+ and returns a List<String>, a List<org.apache.myfaces.tobago.model.AutoSuggestItem>
+ or a org.apache.myfaces.tobago.model.AutoSuggestItems.</p>MethodBinding which generates a list of suggested input values based on
+ the currently entered text, which could be retrieved via getSubmittedValue() on the UIIn.
+ The expression has to evaluate to a public method which has a javax.faces.component.UIInput parameter
+ and returns a List<String>, a List<org.apache.myfaces.tobago.model.AutoSuggestItem>
+ or a org.apache.myfaces.tobago.model.AutoSuggestItems.</td>
+            </tr>
+            <tr valign="top">
+                <td>totalCount</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Integer</code>)
+                    </td><td>The real size of the result list. Typically the result list will be cropped (in the backend) to save memory. This
+ value can be set, to show the user there are more results for the given string. If the value is -1, no hint will be
+ displayed.<br />Type: <code>java.lang.Integer</code><br />Default: <code>-1</code></td>
+            </tr>
+            <tr valign="top">
+                <td>update</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+                    </td><td>TODO: not implemented yet
+ <p>
+ Should the list be updated while typing (via AJAX). This is the default behaviour.
+ If you set this value to <code>false</code>, please set the <code>minimumCharacters="0"</code>.<br />Type: <code>boolean</code><br />Default: <code>true</code></td>
+            </tr>
+        </table>
+        <br>
+        <p></p>
+        <table border="1" cellpadding="3" cellspacing="0" width="100%">
+            <tr bgcolor="#CCCCFF" class="TableHeadingColor">
+                <td colspan="5"><font size="+2"><b>Variables</b></font></td>
+            </tr>
+            <td colspan="2"><i>No Variables Defined.</i></td>
+        </table>
+        <br>
+        <p></p>
+        <a name="navbar_bottom"></a>
+        <table border="0" width="100%" cellpadding="1" cellspacing="0">
+            <tr>
+                <td COLSPAN="3" BGCOLOR="#EEEEFF" CLASS="NavBarCell1"><a NAME="navbar_bottom_firstrow"></a>
+                    <table BORDER="0" CELLPADDING="0" CELLSPACING="3">
+                        <tr ALIGN="center" VALIGN="top">
+                            <td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="../overview-summary.html"><font CLASS="NavBarFont1"><b>Overview</b></font></a>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="tld-summary.html"><font CLASS="NavBarFont1"><b>Library</b></font></a>&nbsp;</td><td BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<font CLASS="NavBarFont1Rev">&nbsp;Tag&nbsp;</font>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a HREF="../help-doc.html"><font CLASS="NavBarFont1"><b>Help</b></font></a>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td><td ALIGN="right" VALIGN="top" ROWSPAN="3"><em></em></td>
+            </tr>
+            <tr>
+                <td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2"></font></td><td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2">
+                &nbsp;<a HREF="../index.html" TARGET="_top"><b>FRAMES</b></a>&nbsp;
+                &nbsp;<a href="suggest.html" target="_top"><b>NO FRAMES</b></a>&nbsp;
+                <script></script>
+                        <noscript>
+                            <a HREF="../alltags-noframe.html" TARGET=""><b>All Tags</b></a>
+                        </noscript>
+                    </font></td>
+            </tr>
+        </table>
+        <hr>
+        <small><i>
+            Output Generated by
+            <a href="http://taglibrarydoc.dev.java.net/" target="_blank">Tag Library Documentation Generator</a>.
+            Java, JSP, and JavaServer Pages are trademarks or
+            registered trademarks of Sun Microsystems, Inc. in the US and other
+            countries.  Copyright 2002-4 Sun Microsystems, Inc.
+            4150 Network Circle
+            Santa Clara, CA 95054, U.S.A.
+            All Rights Reserved.
+            </i></small>
+    </body>
+</html>

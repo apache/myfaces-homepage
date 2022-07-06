@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en" xmlns:vdldoc="http://vdldoc.omnifaces.org" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:jakartaee="https://jakarta.ee/xml/ns/jakartaee">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>convertDateTime (Tobago Core VDL Documentation)
+			</title>
+        <meta name="keywords" content="$title">
+        <link rel="stylesheet" type="text/css" title="Style" href="../stylesheet.css">
+    </head>
+    <body>
+        <noscript>
+            <div>JavaScript is disabled on your browser.</div>
+        </noscript>
+        <div class="topNav">
+            <a name="navbar_top"></a><a href="#skip-navbar_top" title="Skip navigation links"></a><a name="navbar_top_firstrow"></a>
+            <ul class="navList" title="Navigation">
+                <li>
+                    <a href="../overview-summary.html">Overview</a>
+                </li>
+                <li>
+                    <a href="tld-summary.html">Library</a>
+                </li>
+                <li class="navBarCell1Rev">Tag</li>
+                <li>
+                    <a href="../help-doc.html">Help</a>
+                </li>
+            </ul>
+        </div>
+        <div class="subNav">
+            <ul class="navList">
+                <li>
+                    <a target="_top" href="../index.html?tc/convertDateTime.html">
+									Frames
+								</a>
+                </li>
+                <li>
+                    <a target="_top" href="convertDateTime.html">
+									No Frames
+								</a>
+                </li>
+            </ul>
+            <ul class="navList" id="alltags_navbar_top">
+                <li>
+                    <a href="../alltags-noframe.html">All Tags</a>
+                </li>
+            </ul>
+            <div>
+                <script type="text/javascript">
+								document.getElementById("alltags_navbar_top").style.display = (window == top) ? "block" : "none";
+							</script>
+            </div>
+            <a name="skip-navbar_top"></a>
+        </div>
+        <div class="header">
+            <h1 title="Library" class="title">tc</h1>
+            <h2 class="title">
+							Tag
+							convertDateTime</h2>
+        </div>
+        <div class="contentContainer">
+            <div class="description">
+                <ul class="blockList">
+                    <li class="blockList">
+                        <dl>
+                            <dt>Description:</dt>
+                            <dd>
+                                <div class="block">Register a DateTimeConverter instance on the UIComponent associated with the closest parent UIComponent custom
+ action.</div>
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+            <div class="summary">
+                <table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Converter summary table, listing converter information">
+                    <caption>
+                        <span>Converter Information</span><span class="tabEnd">&nbsp;</span>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th class="colFirst" scope="col">Info</th><th class="colLast" scope="col">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="rowColor">
+                            <td class="colFirst">Converter ID</td><td class="colLast"><code>org.apache.myfaces.tobago.DateTime</code></td>
+                        </tr>
+                        <tr class="altColor">
+                            <td class="colFirst">Handler Class</td><td class="colLast"><code>org.apache.myfaces.tobago.facelets.ConvertDateTimeHandler</code></td>
+                        </tr>
+                        <tr class="rowColor">
+                            <td class="colFirst">Description</td><td class="colLast"><i>None</i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="summary">
+                <table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Attribute summary table, listing attribute information">
+                    <caption>
+                        <span>Attributes</span><span class="tabEnd">&nbsp;</span>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th class="colFirst">Name</th><th class="colOne">Required</th><th class="colOne">Type</th><th class="colLast">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="binding" class="rowColor">
+                            <td class="colFirst"><a href="#binding"><code>binding</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>org.apache.myfaces.tobago.convert.DateTimeConverter</code>)
+					</td><td class="colLast">A ValueExpression that evaluates to an instance of
+ {@link org.apache.myfaces.tobago.facelets.ConvertDateTimeHandler}.</td>
+                        </tr>
+                        <tr id="for" class="altColor">
+                            <td class="colFirst"><a href="#for"><code>for</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>java.lang.String</code></td><td class="colLast">Id of the component, this is related to.<br />Type: <code>java.lang.String</code></td>
+                        </tr>
+                        <tr id="locale" class="rowColor">
+                            <td class="colFirst"><a href="#locale"><code>locale</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Object</code>)
+					</td><td class="colLast">Locale whose predefined styles for dates and times are used during formatting or parsing. If not specified, the
+ Locale returned by FacesContext.getViewRoot().getLocale() will be used. Value must be either a VB expression that
+ evaluates to a java.util.Locale instance, or a String that is valid to pass as the first argument to the
+ constructor java.util.Locale(String language, String country). The empty string is passed as the second argument.</td>
+                        </tr>
+                        <tr id="pattern" class="altColor">
+                            <td class="colFirst"><a href="#pattern"><code>pattern</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.String</code>)
+					</td><td class="colLast">Custom formatting pattern which determines how the date/time string should be formatted and parsed.
+ Pattern chars 'G', 'W', 'F', 'K', 'z' and 'X' are not supported.</td>
+                        </tr>
+                        <tr id="timeZone" class="rowColor">
+                            <td class="colFirst"><a href="#timeZone"><code>timeZone</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Object</code>)
+					</td><td class="colLast">Time zone in which to interpret any time information in the date String. Value must be either a VB expression that
+ evaluates to a java.util.TimeZone instance, or a String that is a timezone ID as described in the javadocs for
+ java.util.TimeZone.getTimeZone().</td>
+                        </tr>
+                        <tr id="type" class="altColor">
+                            <td class="colFirst"><a href="#type"><code>type</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.String</code>)
+					</td><td class="colLast">Specifies what contents the string value will be formatted to include, or parsed expecting. Valid values are
+ "date", "time", "both", "calendar", "localDate", "localDateTime", "localTime", "offsetTime", "offsetDateTime", and
+ "zonedDateTime". The values starting with "local", "offset" and "zoned" correspond to Java SE 8 Date Time API
+ classes in package java.time with the name derived by upper casing the first letter. For example,
+ java.time.LocalDate for the value "localDate". Default value is "date".</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="bottomNav">
+            <a name="navbar_bottom"></a><a href="#skip-navbar_bottom" title="Skip navigation links"></a><a name="navbar_bottom_firstrow"></a>
+            <ul class="navList" title="Navigation">
+                <li>
+                    <a href="../overview-summary.html">Overview</a>
+                </li>
+                <li>
+                    <a href="tld-summary.html">Library</a>
+                </li>
+                <li class="navBarCell1Rev">Tag</li>
+                <li>
+                    <a href="../help-doc.html">Help</a>
+                </li>
+            </ul>
+        </div>
+        <div class="subNav">
+            <ul class="navList">
+                <li>
+                    <a target="_bottom" href="../index.html?tc/convertDateTime.html">
+									Frames
+								</a>
+                </li>
+                <li>
+                    <a target="_bottom" href="convertDateTime.html">
+									No Frames
+								</a>
+                </li>
+            </ul>
+            <ul class="navList" id="alltags_navbar_bottom">
+                <li>
+                    <a href="../alltags-noframe.html">All Tags</a>
+                </li>
+            </ul>
+            <script type="text/javascript">
+							document.getElementById("alltags_navbar_bottom").style.display = (window == top) ? "block" : "none";
+						</script><a name="skip-navbar_bottom"></a>
+        </div>
+        <p class="about">
+            Output generated by <a href="http://vdldoc.omnifaces.org" target="_blank">Vdldoc</a> View Declaration Language Documentation Generator.
+        </p>
+    </body>
+</html>

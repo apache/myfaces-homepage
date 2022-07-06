@@ -1,0 +1,314 @@
+<html xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>button
+          (Tobago Core Tag library documentation)
+        </title>
+        <meta name="keywords" content="$title">
+        <link rel="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+    </head>
+    <script>
+            function asd()
+            {
+            parent.document.title="button (Tobago Core Tag library documentation)";
+            }
+          </script>
+    <body bgcolor="white" onload="asd();">
+        <a name="navbar_top"></a>
+        <table border="0" width="100%" cellpadding="1" cellspacing="0">
+            <tr>
+                <td COLSPAN="3" BGCOLOR="#EEEEFF" CLASS="NavBarCell1"><a NAME="navbar_top_firstrow"></a>
+                    <table BORDER="0" CELLPADDING="0" CELLSPACING="3">
+                        <tr ALIGN="center" VALIGN="top">
+                            <td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="../overview-summary.html"><font CLASS="NavBarFont1"><b>Overview</b></font></a>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="tld-summary.html"><font CLASS="NavBarFont1"><b>Library</b></font></a>&nbsp;</td><td BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<font CLASS="NavBarFont1Rev">&nbsp;Tag&nbsp;</font>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a HREF="../help-doc.html"><font CLASS="NavBarFont1"><b>Help</b></font></a>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td><td ALIGN="right" VALIGN="top" ROWSPAN="3"><em></em></td>
+            </tr>
+            <tr>
+                <td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2"></font></td><td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2">
+                &nbsp;<a HREF="../index.html" TARGET="_top"><b>FRAMES</b></a>&nbsp;
+                &nbsp;<a href="button.html" target="_top"><b>NO FRAMES</b></a>&nbsp;
+                <script></script>
+                        <noscript>
+                            <a HREF="../alltags-noframe.html" TARGET=""><b>All Tags</b></a>
+                        </noscript>
+                    </font></td>
+            </tr>
+        </table>
+        <hr>
+        <h2>
+            <font size="-1">tc</font>
+            <br>
+                        Tag button
+        </h2>
+        <hr>
+        Renders a button element.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIButton</p><p><b>RendererType: </b>Button</p><p><b>Supported facets:</b></p><dl><dt><b>confirmation</b></dt><dd>Contains a UIOutput instance with the confirmation message.</dd><dt><b>popup</b></dt><dd>Contains a UIPopup instance.</dd></dl>
+        <br>
+        <p></p>
+        <hr>
+        <table border="1" cellpadding="3" cellspacing="0" width="100%">
+            <tr bgcolor="#CCCCFF" class="TableHeadingColor">
+                <td colspan="2"><font size="+2"><b>Tag Information</b></font></td>
+            </tr>
+            <tr>
+                <td>Tag Class</td><td>org.apache.myfaces.tobago.internal.taglib.ButtonTag</td>
+            </tr>
+            <tr>
+                <td>TagExtraInfo Class</td><td>org.apache.myfaces.tobago.internal.taglib.component.CommandTagExtraInfo</td>
+            </tr>
+            <tr>
+                <td>Body Content</td><td>JSP</td>
+            </tr>
+            <tr>
+                <td>Display Name</td><td><i>None</i></td>
+            </tr>
+        </table>
+        <br>
+        <p></p>
+        <table border="1" cellpadding="3" cellspacing="0" width="100%">
+            <tr bgcolor="#CCCCFF" class="TableHeadingColor">
+                <td colspan="5"><font size="+2"><b>Attributes</b></font></td>
+            </tr>
+            <tr>
+                <td><b>Name</b></td><td><b>Required</b></td><td><b>Request-time</b></td><td><b>Type</b></td><td><b>Description</b></td>
+            </tr>
+            <tr valign="top">
+                <td>accessKey</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Character</code>)
+                    </td><td>The access key of this control.<br />Type: <code>java.lang.Character</code></td>
+            </tr>
+            <tr valign="top">
+                <td>action</td><td>false</td><td>false</td><td><code>javax.el.MethodExpression</code>
+                    <br>
+                    (<i>signature must match </i><code>java.lang.Object action()</code>)
+                    </td><td>Action to invoke when clicked. This must be a MethodBinding or a String representing the application action to
+ invoke when this component is activated by the user. The MethodBinding must evaluate to a public method that takes
+ no parameters, and returns a String (the logical outcome) which is passed to the NavigationHandler for this
+ application. The string is directly passed to the navigation handler.</td>
+            </tr>
+            <tr valign="top">
+                <td>actionListener</td><td>false</td><td>false</td><td><code>javax.el.MethodExpression</code>
+                    <br>
+                    (<i>signature must match </i><code>void actionListener(javax.faces.event.ActionEvent)</code>)
+                    </td><td>MethodBinding representing an action listener method that will be notified when this component is activated by the
+ user. The expression must evaluate to a public method that takes an ActionEvent parameter, with a return type of
+ void.</td>
+            </tr>
+            <tr valign="top">
+                <td>binding</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>javax.faces.component.UIComponent</code>)
+                    </td><td>The value binding expression linking this component to a property in a backing bean.
+ <p/>
+ Warning: For the tobago extension library <b>tx</b> the binding differs from JSP and Facelets:
+ <ul>
+ <li>JSP: The component is the inner main control (e. g. UIInput).</li>
+ <li>Facelets: The component is the outer UIPanel.</li>
+ </ul><br />Type: <code>javax.faces.component.UIComponent</code></td>
+            </tr>
+            <tr valign="top">
+                <td>defaultCommand</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+                    </td><td>If true the command is executed as default -- for example if the user presses the enter key inside a related input
+ field.<br />Type: <code>boolean</code><br />Default: <code>false</code></td>
+            </tr>
+            <tr valign="top">
+                <td>disabled</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+                    </td><td>Flag indicating that this element is disabled.<br />Type: <code>boolean</code><br />Default: <code>false</code></td>
+            </tr>
+            <tr valign="top">
+                <td>id</td><td>false</td><td>true</td><td><code>java.lang.String</code></td><td>The component identifier for this component. This value must be unique within the closest parent component that is
+ a naming container.<br />Type: <code>java.lang.String</code></td>
+            </tr>
+            <tr valign="top">
+                <td>image</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.String</code>)
+                    </td><td>Url to an image to display.<br />Type: <code>java.lang.String</code></td>
+            </tr>
+            <tr valign="top">
+                <td>immediate</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+                    </td><td>Flag indicating that, if this component is activated by the user, notifications should be delivered to interested
+ listeners and actions immediately (that is, during Apply Request Values phase) rather than waiting until Invoke
+ Application phase.<br />Type: <code>boolean</code><br />Default: <code>false</code></td>
+            </tr>
+            <tr valign="top">
+                <td>jsfResource</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+                    </td><td>Flag indicating that the resource referenced by the resource attribute is a jsf resource. That means that the url
+ has to be processed to change the prefix or suffix (e. g. *.jsf or /faces/*). Default is false.<br />Type: <code>boolean</code><br />Default: <code>false</code></td>
+            </tr>
+            <tr valign="top">
+                <td>label</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.String</code>)
+                    </td><td>Text value to display as label. If text contains an underscore the next character is used as accesskey (if
+ configured so and possible).<br />Type: <code>java.lang.String</code></td>
+            </tr>
+            <tr valign="top">
+                <td>link</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.String</code>)
+                    </td><td>Link to an arbitrary URL, either an internal link or an external link.
+
+ <dl>
+   <dt>internal absolute link</dt>
+   <dd>Starts with a slash '/' character. The context path will be added.
+       A session id will be added, if needed.</dd>
+   <dt>external link</dt>
+   <dd>Starts with protocol followed by a colon ':' character.
+       The link will not be modified.</dd>
+   <dt>internal relative link</dt>
+   <dd>Any other strings. A session id will be added, if needed.</dd>
+ </dl><br />Type: <code>java.lang.String</code></td>
+            </tr>
+            <tr valign="top">
+                <td>markup</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>org.apache.myfaces.tobago.context.Markup</code>)
+                    </td><td>Indicate markup of this component. The allowed markups can be defined or overridden in the theme. The value 'none'
+ should not be used any longer. Just leave the attribute empty, or use a NULL pointer.<br />Type: <code>org.apache.myfaces.tobago.context.Markup</code></td>
+            </tr>
+            <tr valign="top">
+                <td>omit</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+                    </td><td>Flag indicating that the action of this element, will not be executed from client side (e. g. when the user clicks
+ a button. When setting this value to true, the action will not be executed by the Tobago, but it can executed by
+ JavaScript. This attribute is useful, when you want to add JavaScript event handlers to commands manually. In this
+ case you usually don't want a submit with a full reload of the page.<br />Type: <code>boolean</code><br />Default: <code>false</code></td>
+            </tr>
+            <tr valign="top">
+                <td>onclick</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.String</code>)
+                    </td><td>Script to be invoked when clicked<br />Type: <code>java.lang.String</code></td>
+            </tr>
+            <tr valign="top">
+                <td>rendered</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+                    </td><td>Flag indicating whether or not this component should be rendered (during Render Response Phase), or processed on
+ any subsequent form submit.<br />Type: <code>boolean</code><br />Default: <code>true</code></td>
+            </tr>
+            <tr valign="top">
+                <td>renderedPartially</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.String[]</code>)
+                    </td><td><p>
+ Indicate the partially rendered components in a case of a submit.
+ </p>
+ <p>
+ The search depends on the number of prefixed colons in the relativeId:
+ <dl>
+   <dd>number of prefixed colons == 0</dd>
+   <dt>fully relative</dt>
+   <dd>number of prefixed colons == 1</dd>
+   <dt>absolute (still normal findComponent syntax)</dt>
+   <dd>number of prefixed colons == 2</dd>
+   <dt>search in the current naming container (same as 0 colons)</dt>
+   <dd>number of prefixed colons == 3</dd>
+   <dt>search in the parent naming container of the current naming container</dt>
+   <dd>number of prefixed colons > 3</dd>
+   <dt>go to the next parent naming container for each additional colon</dt>
+ </dl>
+ </p>
+ <p>
+ If a literal is specified: to use more than one identifier the identifiers must be space delimited.
+ </p>
+ <p>
+ Using this in a UISheet or UITabGroup component this list indicates components to update when calling
+ internal AJAX requests like sort or paging commands.
+ Don't forget to add the sheet-id or tagGroup-id in that case, if needed.
+ </p>
+ <p>
+ You can also use<br />Type: <code>java.lang.String[]</code></td>
+            </tr>
+            <tr valign="top">
+                <td>resource</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.String</code>)
+                    </td><td>Link to an internal resource. Resources will be processed by the resource management. E. g. define help.html and it
+ will be served help_es.html or help_de.html if available. For JSF-Pages you have to set the jsfResource attribute.<br />Type: <code>java.lang.String</code></td>
+            </tr>
+            <tr valign="top">
+                <td>tabIndex</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Integer</code>)
+                    </td><td>Controls the navigation of the focus through the input controls on a page with the Tab-Key. The navigation starts
+ from the element with the lowest tabIndex value to the element with the highest value. Elements that have identical
+ tabIndex values should be navigated in the order they appear in the character stream Elements that are disabled or
+ with a negative tabIndex do not participate in the tabbing order.<br />Type: <code>java.lang.Integer</code></td>
+            </tr>
+            <tr valign="top">
+                <td>target</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.String</code>)
+                    </td><td>Name of a frame where the resource retrieved via this hyperlink is to be displayed.<br />Type: <code>java.lang.String</code></td>
+            </tr>
+            <tr valign="top">
+                <td>tip</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.String</code>)
+                    </td><td>Text value to display as tooltip.<br />Type: <code>java.lang.String</code></td>
+            </tr>
+            <tr valign="top">
+                <td>transition</td><td>false</td><td>false</td><td><code>javax.el.ValueExpression</code>
+                    <br>
+                    (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+                    </td><td>Specify, if the command calls an JSF-Action. Useful to switch off the Double-Submit-Check and Waiting-Behavior.<br />Type: <code>boolean</code><br />Default: <code>true</code></td>
+            </tr>
+        </table>
+        <br>
+        <p></p>
+        <table border="1" cellpadding="3" cellspacing="0" width="100%">
+            <tr bgcolor="#CCCCFF" class="TableHeadingColor">
+                <td colspan="5"><font size="+2"><b>Variables</b></font></td>
+            </tr>
+            <td colspan="2"><i>No Variables Defined.</i></td>
+        </table>
+        <br>
+        <p></p>
+        <a name="navbar_bottom"></a>
+        <table border="0" width="100%" cellpadding="1" cellspacing="0">
+            <tr>
+                <td COLSPAN="3" BGCOLOR="#EEEEFF" CLASS="NavBarCell1"><a NAME="navbar_bottom_firstrow"></a>
+                    <table BORDER="0" CELLPADDING="0" CELLSPACING="3">
+                        <tr ALIGN="center" VALIGN="top">
+                            <td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="../overview-summary.html"><font CLASS="NavBarFont1"><b>Overview</b></font></a>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="tld-summary.html"><font CLASS="NavBarFont1"><b>Library</b></font></a>&nbsp;</td><td BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<font CLASS="NavBarFont1Rev">&nbsp;Tag&nbsp;</font>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a HREF="../help-doc.html"><font CLASS="NavBarFont1"><b>Help</b></font></a>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td><td ALIGN="right" VALIGN="top" ROWSPAN="3"><em></em></td>
+            </tr>
+            <tr>
+                <td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2"></font></td><td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2">
+                &nbsp;<a HREF="../index.html" TARGET="_top"><b>FRAMES</b></a>&nbsp;
+                &nbsp;<a href="button.html" target="_top"><b>NO FRAMES</b></a>&nbsp;
+                <script></script>
+                        <noscript>
+                            <a HREF="../alltags-noframe.html" TARGET=""><b>All Tags</b></a>
+                        </noscript>
+                    </font></td>
+            </tr>
+        </table>
+        <hr>
+        <small><i>
+            Output Generated by
+            <a href="http://taglibrarydoc.dev.java.net/" target="_blank">Tag Library Documentation Generator</a>.
+            Java, JSP, and JavaServer Pages are trademarks or
+            registered trademarks of Sun Microsystems, Inc. in the US and other
+            countries.  Copyright 2002-4 Sun Microsystems, Inc.
+            4150 Network Circle
+            Santa Clara, CA 95054, U.S.A.
+            All Rights Reserved.
+            </i></small>
+    </body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en" xmlns:vdldoc="http://vdldoc.omnifaces.org" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:jakartaee="https://jakarta.ee/xml/ns/jakartaee">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>suggest (Tobago Core VDL Documentation)
+			</title>
+        <meta name="keywords" content="$title">
+        <link rel="stylesheet" type="text/css" title="Style" href="../stylesheet.css">
+    </head>
+    <body>
+        <noscript>
+            <div>JavaScript is disabled on your browser.</div>
+        </noscript>
+        <div class="topNav">
+            <a name="navbar_top"></a><a href="#skip-navbar_top" title="Skip navigation links"></a><a name="navbar_top_firstrow"></a>
+            <ul class="navList" title="Navigation">
+                <li>
+                    <a href="../overview-summary.html">Overview</a>
+                </li>
+                <li>
+                    <a href="tld-summary.html">Library</a>
+                </li>
+                <li class="navBarCell1Rev">Tag</li>
+                <li>
+                    <a href="../help-doc.html">Help</a>
+                </li>
+            </ul>
+        </div>
+        <div class="subNav">
+            <ul class="navList">
+                <li>
+                    <a target="_top" href="../index.html?tc/suggest.html">
+									Frames
+								</a>
+                </li>
+                <li>
+                    <a target="_top" href="suggest.html">
+									No Frames
+								</a>
+                </li>
+            </ul>
+            <ul class="navList" id="alltags_navbar_top">
+                <li>
+                    <a href="../alltags-noframe.html">All Tags</a>
+                </li>
+            </ul>
+            <div>
+                <script type="text/javascript">
+								document.getElementById("alltags_navbar_top").style.display = (window == top) ? "block" : "none";
+							</script>
+            </div>
+            <a name="skip-navbar_top"></a>
+        </div>
+        <div class="header">
+            <h1 title="Library" class="title">tc</h1>
+            <h2 class="title">
+							Tag
+							suggest</h2>
+        </div>
+        <div class="contentContainer">
+            <div class="description">
+                <ul class="blockList">
+                    <li class="blockList">
+                        <dl>
+                            <dt>Description:</dt>
+                            <dd>
+                                <div class="block">Renders a list of suggested texts for a given input field.
+
+ Basic features:
+ <ul>
+   <li>provide a list directly while rendering (not AJAX needed) [todo]</li>
+   <li>update by typing (AJAX)</li>
+   <li>minimum number of typed characters (to avoid useless requests)</li>
+   <li>update delay (useful for optimization)</li>
+   <li>filter on client side (useful for optimization) [todo]</li>
+ </ul><p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISuggest</p><p><b>RendererType: </b><ul><li>Suggest (default)</li></ul></p></div>
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+            <div class="summary">
+                <table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Component summary table, listing component information">
+                    <caption>
+                        <span>Component Information</span><span class="tabEnd">&nbsp;</span>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th class="colFirst" scope="col">Info</th><th class="colLast" scope="col">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="rowColor">
+                            <td class="colFirst">Component Type</td><td class="colLast"><code>org.apache.myfaces.tobago.Suggest</code></td>
+                        </tr>
+                        <tr class="altColor">
+                            <td class="colFirst">Handler Class</td><td class="colLast"><code>org.apache.myfaces.tobago.facelets.TobagoComponentHandler</code></td>
+                        </tr>
+                        <tr class="rowColor">
+                            <td class="colFirst">Renderer Type</td><td class="colLast"><code>Suggest</code></td>
+                        </tr>
+                        <tr class="altColor">
+                            <td class="colFirst">Description</td><td class="colLast"><i>None</i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="summary">
+                <table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Attribute summary table, listing attribute information">
+                    <caption>
+                        <span>Attributes</span><span class="tabEnd">&nbsp;</span>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th class="colFirst">Name</th><th class="colOne">Required</th><th class="colOne">Type</th><th class="colLast">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="binding" class="rowColor">
+                            <td class="colFirst"><a href="#binding"><code>binding</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>javax.faces.component.UIComponent</code>)
+					</td><td class="colLast">The value binding expression linking this component to a property in a backing bean.
+ For Facelets, the component is the outer UIPanel, not the input control.<br />Type: <code>javax.faces.component.UIComponent</code></td>
+                        </tr>
+                        <tr id="delay" class="altColor">
+                            <td class="colFirst"><a href="#delay"><code>delay</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Integer</code>)
+					</td><td class="colLast">Time in milli seconds before the list will be requested (by AJAX).<br />Type: <code>java.lang.Integer</code><br />Default: <code>200</code></td>
+                        </tr>
+                        <tr id="filter" class="rowColor">
+                            <td class="colFirst"><a href="#filter"><code>filter</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>org.apache.myfaces.tobago.model.SuggestFilter</code>)
+					</td><td class="colLast"><p>
+ Additional client side filtering of the result list.
+ This is useful when sending the full list initially to the client and
+ setting <code>update=false</code>.
+ </p>
+ <p>
+ Possible values are:
+ </p>
+ <dl>
+   <dt>all</dt>
+   <dd>no filtering</dd>
+   <dt>prefix</dt>
+   <dd>checks if the suggested string starts with the typed text</dd>
+   <dt>contains</dt>
+   <dd>checks if the typed text is inside of the suggested string</dd>
+ </dl>
+ <p>
+ The filter will only applied on the client side and
+ only if server updated (by AJAX) are turned off (<code>update=false</code>);
+ </p><br />Type: <code>org.apache.myfaces.tobago.model.SuggestFilter</code><br />Default: <code>contains</code><br />Allowed Values: <code>[all, prefix, contains]</code></td>
+                        </tr>
+                        <tr id="id" class="altColor">
+                            <td class="colFirst"><a href="#id"><code>id</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>java.lang.String</code></td><td class="colLast">The component identifier for this component.
+ This value must be unique within the closest parent component that is a naming container.<br />Type: <code>java.lang.String</code></td>
+                        </tr>
+                        <tr id="localMenu" class="rowColor">
+                            <td class="colFirst"><a href="#localMenu"><code>localMenu</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+					</td><td class="colLast"><p>
+ If a suggest menu is available, it will be rendered on the component, not in the '.tobago-page-menuStore'.
+ </p><br />Type: <code>boolean</code><br />Default: <code>false</code></td>
+                        </tr>
+                        <tr id="maximumItems" class="altColor">
+                            <td class="colFirst"><a href="#maximumItems"><code>maximumItems</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Integer</code>)
+					</td><td class="colLast">The maximum number of item to display in the drop down list.<br />Type: <code>java.lang.Integer</code><br />Default: <code>10</code></td>
+                        </tr>
+                        <tr id="minimumCharacters" class="rowColor">
+                            <td class="colFirst"><a href="#minimumCharacters"><code>minimumCharacters</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Integer</code>)
+					</td><td class="colLast">Minimum number of characters to type before the list will be requested.
+ If the value is 0, there will be send an initial list to the client.
+ So, if you set <pre>update="false"</pre> this value should be 0.<br />Type: <code>java.lang.Integer</code><br />Default: <code>1</code></td>
+                        </tr>
+                        <tr id="query" class="altColor">
+                            <td class="colFirst"><a href="#query"><code>query</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.String</code>)
+					</td><td class="colLast">The query is the string typed by the user.<br />Type: <code>java.lang.String</code></td>
+                        </tr>
+                        <tr id="rendered" class="rowColor">
+                            <td class="colFirst"><a href="#rendered"><code>rendered</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+					</td><td class="colLast">Flag indicating whether or not this component should be rendered
+ (during Render Response Phase), or processed on any subsequent form submit.<br />Type: <code>boolean</code><br />Default: <code>true</code></td>
+                        </tr>
+                        <tr id="totalCount" class="altColor">
+                            <td class="colFirst"><a href="#totalCount"><code>totalCount</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Integer</code>)
+					</td><td class="colLast">The real size of the result list.
+ Typically the result list will be cropped (in the backend) to save memory.
+ This value can be set, to show the user there are more results for the given string.
+ If the value is -1, no hint will be displayed.<br />Type: <code>java.lang.Integer</code><br />Default: <code>-1</code></td>
+                        </tr>
+                        <tr id="update" class="rowColor">
+                            <td class="colFirst"><a href="#update"><code>update</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+					</td><td class="colLast"><p>
+ Should the list be updated while typing (via AJAX). This is the default behavior.
+ </p><br />Type: <code>boolean</code><br />Default: <code>true</code></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="bottomNav">
+            <a name="navbar_bottom"></a><a href="#skip-navbar_bottom" title="Skip navigation links"></a><a name="navbar_bottom_firstrow"></a>
+            <ul class="navList" title="Navigation">
+                <li>
+                    <a href="../overview-summary.html">Overview</a>
+                </li>
+                <li>
+                    <a href="tld-summary.html">Library</a>
+                </li>
+                <li class="navBarCell1Rev">Tag</li>
+                <li>
+                    <a href="../help-doc.html">Help</a>
+                </li>
+            </ul>
+        </div>
+        <div class="subNav">
+            <ul class="navList">
+                <li>
+                    <a target="_bottom" href="../index.html?tc/suggest.html">
+									Frames
+								</a>
+                </li>
+                <li>
+                    <a target="_bottom" href="suggest.html">
+									No Frames
+								</a>
+                </li>
+            </ul>
+            <ul class="navList" id="alltags_navbar_bottom">
+                <li>
+                    <a href="../alltags-noframe.html">All Tags</a>
+                </li>
+            </ul>
+            <script type="text/javascript">
+							document.getElementById("alltags_navbar_bottom").style.display = (window == top) ? "block" : "none";
+						</script><a name="skip-navbar_bottom"></a>
+        </div>
+        <p class="about">
+            Output generated by <a href="http://vdldoc.omnifaces.org" target="_blank">Vdldoc</a> View Declaration Language Documentation Generator.
+        </p>
+    </body>
+</html>

@@ -1,0 +1,299 @@
+<html xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>tx
+          (Tobago Core Tag library documentation)
+        </title>
+        <link rel="stylesheet" type="text/css" href="../stylesheet.css" title="styie">
+    </head>
+    <script>
+            function asd()
+            {
+            parent.document.title="tx (Tobago Core Tag library documentation)";
+            }
+          </script>
+    <body bgcolor="white" onload="asd();">
+        <a name="navbar_top"></a>
+        <table border="0" width="100%" cellpadding="1" cellspacing="0">
+            <tr>
+                <td COLSPAN="3" BGCOLOR="#EEEEFF" CLASS="NavBarCell1"><a NAME="navbar_top_firstrow"></a>
+                    <table BORDER="0" CELLPADDING="0" CELLSPACING="3">
+                        <tr ALIGN="center" VALIGN="top">
+                            <td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="../overview-summary.html"><font CLASS="NavBarFont1"><b>Overview</b></font></a>&nbsp;</td><td BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev">    &nbsp;<font CLASS="NavBarFont1Rev">&nbsp;Library&nbsp;</font>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1"><font CLASS="NavBarFont1">&nbsp;Tag&nbsp;</font></td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a HREF="../help-doc.html"><font CLASS="NavBarFont1"><b>Help</b></font></a>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td><td ALIGN="right" VALIGN="top" ROWSPAN="3"><em></em></td>
+            </tr>
+            <tr>
+                <td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2"></font></td><td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2">
+                &nbsp;<a HREF="../index.html" TARGET="_top"><b>FRAMES</b></a>&nbsp;
+                &nbsp;<a HREF="tld-summary.html" TARGET="_top"><b>NO FRAMES</b></a>&nbsp;
+                <script></script>
+                        <noscript>
+                            <a HREF="../alltags-noframe.html" TARGET=""><b>All Tags</b></a>
+                        </noscript>
+                    </font></td>
+            </tr>
+        </table>
+        <hr>
+        <h2>tx</h2>
+        <hr>
+        <b>Standard Syntax:</b>
+        <br>
+        <code>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                
+                    &lt;%@ taglib prefix="tx" uri="http://myfaces.apache.org/tobago/extension" %&gt;
+            <br>
+        </code>
+        <br>
+        <b>XML Syntax:</b>
+        <br>
+        <code>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                
+                    &lt;anyxmlelement xmlns:tx="http://myfaces.apache.org/tobago/extension" /&gt;
+            <br>
+        </code>
+        <hr>
+                        No Description
+              
+        <p></p>
+        <table border="1" cellpadding="3" cellspacing="0" width="100%">
+            <tr bgcolor="#CCCCFF" class="TableHeadingColor">
+                <td colspan="2"><font size="+2"><b>Tag Library Information</b></font></td>
+            </tr>
+            <tr>
+                <td>Display Name</td><td><i>None</i></td>
+            </tr>
+            <tr>
+                <td>Version</td><td>1.2</td>
+            </tr>
+            <tr>
+                <td>Short Name</td><td>tx</td>
+            </tr>
+            <tr>
+                <td>URI</td><td>http://myfaces.apache.org/tobago/extension</td>
+            </tr>
+        </table>
+                    &nbsp;
+            
+        <p></p>
+        <table border="1" cellpadding="3" cellspacing="0" width="100%">
+            <tr bgcolor="#CCCCFF" class="TableHeadingColor">
+                <td colspan="2"><font size="+2"><b>Tag Summary</b></font></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="date.html">date</a></b></td><td>Renders a date input field with a date picker and a label. <br /> Short syntax of:
+ <p/>
+ <pre>
+ &lt;tc:panel>
+   &lt;f:facet name="layout">
+     &lt;tc:gridLayout columns="auto;*"/>
+   &lt;/f:facet>
+   &lt;tc:label value="#{label}" for="@auto"/>
+   &lt;tc:date value="#{value}">
+     ...
+   &lt;/tc:in>
+ &lt;/tc:panel>
+ </pre><p><b>Extended tag: </b>org.apache.myfaces.tobago.internal.taglib.DateTag</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="file.html">file</a></b></td><td>Renders a file input field with a label.
+ <p/>
+ Short syntax of:
+ <p/>
+ <pre>
+ &lt;tc:panel>
+   &lt;f:facet name="layout">
+     &lt;tc:gridLayout columns="auto;*"/>
+   &lt;/f:facet>
+   &lt;tc:label value="#{label}" for="@auto"/>
+   &lt;tc:file value="#{value}">
+     ...
+   &lt;/tc:in>
+ &lt;/tc:panel>
+ </pre><p><b>Extended tag: </b>org.apache.myfaces.tobago.internal.taglib.FileTag</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="in.html">in</a></b></td><td>Renders a text input field with a label. <br /> Short syntax of:
+ <p/>
+ <pre>
+ &lt;tc:panel>
+   &lt;f:facet name="layout">
+     &lt;tc:gridLayout columns="auto;*"/>
+   &lt;/f:facet>
+   &lt;tc:label value="#{label}" for="@auto"/>
+   &lt;tc:in value="#{value}">
+     ...
+   &lt;/tc:in>
+ &lt;/tc:panel>
+ </pre><p><b>Extended tag: </b>org.apache.myfaces.tobago.internal.taglib.InTag</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="label.html">label</a></b></td><td>Renders a label to any component. <br /> Short syntax of: <br />
+ <pre>
+ &lt;tc:panel>
+   &lt;f:facet name="layout">
+     &lt;tc:gridLayout columns="auto;*"/>
+   &lt;/f:facet>
+   &lt;tc:label value="#{label}" for="@auto"/>
+     ...
+ &lt;/tc:panel>
+ </pre>
+ This is the universal version of the special versions: &lt;tx:in>, etc. In other words:
+ <pre>
+ &lt;tx:label>
+   &lt;tc:in/>
+ &lt;/tx:label>
+ </pre>
+ does the same like
+ <pre>
+   &lt;tx:in/>
+ </pre><p><b>Extended tag: </b>org.apache.myfaces.tobago.internal.taglib.LabelTag</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="menuCheckbox.html">menuCheckbox</a></b></td><td>Renders a menu item like a check box.
+ <pre>
+ &lt;tx:menuCheckbox/></pre>
+ is the short form of
+ <pre>
+ &lt;tc:menuCommand>
+   &lt;f:facet name="checkbox">
+     &lt;tc:selectBooleanCheckbox/>
+   &lt;/f:facet>
+ &lt;/tc:menuCommand></pre><p><b>Extended tag: </b>org.apache.myfaces.tobago.internal.taglib.component.MenuCheckboxTag</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="menuRadio.html">menuRadio</a></b></td><td>Renders menu items like radio buttons (select one).
+ <pre>
+ &lt;tx:menuRadio>
+   &lt;tc:selectItems/> &lt;!-- body -->
+ &lt;/tx:menuRadio></pre>
+ is the short form of
+ <pre>
+ &lt;tc:menuCommand>
+   &lt;f:facet name="radio">
+     &lt;tc:selectOneRadio>
+       &lt;tc:selectItems/> &lt;!-- body -->
+     &lt;/tc:selectOneRadio>
+   &lt;/f:facet>
+ &lt;/tc:menuCommand></pre><p><b>Extended tag: </b>org.apache.myfaces.tobago.internal.taglib.MenuRadioTag</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="out.html">out</a></b></td><td>Renders a text output field with a label. <br /> Short syntax of:
+ <p/>
+ <pre>
+ &lt;tc:panel>
+   &lt;f:facet name="layout">
+     &lt;tc:gridLayout columns="auto;*"/>
+   &lt;/f:facet>
+   &lt;tc:label value="#{label}" for="@auto"/>
+   &lt;tc:out value="#{value}">
+     ...
+   &lt;/tc:out>
+ &lt;/tc:panel>
+ </pre><p><b>Extended tag: </b>org.apache.myfaces.tobago.internal.taglib.OutTag</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="selectBooleanCheckbox.html">selectBooleanCheckbox</a></b></td><td>Renders a checkbox.<p><b>Extended tag: </b>org.apache.myfaces.tobago.internal.taglib.SelectBooleanCheckboxTag</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="selectManyBox.html">selectManyBox</a></b></td><td>Renders a multi selection option listbox with a label.<p><b>Extended tag: </b>org.apache.myfaces.tobago.internal.taglib.SelectManyBoxTag</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="selectManyCheckbox.html">selectManyCheckbox</a></b></td><td>Render a group of checkboxes.<p><b>Extended tag: </b>org.apache.myfaces.tobago.internal.taglib.SelectManyCheckboxTag</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="selectManyListbox.html">selectManyListbox</a></b></td><td>Renders a multi selection option listbox with a label.<p><b>Extended tag: </b>org.apache.myfaces.tobago.internal.taglib.SelectManyListboxTag</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="selectManyShuttle.html">selectManyShuttle</a></b></td><td>Renders a multi selection option shuttle with a label.<p><b>Extended tag: </b>org.apache.myfaces.tobago.internal.taglib.SelectManyShuttleTag</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="selectOneChoice.html">selectOneChoice</a></b></td><td>Render a single selection dropdown list with a label.<p><b>Extended tag: </b>org.apache.myfaces.tobago.internal.taglib.SelectOneChoiceTag</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="selectOneListbox.html">selectOneListbox</a></b></td><td>Render a single selection option listbox.<p><b>Extended tag: </b>org.apache.myfaces.tobago.internal.taglib.SelectOneListboxTag</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="selectOneRadio.html">selectOneRadio</a></b></td><td>Render a set of radio buttons.<p><b>Extended tag: </b>org.apache.myfaces.tobago.internal.taglib.SelectOneRadioTag</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="separator.html">separator</a></b></td><td>Renders a separator. <br /> Short syntax of:
+ <p/>
+ <pre>
+ &lt;tc:separator>
+   &lt;f:facet name="label">
+     &lt;tc:label value="label"/>
+   &lt;/f:facet>
+ &lt;/tc:separator>
+ </pre><p><b>Extended tag: </b>org.apache.myfaces.tobago.internal.taglib.component.SeparatorTag</p><p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISeparator</p><p><b>RendererType: </b>Separator</p><p><b>Supported facets:</b></p><dl><dt><b>label</b></dt><dd>This facet contains a UILabel</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="textarea.html">textarea</a></b></td><td>Renders a multi line text input control with a label. <br /> Short syntax of:
+ <p/>
+ <pre>
+ &lt;tc:panel>
+   &lt;f:facet name="layout">
+     &lt;tc:gridLayout columns="auto;*"/>
+   &lt;/f:facet>
+   &lt;tc:label value="#{label}" for="@auto"/>
+   &lt;tc:textarea value="#{value}">
+     ...
+   &lt;/tc:in>
+ &lt;/tc:panel>
+ </pre><p><b>Extended tag: </b>org.apache.myfaces.tobago.internal.taglib.TextareaTag</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="time.html">time</a></b></td><td>Renders a time input field with a label. <br /> Short syntax of:
+ <p/>
+ <pre>
+ &lt;tc:panel>
+   &lt;f:facet name="layout">
+     &lt;tc:gridLayout columns="auto;*"/>
+   &lt;/f:facet>
+   &lt;tc:label value="#{label}" for="@auto"/>
+   &lt;tc:time value="#{value}">
+     ...
+   &lt;/tc:in>
+ &lt;/tc:panel>
+ </pre><p><b>Extended tag: </b>org.apache.myfaces.tobago.internal.taglib.TimeTag</p></td>
+            </tr>
+        </table>
+                      &nbsp;
+              
+        <p></p>
+        <a name="navbar_bottom"></a>
+        <table border="0" width="100%" cellpadding="1" cellspacing="0">
+            <tr>
+                <td COLSPAN="3" BGCOLOR="#EEEEFF" CLASS="NavBarCell1"><a NAME="navbar_bottom_firstrow"></a>
+                    <table BORDER="0" CELLPADDING="0" CELLSPACING="3">
+                        <tr ALIGN="center" VALIGN="top">
+                            <td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="../overview-summary.html"><font CLASS="NavBarFont1"><b>Overview</b></font></a>&nbsp;</td><td BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev">    &nbsp;<font CLASS="NavBarFont1Rev">&nbsp;Library&nbsp;</font>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1"><font CLASS="NavBarFont1">&nbsp;Tag&nbsp;</font></td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a HREF="../help-doc.html"><font CLASS="NavBarFont1"><b>Help</b></font></a>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td><td ALIGN="right" VALIGN="top" ROWSPAN="3"><em></em></td>
+            </tr>
+            <tr>
+                <td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2"></font></td><td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2">
+                &nbsp;<a HREF="../index.html" TARGET="_top"><b>FRAMES</b></a>&nbsp;
+                &nbsp;<a HREF="tld-summary.html" TARGET="_top"><b>NO FRAMES</b></a>&nbsp;
+                <script></script>
+                        <noscript>
+                            <a HREF="../alltags-noframe.html" TARGET=""><b>All Tags</b></a>
+                        </noscript>
+                    </font></td>
+            </tr>
+        </table>
+        <hr>
+        <small><i>
+            Java, JSP, and JavaServer Pages are trademarks or registered 
+            trademarks of Sun Microsystems, Inc. in the US and other countries.
+            Copyright 2002-3 Sun Microsystems, Inc.
+            4150 Network Circle
+            Santa Clara, CA 95054, U.S.A.
+            All Rights Reserved. 
+            </i></small>
+    </body>
+</html>

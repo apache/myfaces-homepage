@@ -1,0 +1,500 @@
+<html xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>tc
+          (Tobago Core Tag library documentation)
+        </title>
+        <link rel="stylesheet" type="text/css" href="../stylesheet.css" title="styie">
+    </head>
+    <script>
+            function asd()
+            {
+            parent.document.title="tc (Tobago Core Tag library documentation)";
+            }
+          </script>
+    <body bgcolor="white" onload="asd();">
+        <a name="navbar_top"></a>
+        <table border="0" width="100%" cellpadding="1" cellspacing="0">
+            <tr>
+                <td COLSPAN="3" BGCOLOR="#EEEEFF" CLASS="NavBarCell1"><a NAME="navbar_top_firstrow"></a>
+                    <table BORDER="0" CELLPADDING="0" CELLSPACING="3">
+                        <tr ALIGN="center" VALIGN="top">
+                            <td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="../overview-summary.html"><font CLASS="NavBarFont1"><b>Overview</b></font></a>&nbsp;</td><td BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev">    &nbsp;<font CLASS="NavBarFont1Rev">&nbsp;Library&nbsp;</font>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1"><font CLASS="NavBarFont1">&nbsp;Tag&nbsp;</font></td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a HREF="../help-doc.html"><font CLASS="NavBarFont1"><b>Help</b></font></a>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td><td ALIGN="right" VALIGN="top" ROWSPAN="3"><em></em></td>
+            </tr>
+            <tr>
+                <td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2"></font></td><td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2">
+                &nbsp;<a HREF="../index.html" TARGET="_top"><b>FRAMES</b></a>&nbsp;
+                &nbsp;<a HREF="tld-summary.html" TARGET="_top"><b>NO FRAMES</b></a>&nbsp;
+                <script></script>
+                        <noscript>
+                            <a HREF="../alltags-noframe.html" TARGET=""><b>All Tags</b></a>
+                        </noscript>
+                    </font></td>
+            </tr>
+        </table>
+        <hr>
+        <h2>tc</h2>
+        <hr>
+        <b>Standard Syntax:</b>
+        <br>
+        <code>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                
+                    &lt;%@ taglib prefix="tc" uri="http://myfaces.apache.org/tobago/component" %&gt;
+            <br>
+        </code>
+        <br>
+        <b>XML Syntax:</b>
+        <br>
+        <code>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                
+                    &lt;anyxmlelement xmlns:tc="http://myfaces.apache.org/tobago/component" /&gt;
+            <br>
+        </code>
+        <hr>
+                        No Description
+              
+        <p></p>
+        <table border="1" cellpadding="3" cellspacing="0" width="100%">
+            <tr bgcolor="#CCCCFF" class="TableHeadingColor">
+                <td colspan="2"><font size="+2"><b>Tag Library Information</b></font></td>
+            </tr>
+            <tr>
+                <td>Display Name</td><td><i>None</i></td>
+            </tr>
+            <tr>
+                <td>Version</td><td>1.2</td>
+            </tr>
+            <tr>
+                <td>Short Name</td><td>tc</td>
+            </tr>
+            <tr>
+                <td>URI</td><td>http://myfaces.apache.org/tobago/component</td>
+            </tr>
+        </table>
+                    &nbsp;
+            
+        <p></p>
+        <table border="1" cellpadding="3" cellspacing="0" width="100%">
+            <tr bgcolor="#CCCCFF" class="TableHeadingColor">
+                <td colspan="2"><font size="+2"><b>Tag Summary</b></font></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="attribute.html">attribute</a></b></td><td>Add an attribute on the UIComponent associated with the closest parent UIComponent custom action.</td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="box.html">box</a></b></td><td>Renders a panel with border and title.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIBox</p><p><b>RendererType: </b>Box</p><p><b>Supported facets:</b></p><dl><dt><b>toolBar</b></dt><dd>Contains an instance of UIToolBar</dd><dt><b>layout</b></dt><dd>Contains an instance of AbstractUILayoutBase</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="button.html">button</a></b></td><td>Renders a button element.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIButton</p><p><b>RendererType: </b>Button</p><p><b>Supported facets:</b></p><dl><dt><b>confirmation</b></dt><dd>Contains a UIOutput instance with the confirmation message.</dd><dt><b>popup</b></dt><dd>Contains a UIPopup instance.</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="calendar.html">calendar</a></b></td><td>Renders a calendar.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UICalendar</p><p><b>RendererType: </b>Calendar</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="cell.html">cell</a></b></td><td><p>**** @deprecated. Will be removed in a future version **** </p><p>Renders a panel-like layout element with the ability to span over more than one layout cell. A cell may only contain
+ one child.</p>Renders a panel-like layout element with the ability to span over more than one layout cell. A cell may only contain
+ one child.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UICell</p><p><b>RendererType: </b>Cell</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="columnEvent.html">columnEvent</a></b></td><td>This component creates an event in a UISheet for each row.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIColumnEvent</p><p><b>RendererType: </b></p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="columnNode.html">columnNode</a></b></td><td>Creates a tree node inside of a sheet (also known as tree table). This component represents a single node inside a
+ tree structure.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIColumnNode</p><p><b>RendererType: </b>TreeNode</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="columnSelector.html">columnSelector</a></b></td><td>Renders a column with checkboxes to mark selected rows.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIColumnSelector</p><p><b>RendererType: </b>ColumnSelector</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="column.html">column</a></b></td><td>Renders a UIComponent that represents a single column of data within a parent UISheet component.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIColumn</p><p><b>RendererType: </b>Column</p><p><b>Supported facets:</b></p><dl><dt><b>dropDownMenu</b></dt><dd>Contains a UIMenu instance to render a drop down menu.</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="command.html">command</a></b></td><td>Use this tag only as a facet for click, change in selectOneRadio, selectBooleanCheckbox, selectManyCheckbox and
+ selectOneChoice<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UICommand</p><p><b>RendererType: </b>Command</p><p><b>Supported facets:</b></p><dl><dt><b>popup</b></dt><dd>Contains a UIPopup instance.</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="converter.html">converter</a></b></td><td>Register an Converter instance on the UIComponent associated with the closest parent UIComponent.</td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="dataAttribute.html">dataAttribute</a></b></td><td><p>**** Preliminary. Maybe subject to changed in a future version **** </p>Add an data attribute on the UIComponent associated with the closest parent UIComponent custom action. Data
+ attributes will be passed through the renderers into the DOM of the user agent and can be used by scripts.</td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="datePicker.html">datePicker</a></b></td><td><p>**** @deprecated. Will be removed in a future version **** </p><p>Renders a date picker. The component needs a DateFormat Pattern from a converter. The converter should be an instance
+ of DateTimeConverter and return a valid pattern from the method getPattern()</p>Renders a date picker. The component needs a DateFormat Pattern from a converter. The converter should be an instance
+ of DateTimeConverter and return a valid pattern from the method getPattern()<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIDatePicker</p><p><b>RendererType: </b>DatePicker</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="date.html">date</a></b></td><td>Renders a date input field.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIDate</p><p><b>RendererType: </b>Date</p><p><b>Supported facets:</b></p><dl><dt><b>change</b></dt><dd>This facet can contain a UICommand that is invoked in a case of a change event from the component</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="fileDrop.html">fileDrop</a></b></td><td>Renders a file drop component. This component always makes a partial (ajax) upload!
+ <p/>
+ For content constraints please use <a href="validateFileItem.html">tc:validateFileItem</a>.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIFileDrop</p><p><b>RendererType: </b>FileDrop</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="file.html">file</a></b></td><td>Renders a file input field.
+ <p/>
+ For content constraints please use <a href="validateFileItem.html">tc:validateFileItem</a>.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIFile</p><p><b>RendererType: </b>File</p><p><b>Supported facets:</b></p><dl><dt><b>change</b></dt><dd>This facet can contain a UICommand that is invoked in a case of a change event from the component</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="flowLayout.html">flowLayout</a></b></td><td>XXX Warning: Still in progress! Please do not use it until other announcement. Renders a FlowLayout that positions
+ the content components in there natural order.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIFlowLayout</p><p><b>RendererType: </b>FlowLayout</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="form.html">form</a></b></td><td><p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIForm</p><p><b>RendererType: </b>Form</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="gridLayoutConstraint.html">gridLayoutConstraint</a></b></td><td>Add GridLayoutConstraints to the parent UIComponent.</td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="gridLayout.html">gridLayout</a></b></td><td>Renders a GridLayout.
+ <pre>
+ columns/rows ::= LAYOUT
+ LAYOUT       ::= TOKEN [";" TOKEN]+
+ TOKEN        ::= AUTO | PIXEL | PROPORTIONAL
+ AUTO         ::= "auto" | "fixed"
+ PIXEL        ::= NUMBER "px"
+ PROPORTIONAL ::= [NUMBER] "*"
+ </pre>
+ <p/>
+ <table border="1">
+ <tr>
+ <th>Parent</th>
+ <th>Child</th>
+ <th>Okay?</th>
+ <th>Remarks</th>
+ </tr>
+ <tr>
+ <td>AUTO</td>
+ <td>any combination of AUTO or PIXEL but no PROPORTIONAL</td>
+ <td>okay</td>
+ <td>-</td>
+ </tr>
+ <tr>
+ <td>AUTO</td>
+ <td>any combination with at least one PROPORTIONAL</td>
+ <td>wrong</td>
+ <td>LayoutManager cannot compute the auto value.</td>
+ </tr>
+ <tr>
+ <td>PIXEL</td>
+ <td>any combination of AUTO or PIXEL but no PROPORTIONAL</td>
+ <td>potentially wrong</td>
+ <td>The values depend on each other, the programmer has to keep consistency manually.</td>
+ </tr>
+ <tr>
+ <td>PIXEL</td>
+ <td>any combination with at least one PROPORTIONAL</td>
+ <td>okay</td>
+ <td>-</td>
+ </tr>
+ <tr>
+ <td>PROPORTIONAL</td>
+ <td>any combination of AUTO or PIXEL but no PROPORTIONAL</td>
+ <td>potentially wrong</td>
+ <td>No automatic matching:<ul><li>too little space: scroll bar</li>
+ <li>too much space: elements will be spread.</li></ul></td>
+ </tr>
+ <tr>
+ <td>PROPORTIONAL</td>
+ <td>any combination with at least one PROPORTIONAL</td>
+ <td>okay</td>
+ <td>-</td>
+ </tr>
+ </table><p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIGridLayout</p><p><b>RendererType: </b>GridLayout</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="hidden.html">hidden</a></b></td><td>Renders a hidden input element.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIHidden</p><p><b>RendererType: </b>Hidden</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="image.html">image</a></b></td><td>Renders an image.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIImage</p><p><b>RendererType: </b>Image</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="in.html">in</a></b></td><td>Renders a text input field.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIIn</p><p><b>RendererType: </b>In</p><p><b>Supported facets:</b></p><dl><dt><b>change</b></dt><dd>This facet can contain a UICommand that is invoked in a case of a change event from the component</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="label.html">label</a></b></td><td>Renders a label component.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UILabel</p><p><b>RendererType: </b>Label</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="link.html">link</a></b></td><td>Renders a link element.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UILink</p><p><b>RendererType: </b>Link</p><p><b>Supported facets:</b></p><dl><dt><b>confirmation</b></dt><dd>Contains a UIOutput instance with the confirmation message.</dd><dt><b>popup</b></dt><dd>Contains a UIPopup instance.</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="loadBundle.html">loadBundle</a></b></td><td>Load a resource bundle localized for the locale of the current view from the tobago resource path, and expose it (as
+ a Map) in the session attributes (session scope is needed to support ajax requests).
+ <p/>
+ The main difference to the JSF tag f:localBundle is the support of Tobago themes and the XML formal for properties
+ files.
+ <p/>
+ Since JSF 1.2 it is possible to use a {@link org.apache.myfaces.tobago.context.TobagoBundle} and configure it in the
+ faces-config.xml.</td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="mediator.html">mediator</a></b></td><td>Component to put other components from other frameworks into. Gives the possibility, to interchange layout
+ information.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIMediator</p><p><b>RendererType: </b>Mediator</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="menuBar.html">menuBar</a></b></td><td>Renders a menu bar.<br /> Add menu bar as facet name="menuBar" to page tag or use it anywhere on page.<br /><p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIMenuBar</p><p><b>RendererType: </b>MenuBar</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="menuCommand.html">menuCommand</a></b></td><td>Renders a menu item. (This tag was renamed from tc:menuItem since Tobago 1.5.0)<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIMenuCommand</p><p><b>RendererType: </b>MenuCommand</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="menuSeparator.html">menuSeparator</a></b></td><td>Renders a separator inside of a menu.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIMenuSeparator</p><p><b>RendererType: </b>MenuSeparator</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="menu.html">menu</a></b></td><td>Container component to hold submenus and items.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIMenu</p><p><b>RendererType: </b>Menu</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="messages.html">messages</a></b></td><td>Renders error/validation messages.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIMessages</p><p><b>RendererType: </b>Messages</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="object.html">object</a></b></td><td>Show external content inside of an application. This will typically renders an iframe tag.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIObject</p><p><b>RendererType: </b>Object</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="out.html">out</a></b></td><td>Renders a text<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIOut</p><p><b>RendererType: </b>Out</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="page.html">page</a></b></td><td>Renders a page element.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIPage</p><p><b>RendererType: </b>Page</p><p><b>Supported facets:</b></p><dl><dt><b>action</b></dt><dd>Contains an instance of UICommand (tc:command) for an auto-action</dd><dt><b>resize</b></dt><dd>Contains an instance of UICommand which will be executed when thesize of the user agent was changed. Typically a <tc:command immediate='true' /></dd><dt><b>menuBar</b></dt><dd>Menubar</dd><dt><b>layout</b></dt><dd>Contains an instance of AbstractUILayoutBase</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="panel.html">panel</a></b></td><td>Intended for use in situations when only one UIComponent child can be nested, such as in the case of facets.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIPanel</p><p><b>RendererType: </b>Panel</p><p><b>Supported facets:</b></p><dl><dt><b>reload</b></dt><dd>Contains an instance of UIReload</dd><dt><b>layout</b></dt><dd>Contains an instance of AbstractUILayoutBase</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="popupReference.html">popupReference</a></b></td><td>Register an PopupActionListener instance on the UIComponent associated with the closest parent UIComponent.</td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="popup.html">popup</a></b></td><td>Renders a popup panel. The popup gets a grid layout manager with columns="auto" and rows="auto" as definition. So a
+ popup should contain only one layout component. The default layout manager can be overwritten with the layout facet.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIPopup</p><p><b>RendererType: </b>Popup</p><p><b>Supported facets:</b></p><dl><dt><b>layout</b></dt><dd>Contains an instance of AbstractUILayoutBase</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="progress.html">progress</a></b></td><td>Renders a progress bar.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIProgress</p><p><b>RendererType: </b>Progress</p><p><b>Supported facets:</b></p><dl><dt><b>complete</b></dt><dd>Contains an instance of UICommand (tc:command). The action is invoked if the full progress has reached</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="reload.html">reload</a></b></td><td>Update the parent component<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIReload</p><p><b>RendererType: </b></p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="resetInputActionListener.html">resetInputActionListener</a></b></td><td>A ResetInputActionListener is a declarative way to allow an action source to reset all EditableValueHolder of a page
+ or in a sub-form or part of the component tree.</td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="script.html">script</a></b></td><td>This tag adds script files to include into the rendered page.
+ <p/>
+ Deprecated (because of CSP): This tag adds client side script to the rendered page.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIScript</p><p><b>RendererType: </b>Script</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="selectBooleanCheckbox.html">selectBooleanCheckbox</a></b></td><td>Renders a checkbox.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISelectBooleanCheckbox</p><p><b>RendererType: </b>SelectBooleanCheckbox</p><p><b>Supported facets:</b></p><dl><dt><b>click</b></dt><dd>This facet can contain a UICommand that is invoked in case of a click event from the component</dd><dt><b>change</b></dt><dd>This facet can contain a UICommand that is invoked in case of a change event from the component</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="selectItem.html">selectItem</a></b></td><td>Add a child UISelectItem component to the UIComponent associated with the closed parent UIComponent custom action.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISelectItem</p><p><b>RendererType: </b></p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="selectItems.html">selectItems</a></b></td><td>Add a child UISelectItems component to the UIComponent associated with the closed parent UIComponent custom action.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISelectItems</p><p><b>RendererType: </b></p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="selectManyBox.html">selectManyBox</a></b></td><td>Render a multi selection option listbox.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISelectManyBox</p><p><b>RendererType: </b>SelectManyBox</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="selectManyCheckbox.html">selectManyCheckbox</a></b></td><td>Render a group of checkboxes.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISelectManyCheckbox</p><p><b>RendererType: </b>SelectManyCheckbox</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="selectManyListbox.html">selectManyListbox</a></b></td><td>Render a multi selection option listbox.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISelectManyListbox</p><p><b>RendererType: </b>SelectManyListbox</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="selectManyShuttle.html">selectManyShuttle</a></b></td><td><p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISelectManyShuttle</p><p><b>RendererType: </b>SelectManyShuttle</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="selectOneChoice.html">selectOneChoice</a></b></td><td>Render a single selection dropdown list.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISelectOneChoice</p><p><b>RendererType: </b>SelectOneChoice</p><p><b>Supported facets:</b></p><dl><dt><b>click</b></dt><dd>This facet can contain a UICommand that is invoked in case of a click event from the component</dd><dt><b>change</b></dt><dd>This facet can contain a UICommand that is invoked in case of a change event from the component</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="selectOneListbox.html">selectOneListbox</a></b></td><td>Render a single selection option listbox.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISelectOneListbox</p><p><b>RendererType: </b>SelectOneListbox</p><p><b>Supported facets:</b></p><dl><dt><b>click</b></dt><dd>This facet can contain a UICommand that is invoked in case of a click event from the component</dd><dt><b>change</b></dt><dd>This facet can contain a UICommand that is invoked in case of a change event from the component</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="selectOneRadio.html">selectOneRadio</a></b></td><td>Render a set of radio buttons.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISelectOneRadio</p><p><b>RendererType: </b>SelectOneRadio</p><p><b>Supported facets:</b></p><dl><dt><b>click</b></dt><dd>This facet can contain a UICommand that is invoked in case of a click event from the component</dd><dt><b>change</b></dt><dd>This facet can contain a UICommand that is invoked in case of a change event from the component</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="selectReference.html">selectReference</a></b></td><td>Renders a set of option related to and same type as the <strong>for</strong> component.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISelectReference</p><p><b>RendererType: </b>SelectReference</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="separator.html">separator</a></b></td><td>Renders a separator.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISeparator</p><p><b>RendererType: </b>Separator</p><p><b>Supported facets:</b></p><dl><dt><b>label</b></dt><dd>This facet contains a UILabel</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="sheetLayout.html">sheetLayout</a></b></td><td>Creates a SheetLayout, which is a internal layout manager of a sheet.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISheetLayout</p><p><b>RendererType: </b>SheetLayout</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="sheet.html">sheet</a></b></td><td>Render a sheet element.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISheet</p><p><b>RendererType: </b>Sheet</p><p><b>Supported facets:</b></p><dl><dt><b>reload</b></dt><dd>Contains an instance of UIReload</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="splitLayout.html">splitLayout</a></b></td><td>Renders a SplitLayout. A area with two child components rendered horizontally or vertically and allows to change the
+ layout relation of this two components on the client.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISplitLayout</p><p><b>RendererType: </b>SplitLayout</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="style.html">style</a></b></td><td>Add a style tag with the given file name.
+ <p/>
+ Remark: Inline styles are deprecated because of CSP.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIStyle</p><p><b>RendererType: </b>Style</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="suggest.html">suggest</a></b></td><td>Renders a list of suggested texts for a given input field.
+ <p>
+ Basic features:
+ <ul>
+   <li>provide a list directly while rendering (not AJAX needed) [todo]</li>
+   <li>update by typing (AJAX)</li>
+   <li>minimum number of typed characters (to avoid useless requests)</li>
+   <li>update delay (useful for optimization)</li>
+   <li>filter on client side (useful for optimization) [todo]</li>
+ </ul><p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISuggest</p><p><b>RendererType: </b>Suggest</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="tabChangeListener.html">tabChangeListener</a></b></td><td>Register an TabChangedListener instance on the UIComponent associated with the closest parent UIComponent custom
+ action.</td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="tabGroupLayout.html">tabGroupLayout</a></b></td><td>Creates a TabGroupLayout, which is a internal layout manager of a tabGroup.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UITabGroupLayout</p><p><b>RendererType: </b>TabGroupLayout</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="tabGroup.html">tabGroup</a></b></td><td>Renders a tab group which contains tab panels.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UITabGroup</p><p><b>RendererType: </b>TabGroup</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="tab.html">tab</a></b></td><td>Renders a tab within a tab group.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UITab</p><p><b>RendererType: </b>Tab</p><p><b>Supported facets:</b></p><dl><dt><b>toolBar</b></dt><dd>Contains an instance of UIToolBar</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="textarea.html">textarea</a></b></td><td>Renders a multi line text input control.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UITextarea</p><p><b>RendererType: </b>Textarea</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="time.html">time</a></b></td><td>Renders a time input field.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UITime</p><p><b>RendererType: </b>Time</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="toolBarCommand.html">toolBarCommand</a></b></td><td>Renders a command button within a toolbar.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIToolBarCommand</p><p><b>RendererType: </b>Button</p><p><b>Supported facets:</b></p><dl><dt><b>confirmation</b></dt><dd>Contains a UIOutput instance with the confirmation message.</dd><dt><b>popup</b></dt><dd>Contains a UIPopup instance.</dd><dt><b>dropDownMenu</b></dt><dd>Contains a UIMenu instance to render a drop down menu.</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="toolBarCheck.html">toolBarCheck</a></b></td><td>Renders a selectable command button within a toolbar.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIToolBarCheck</p><p><b>RendererType: </b>MenuCommand</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="toolBarSelectOne.html">toolBarSelectOne</a></b></td><td>Renders a set of radio command button's within a toolbar.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIToolBarSelectOne</p><p><b>RendererType: </b>MenuCommand</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="toolBarSeparator.html">toolBarSeparator</a></b></td><td>Renders a separator inside of a tool bar.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIToolBarSeparator</p><p><b>RendererType: </b>MenuSeparator</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="toolBar.html">toolBar</a></b></td><td><p/>
+ Renders a toolbar.<p /> Allowed subcomponents are subtypes of UICommand i.e.
+ <code>'button'</code> and <code>'link'</code> tags.
+ These are rendered by ToolbarRenderer, so the result has no difference.<p /> To add an drop down menu to a button add
+ a facet <code>'dropDownMenu'</code> containing a
+ <a href="menu.html"><code>&lt;tc:menu></code></a>
+ tag to the button. Label's and Image's on those menu tag's are ignored and replaced by the renderer.
+ <pre>
+      &lt;tc:button onclick="alert('test 0')"
+          label="Alert 0" &gt;
+        &lt;f:facet name="dropDownMenu"&gt;
+          &lt;tc:menu&gt;
+            &lt;tc:menuCommand onclick="alert('test 1')" label="Alert 1"/&gt;
+            &lt;tc:menuCommand onclick="alert('test 2')" label="Alert 2"/&gt;
+            &lt;tc:menuCommand onclick="alert('test 3')" label="Alert 3"/&gt;
+          &lt;/tc:menu&gt;
+        &lt;/f:facet&gt;
+      &lt;/tc:button&gt;
+      </pre><p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIToolBar</p><p><b>RendererType: </b>ToolBar</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="treeCommand.html">treeCommand</a></b></td><td>Renders a command inside of a tree.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UITreeCommand</p><p><b>RendererType: </b>TreeCommand</p><p><b>Supported facets:</b></p><dl><dt><b>confirmation</b></dt><dd>Contains a UIOutput instance with the confirmation message.</dd><dt><b>popup</b></dt><dd>Contains a UIPopup instance.</dd></dl></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="treeData.html">treeData</a></b></td><td><p>**** @deprecated. Will be removed in a future version **** </p><p>Describes a sub tree of nodes. The value has to be a javax.swing.tree.TreeNode object to use as rootNode in the
+ tree.</p>Describes a sub tree of nodes. The value has to be a javax.swing.tree.TreeNode object to use as rootNode in the
+ tree.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UITreeData</p><p><b>RendererType: </b>TreeData</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="treeIcon.html">treeIcon</a></b></td><td>Renders an image beside a tree node.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UITreeIcon</p><p><b>RendererType: </b>TreeIcon</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="treeIndent.html">treeIndent</a></b></td><td>Renders an indent beside a tree node.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UITreeIndent</p><p><b>RendererType: </b>TreeIndent</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="treeLabel.html">treeLabel</a></b></td><td>Renders a label inside of a tree.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UITreeLabel</p><p><b>RendererType: </b>TreeLabel</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="treeListbox.html">treeListbox</a></b></td><td>A tree data structure displayed as a set of list boxes.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UITreeListbox</p><p><b>RendererType: </b>TreeListbox</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="treeMenu.html">treeMenu</a></b></td><td>A tree which will be displayed like a flat menu. This menu is often used for navigation on the left side of an
+ application.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UITreeMenu</p><p><b>RendererType: </b>TreeMenu</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="treeNode.html">treeNode</a></b></td><td>Creates a tree node. This component represents a single node inside a tree structure.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UITreeNode</p><p><b>RendererType: </b>TreeNode</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="treeSelect.html">treeSelect</a></b></td><td>Makes a tree node selectable.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UITreeSelect</p><p><b>RendererType: </b>TreeSelect</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="tree.html">tree</a></b></td><td>A tree with classical look. Usually used with icons and junction lines to open folder, etc.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UITree</p><p><b>RendererType: </b>Tree</p></td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="validateFileItem.html">validateFileItem</a></b></td><td>Register an FileItemValidator instance on the UIComponent associated with the closest parent UIComponent custom
+ action.</td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="validateSubmittedValueLength.html">validateSubmittedValueLength</a></b></td><td>Register an SubmittedValueLengthValidator instance on the UIComponent associated with the closest parent UIComponent
+ custom action. The standard LengthValidator validate the length on the converted value.toString() not on the
+ submitted value. Sometime you need to check the length of the submitted value.</td>
+            </tr>
+            <tr bgcolor="white" class="TableRowColor">
+                <td width="15%"><b><a href="wizard.html">wizard</a></b></td><td>Renders a flexible wizard.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UIWizard</p><p><b>RendererType: </b>Wizard</p></td>
+            </tr>
+        </table>
+                      &nbsp;
+              
+        <p></p>
+        <table border="1" cellpadding="3" cellspacing="0" width="100%">
+            <tr bgcolor="#CCCCFF" class="TableHeadingColor">
+                <td><font size="+2"><b>Listeners</b></font></td>
+            </tr>
+            <tr valign="top" bgcolor="white" class="TableRowColor">
+                <td><b>org.apache.myfaces.tobago.webapp.TobagoServletContextListener</b></td>
+            </tr>
+            <tr valign="top" bgcolor="white" class="TableRowColor">
+                <td><b>org.apache.myfaces.tobago.webapp.SecretSessionListener</b></td>
+            </tr>
+        </table>
+                      &nbsp;
+              
+        <p></p>
+        <a name="navbar_bottom"></a>
+        <table border="0" width="100%" cellpadding="1" cellspacing="0">
+            <tr>
+                <td COLSPAN="3" BGCOLOR="#EEEEFF" CLASS="NavBarCell1"><a NAME="navbar_bottom_firstrow"></a>
+                    <table BORDER="0" CELLPADDING="0" CELLSPACING="3">
+                        <tr ALIGN="center" VALIGN="top">
+                            <td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="../overview-summary.html"><font CLASS="NavBarFont1"><b>Overview</b></font></a>&nbsp;</td><td BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev">    &nbsp;<font CLASS="NavBarFont1Rev">&nbsp;Library&nbsp;</font>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1"><font CLASS="NavBarFont1">&nbsp;Tag&nbsp;</font></td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a HREF="../help-doc.html"><font CLASS="NavBarFont1"><b>Help</b></font></a>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td><td ALIGN="right" VALIGN="top" ROWSPAN="3"><em></em></td>
+            </tr>
+            <tr>
+                <td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2"></font></td><td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2">
+                &nbsp;<a HREF="../index.html" TARGET="_top"><b>FRAMES</b></a>&nbsp;
+                &nbsp;<a HREF="tld-summary.html" TARGET="_top"><b>NO FRAMES</b></a>&nbsp;
+                <script></script>
+                        <noscript>
+                            <a HREF="../alltags-noframe.html" TARGET=""><b>All Tags</b></a>
+                        </noscript>
+                    </font></td>
+            </tr>
+        </table>
+        <hr>
+        <small><i>
+            Java, JSP, and JavaServer Pages are trademarks or registered 
+            trademarks of Sun Microsystems, Inc. in the US and other countries.
+            Copyright 2002-3 Sun Microsystems, Inc.
+            4150 Network Circle
+            Santa Clara, CA 95054, U.S.A.
+            All Rights Reserved. 
+            </i></small>
+    </body>
+</html>
