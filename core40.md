@@ -6,19 +6,19 @@ Upcoming implementation of the Jakarta Faces 4.0 specification.
 We removed shared modules, dependencies, removed unused code, unified code, cleanup everything.  
 
 What are the benefits compared to our older versions?
-* 1MB less size (including dependencies)
+* 1MB less size
 * No dependencies
 * Up to 15% faster
 * Much more maintainable codebase
 * Better default parameters, optimized for developer-usability and performance
 
 ## Requirements
-* Java 1.8
-* Servlet 3.0 (4.0 will enable JSF to serve resources via HTTP/2 push)
-* EL 2.2
-* CDI 1.2
-* JSTL 1.2 (optional)
-* BV 1.1 (optional)
+* Java 11
+* Servlet 6.0
+* EL 5.0
+* CDI 4.0
+* JSTL 3.0 (optional)
+* BV 3.0 (optional)
 
 ## Source
 [Apache GitBox](https://gitbox.apache.org/repos/asf?p=myfaces.git;a=shortlog;h=refs/heads/master) / [GitHub](https://github.com/apache/myfaces/tree/master)
@@ -28,12 +28,12 @@ What are the benefits compared to our older versions?
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-api</artifactId>
-  <version>4.0.0-SNAPSHOT</version>
+  <version>4.0.0-RC1</version>
 </dependency>
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-impl</artifactId>
-  <version>4.0.0-SNAPSHOT</version>
+  <version>4.0.0-RC1</version>
 </dependency>
 ```
 
