@@ -6,34 +6,43 @@ Upcoming implementation of the Jakarta Faces 4.0 specification.
 We removed shared modules, dependencies, removed unused code, unified code, cleanup everything.  
 
 What are the benefits compared to our older versions?
-* 1MB less size (including dependencies)
+* 1MB less size
 * No dependencies
 * Up to 15% faster
 * Much more maintainable codebase
 * Better default parameters, optimized for developer-usability and performance
 
 ## Requirements
-* Java 1.8
-* Servlet 3.0 (4.0 will enable JSF to serve resources via HTTP/2 push)
-* EL 2.2
-* CDI 1.2
-* JSTL 1.2 (optional)
-* BV 1.1 (optional)
+* Java 11
+* Servlet 6.0
+* EL 5.0
+* CDI 4.0
+* JSTL 3.0 (optional)
+* BV 3.0 (optional)
 
 ## Source
 [Apache GitBox](https://gitbox.apache.org/repos/asf?p=myfaces.git;a=shortlog;h=refs/heads/master) / [GitHub](https://github.com/apache/myfaces/tree/master)
+
+## Downloads
+
+|     | Mirrors                                                                                                                      | Checksum                                                                                                                     | Signature                                                                                                                                |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| binary (tar.gz) | [myfaces-core-assembly-4.0.0-RC1-bin.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.0.0-RC1-bin.tar.gz) | [myfaces-core-assembly-4.0.0-RC1-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.0-RC1-bin.tar.gz.sha512) | [myfaces-core-assembly-4.0.0-RC1-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.0-RC1-bin.tar.gz.asc) |
+| binary (zip)    | [myfaces-core-assembly-4.0.0-RC1-bin.zip](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.0.0-RC1-bin.zip)       | [myfaces-core-assembly-4.0.0-RC1-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.0-RC1-bin.zip.sha512)       | [myfaces-core-assembly-4.0.0-RC1-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.0-RC1-bin.zip.asc)       |
+| source (tar.gz) | [myfaces-core-assembly-4.0.0-RC1-src.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.0.0-RC1-src.tar.gz)   | [myfaces-core-assembly-4.0.0-RC1-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.0-RC1-src.tar.gz.sha512)   | [myfaces-core-assembly-4.0.0-RC1-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.0-RC1-src.tar.gz.asc)   |
+| source (zip)    | [myfaces-core-assembly-4.0.0-RC1-src.zip](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.0.0-RC1-src.zip)         | [myfaces-core-assembly-4.0.0-RC1-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.0-RC1-src.zip.sha512)         | [myfaces-core-assembly-4.0.0-RC1-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.0-RC1-src.zip.asc)         |
 
 ## Dependency
 ```xml
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-api</artifactId>
-  <version>4.0.0-SNAPSHOT</version>
+  <version>4.0.0-RC1</version>
 </dependency>
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-impl</artifactId>
-  <version>4.0.0-SNAPSHOT</version>
+  <version>4.0.0-RC1</version>
 </dependency>
 ```
 
