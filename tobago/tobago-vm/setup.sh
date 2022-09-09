@@ -5,7 +5,7 @@
 
 set -e
 
-BRANCH=master
+BRANCH=main
 #BRANCH=tobago-vm
 
 cd /home/tobago
