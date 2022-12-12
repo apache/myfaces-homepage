@@ -83,7 +83,7 @@ services:
   demo-5-snapshot:
     build: tomcat
     environment:
-      - TOBAGO_VERSION=5.3.1-SNAPSHOT
+      - TOBAGO_VERSION=5.4.1-SNAPSHOT
       - CONTEXT_PATH=demo-5-snapshot
     ports:
       - "8502:8080"
@@ -118,7 +118,7 @@ services:
   demo-4-snapshot:
     build: tomcat
     environment:
-      - TOBAGO_VERSION=4.5.6-SNAPSHOT
+      - TOBAGO_VERSION=4.6.1-SNAPSHOT
       - CONTEXT_PATH=demo-4-snapshot
     ports:
       - "8402:8080"
