@@ -99,7 +99,6 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.RENDER_CLIENTBEHAVIOR_SCRIPTS_AS_STRING| 2.3-next| false| | Defines if the clientbehavior scripts are passed as string or function to the jsf|
 | o.a.m.ALWAYS_FORCE_SESSION_CREATION| 2.3-next| false| true,false| Defines if a session should be created (if one does not exist) before response rendering|
 | o.a.m.RESOURCE_BUNDLE_CONTROL| 2.3-next| | | Defines the {@link java|
-| o.a.m.DEFAULT_WINDOW_MODE| 2.2| url| | no description|
 | o.a.m.ERROR_TEMPLATE_RESOURCE| 1.2.4| META-INF/rsc/myfaces-dev-error.xml| | Indicate the template name used to render the default error page used by MyFaces specific  error handler implementation|
 | o.a.m.DEBUG_TEMPLATE_RESOURCE| 1.2.4| META-INF/rsc/myfaces-dev-debug.xml| | Indicate the template name used to render the default debug page (see ui:debug tag)|
 | o.a.m.ERROR_HANDLING| 1.2.4| false, on Development Project stage: true| true,false| Indicate if myfaces is responsible to handle errors|
