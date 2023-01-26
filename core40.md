@@ -27,22 +27,22 @@ What are the benefits compared to our older versions?
 
 |     | Mirrors                                                                                                                      | Checksum                                                                                                                     | Signature                                                                                                                                |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| binary (tar.gz) | [myfaces-core-assembly-4.0.0-RC3-bin.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.0.0-RC3-bin.tar.gz) | [myfaces-core-assembly-4.0.0-RC3-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.0-RC3-bin.tar.gz.sha512) | [myfaces-core-assembly-4.0.0-RC3-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.0-RC3-bin.tar.gz.asc) |
-| binary (zip)    | [myfaces-core-assembly-4.0.0-RC3-bin.zip](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.0.0-RC3-bin.zip)       | [myfaces-core-assembly-4.0.0-RC3-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.0-RC3-bin.zip.sha512)       | [myfaces-core-assembly-4.0.0-RC3-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.0-RC3-bin.zip.asc)       |
-| source (tar.gz) | [myfaces-core-assembly-4.0.0-RC3-src.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.0.0-RC3-src.tar.gz)   | [myfaces-core-assembly-4.0.0-RC3-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.0-RC3-src.tar.gz.sha512)   | [myfaces-core-assembly-4.0.0-RC3-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.0-RC3-src.tar.gz.asc)   |
-| source (zip)    | [myfaces-core-assembly-4.0.0-RC3-src.zip](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.0.0-RC3-src.zip)         | [myfaces-core-assembly-4.0.0-RC3-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.0-RC3-src.zip.sha512)         | [myfaces-core-assembly-4.0.0-RC3-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.0-RC3-src.zip.asc)         |
+| binary (tar.gz) | [myfaces-core-assembly-4.0.0-RC4-bin.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.0.0-RC4-bin.tar.gz) | [myfaces-core-assembly-4.0.0-RC4-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.0-RC4-bin.tar.gz.sha512) | [myfaces-core-assembly-4.0.0-RC4-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.0-RC4-bin.tar.gz.asc) |
+| binary (zip)    | [myfaces-core-assembly-4.0.0-RC4-bin.zip](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.0.0-RC4-bin.zip)       | [myfaces-core-assembly-4.0.0-RC4-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.0-RC4-bin.zip.sha512)       | [myfaces-core-assembly-4.0.0-RC4-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.0-RC4-bin.zip.asc)       |
+| source (tar.gz) | [myfaces-core-assembly-4.0.0-RC4-src.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.0.0-RC4-src.tar.gz)   | [myfaces-core-assembly-4.0.0-RC4-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.0-RC4-src.tar.gz.sha512)   | [myfaces-core-assembly-4.0.0-RC4-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.0-RC4-src.tar.gz.asc)   |
+| source (zip)    | [myfaces-core-assembly-4.0.0-RC4-src.zip](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.0.0-RC4-src.zip)         | [myfaces-core-assembly-4.0.0-RC4-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.0-RC4-src.zip.sha512)         | [myfaces-core-assembly-4.0.0-RC4-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.0-RC4-src.zip.asc)         |
 
 ## Dependency
 ```xml
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-api</artifactId>
-  <version>4.0.0-RC3</version>
+  <version>4.0.0-RC4</version>
 </dependency>
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-impl</artifactId>
-  <version>4.0.0-RC3</version>
+  <version>4.0.0-RC4</version>
 </dependency>
 ```
 
