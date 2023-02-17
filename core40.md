@@ -8,7 +8,7 @@ We removed shared modules, dependencies, removed unused code, unified code, clea
 What are the benefits compared to our older versions?
 * 1MB less size
 * No dependencies
-* Up to 15% faster
+* Up to 15% faster (Enable org.apache.myfaces.USE_LAMBDA_METAFACTORY to utilize all performance changes)
 * Much more maintainable codebase
 * Better default parameters, optimized for developer-usability and performance
 
