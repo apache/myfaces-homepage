@@ -92,7 +92,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.INITIALIZE_ALWAYS_STANDALONE| 2.0.3| false| | If this param is set to true, the check for faces servlet mapping is not done|
 | o.a.m.WRAP_TAG_EXCEPTIONS_AS_CONTEXT_AWARE| 2.0.9, 2.1.3| true| true, false| Wrap exception caused by calls to EL expressions, so information like the location, expression string and tag name can be retrieved by the ExceptionHandler implementation and used to output meaningful information about itself|
 | o.a.m.RESOURCE_CACHE_LAST_MODIFIED| 2.3-next| true| true, false| Defines if the last-modified should be cached of the resources when the ProjectStage is Production|
-| o.a.m.LOG_WEB_CONTEXT_PARAMS| | dev-only| true, dev-only, false| Indicate if info logging all web config params should be done before initializing the webapp|
+| o.a.m.LOG_WEB_CONTEXT_PARAMS| | dev-only| true, dev-only, false| Indicate if info logging all web config params should be done before initializing the webapp. With 4.0.0, the default changed from auto to dev-only. where logging no longer occurs in the production project stage (new default behavior). True enables logging in the production and development project stages. False disables logging.|
 | o.a.m.FACES_INITIALIZER| 2.0.1| | | Class name of a custom FacesInitializer implementation.|
 | o.a.m.spi.InjectionProvider| 2.2| | | Define the class implementing InjectionProvider interface to handle dependendy injection, PostConstruct and PreDestroy callbacks|
 | o.a.m.WEBSOCKET_MAX_CONNECTIONS| 2.3| | | no description|
