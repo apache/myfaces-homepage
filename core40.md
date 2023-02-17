@@ -27,22 +27,22 @@ What are the benefits compared to our older versions?
 
 |     | Mirrors                                                                                                                      | Checksum                                                                                                                     | Signature                                                                                                                                |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| binary (tar.gz) | [myfaces-core-assembly-4.0.0-RC4-bin.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.0.0-RC4-bin.tar.gz) | [myfaces-core-assembly-4.0.0-RC4-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.0-RC4-bin.tar.gz.sha512) | [myfaces-core-assembly-4.0.0-RC4-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.0-RC4-bin.tar.gz.asc) |
-| binary (zip)    | [myfaces-core-assembly-4.0.0-RC4-bin.zip](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.0.0-RC4-bin.zip)       | [myfaces-core-assembly-4.0.0-RC4-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.0-RC4-bin.zip.sha512)       | [myfaces-core-assembly-4.0.0-RC4-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.0-RC4-bin.zip.asc)       |
-| source (tar.gz) | [myfaces-core-assembly-4.0.0-RC4-src.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.0.0-RC4-src.tar.gz)   | [myfaces-core-assembly-4.0.0-RC4-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.0-RC4-src.tar.gz.sha512)   | [myfaces-core-assembly-4.0.0-RC4-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.0-RC4-src.tar.gz.asc)   |
-| source (zip)    | [myfaces-core-assembly-4.0.0-RC4-src.zip](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.0.0-RC4-src.zip)         | [myfaces-core-assembly-4.0.0-RC4-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.0-RC4-src.zip.sha512)         | [myfaces-core-assembly-4.0.0-RC4-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.0-RC4-src.zip.asc)         |
+| binary (tar.gz) | [myfaces-core-assembly-4.0.0-RC5-bin.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.0.0-RC5-bin.tar.gz) | [myfaces-core-assembly-4.0.0-RC5-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.0-RC5-bin.tar.gz.sha512) | [myfaces-core-assembly-4.0.0-RC5-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.0-RC5-bin.tar.gz.asc) |
+| binary (zip)    | [myfaces-core-assembly-4.0.0-RC5-bin.zip](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.0.0-RC5-bin.zip)       | [myfaces-core-assembly-4.0.0-RC5-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.0-RC5-bin.zip.sha512)       | [myfaces-core-assembly-4.0.0-RC5-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.0-RC5-bin.zip.asc)       |
+| source (tar.gz) | [myfaces-core-assembly-4.0.0-RC5-src.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.0.0-RC5-src.tar.gz)   | [myfaces-core-assembly-4.0.0-RC5-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.0-RC5-src.tar.gz.sha512)   | [myfaces-core-assembly-4.0.0-RC5-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.0-RC5-src.tar.gz.asc)   |
+| source (zip)    | [myfaces-core-assembly-4.0.0-RC5-src.zip](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.0.0-RC5-src.zip)         | [myfaces-core-assembly-4.0.0-RC5-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.0-RC5-src.zip.sha512)         | [myfaces-core-assembly-4.0.0-RC5-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.0-RC5-src.zip.asc)         |
 
 ## Dependency
 ```xml
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-api</artifactId>
-  <version>4.0.0-RC4</version>
+  <version>4.0.0-RC5</version>
 </dependency>
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-impl</artifactId>
-  <version>4.0.0-RC4</version>
+  <version>4.0.0-RC5</version>
 </dependency>
 ```
 
@@ -92,7 +92,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.INITIALIZE_ALWAYS_STANDALONE| 2.0.3| false| | If this param is set to true, the check for faces servlet mapping is not done|
 | o.a.m.WRAP_TAG_EXCEPTIONS_AS_CONTEXT_AWARE| 2.0.9, 2.1.3| true| true, false| Wrap exception caused by calls to EL expressions, so information like the location, expression string and tag name can be retrieved by the ExceptionHandler implementation and used to output meaningful information about itself|
 | o.a.m.RESOURCE_CACHE_LAST_MODIFIED| 2.3-next| true| true, false| Defines if the last-modified should be cached of the resources when the ProjectStage is Production|
-| o.a.m.LOG_WEB_CONTEXT_PARAMS| | auto| true, auto, false| Indicate if log all web config params should be done before initialize the webapp|
+| o.a.m.LOG_WEB_CONTEXT_PARAMS| | dev-only| true, dev-only, false| Indicate if info logging all web config params should be done before initializing the webapp|
 | o.a.m.FACES_INITIALIZER| 2.0.1| | | Class name of a custom FacesInitializer implementation.|
 | o.a.m.spi.InjectionProvider| 2.2| | | Define the class implementing InjectionProvider interface to handle dependendy injection, PostConstruct and PreDestroy callbacks|
 | o.a.m.WEBSOCKET_MAX_CONNECTIONS| 2.3| | | no description|
