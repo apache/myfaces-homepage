@@ -14,8 +14,8 @@ curl https://codeload.github.com/apache/myfaces-homepage/tar.gz/refs/heads/${BRA
 cd tobago-vm
 
 /usr/local/bin/docker-compose down
-/usr/bin/docker system prune -f
-/usr/local/bin/docker-compose build
+/usr/bin/docker system prune --all -f
+/usr/local/bin/docker-compose build --pull
 /usr/local/bin/docker-compose up -d
 
 # need to wait for Let's encrypt
