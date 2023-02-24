@@ -15,8 +15,7 @@ How to become root access is described on the
 
 ## Updates of the demo applications
 
-There is a crontab entry for the user to deploy the deploy
-application regualy.
+There is a crontab entry for the user to deploy the application regularly.
 
-The job executes the script ../tobago-vm.sh to recreate and start 
+The job executes the script ../tobago-vm/setup.sh to recreate and start 
 all docker containers.
