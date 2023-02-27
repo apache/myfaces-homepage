@@ -10,6 +10,7 @@ What are the benefits compared to our older versions?
 * No dependencies
 * Up to 15% faster (Enable org.apache.myfaces.USE_LAMBDA_METAFACTORY to utilize all performance changes)
 * Much more maintainable codebase
+* Rewritten the JavaScript codebase as TypeScript
 * Better default parameters, optimized for developer-usability and performance
 
 ## Requirements
