@@ -15,7 +15,7 @@ What are the benefits compared to our older versions?
 
 ## Requirements
 * Java 11
-* Servlet 6.0
+* Servlet 5.0+
 * EL 5.0
 * CDI 4.0
 * JSTL 3.0 (optional)
