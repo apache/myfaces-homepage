@@ -42,7 +42,9 @@ mvn release:prepare -DprepareRelease=true -Dresume=false
 
 **NOTE**: If you have an issue like the one below when running the command "mvn release:prepare -DprepareRelease=true" that's because the local directory .m2/repository/org/apache/myfaces/core does not have the assembly files for the version to be released.
 
-**NOTE**: The command `export GPG_TTY=$(tty)` maybe needed if `gpg: signing failed: Inappropriate ioctl for device` is encountered. 
+**NOTE**: The command `export GPG_TTY=$(tty)` may be needed if `gpg: signing failed: Inappropriate ioctl for device` is encountered. 
+
+**NOTE**: The error below will most likely occur the first time the commands above are run.
 
 ```
 [INFO] [ERROR] Failed to execute goal org.codehaus.mojo:dependency-maven-plugin:1.0:copy (copy-javadoc) on 
