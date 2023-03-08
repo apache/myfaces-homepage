@@ -44,3 +44,6 @@ To optimize the marriage of MyFaces and OpenWebBeans, you simply have to set the
 
 This moves the WebBeansELResolver almost to the last place in the ELResolver chain, thus improving the overall performance of ELExpression evaluations.
 
+#### 4.0.x
+In 4.0.1 we replaced `org.apache.myfaces.el.unified.OpenWebBeansELResolverComparator` by `org.apache.myfaces.el.unified.CdiELResolverComparator`, which also works for Weld now.
+
