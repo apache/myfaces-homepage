@@ -17,6 +17,7 @@ FROM tomcat:8.5-jdk8-temurin
 MAINTAINER dev@myfaces.apache.org
 
 RUN rm -r /usr/local/tomcat/webapps.dist
+RUN rm /usr/local/tomcat/conf/logging.properties
 
 COPY server.xml /usr/local/tomcat/conf
 COPY download-deploy-and-run.sh /usr/local/tomcat/bin
