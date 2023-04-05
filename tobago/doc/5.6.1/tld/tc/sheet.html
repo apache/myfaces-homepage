@@ -1,0 +1,338 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en" xmlns:vdldoc="http://vdldoc.omnifaces.org" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:jakartaee="https://jakarta.ee/xml/ns/jakartaee">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>sheet (Tobago Core VDL Documentation)
+			</title>
+        <meta name="keywords" content="$title">
+        <link rel="stylesheet" type="text/css" title="Style" href="../stylesheet.css">
+    </head>
+    <body>
+        <noscript>
+            <div>JavaScript is disabled on your browser.</div>
+        </noscript>
+        <div class="topNav">
+            <a name="navbar_top"></a><a href="#skip-navbar_top" title="Skip navigation links"></a><a name="navbar_top_firstrow"></a>
+            <ul class="navList" title="Navigation">
+                <li>
+                    <a href="../overview-summary.html">Overview</a>
+                </li>
+                <li>
+                    <a href="tld-summary.html">Library</a>
+                </li>
+                <li class="navBarCell1Rev">Tag</li>
+                <li>
+                    <a href="../help-doc.html">Help</a>
+                </li>
+            </ul>
+        </div>
+        <div class="subNav">
+            <ul class="navList">
+                <li>
+                    <a target="_top" href="../index.html?tc/sheet.html">
+									Frames
+								</a>
+                </li>
+                <li>
+                    <a target="_top" href="sheet.html">
+									No Frames
+								</a>
+                </li>
+            </ul>
+            <ul class="navList" id="alltags_navbar_top">
+                <li>
+                    <a href="../alltags-noframe.html">All Tags</a>
+                </li>
+            </ul>
+            <div>
+                <script type="text/javascript">
+								document.getElementById("alltags_navbar_top").style.display = (window == top) ? "block" : "none";
+							</script>
+            </div>
+            <a name="skip-navbar_top"></a>
+        </div>
+        <div class="header">
+            <h1 title="Library" class="title">tc</h1>
+            <h2 class="title">
+							Tag
+							sheet</h2>
+        </div>
+        <div class="contentContainer">
+            <div class="description">
+                <ul class="blockList">
+                    <li class="blockList">
+                        <dl>
+                            <dt>Description:</dt>
+                            <dd>
+                                <div class="block">Render a sheet element.<p><b>UIComponentClass: </b>org.apache.myfaces.tobago.component.UISheet</p><p><b>RendererType: </b><ul><li>Sheet (default)</li></ul></p><p><b>Supported facets:</b></p><dl><dt><b>reload</b></dt><dd>Contains an instance of UIReload</dd></dl><p><b>Supported markups:</b></p><dl><dt><b>bordered</b></dt><dd>Add borders to the table cells.</dd><dt><b>dark</b></dt><dd>Set dark background.</dd><dt><b>hover</b></dt><dd>Background of row changed on hovering.</dd><dt><b>small</b></dt><dd>Small margins for table cells.</dd><dt><b>striped</b></dt><dd>Zebra-striping for table rows.</dd><dt><b>spread</b></dt><dd>Use the full height for the HTML content.</dd></dl></div>
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+            <div class="summary">
+                <table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Component summary table, listing component information">
+                    <caption>
+                        <span>Component Information</span><span class="tabEnd">&nbsp;</span>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th class="colFirst" scope="col">Info</th><th class="colLast" scope="col">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="rowColor">
+                            <td class="colFirst">Component Type</td><td class="colLast"><code>org.apache.myfaces.tobago.Sheet</code></td>
+                        </tr>
+                        <tr class="altColor">
+                            <td class="colFirst">Handler Class</td><td class="colLast"><code>org.apache.myfaces.tobago.facelets.TobagoComponentHandler</code></td>
+                        </tr>
+                        <tr class="rowColor">
+                            <td class="colFirst">Renderer Type</td><td class="colLast"><code>Sheet</code></td>
+                        </tr>
+                        <tr class="altColor">
+                            <td class="colFirst">Description</td><td class="colLast"><i>None</i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="summary">
+                <table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Attribute summary table, listing attribute information">
+                    <caption>
+                        <span>Attributes</span><span class="tabEnd">&nbsp;</span>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th class="colFirst">Name</th><th class="colOne">Required</th><th class="colOne">Type</th><th class="colLast">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="binding" class="rowColor">
+                            <td class="colFirst"><a href="#binding"><code>binding</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>javax.faces.component.UIComponent</code>)
+					</td><td class="colLast">The value binding expression linking this component to a property in a backing bean.
+ For Facelets, the component is the outer UIPanel, not the input control.<br />Type: <code>javax.faces.component.UIComponent</code></td>
+                        </tr>
+                        <tr id="columns" class="altColor">
+                            <td class="colFirst"><a href="#columns"><code>columns</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.String</code>)
+					</td><td class="colLast"><p>
+ LayoutConstraints for column layout.
+ Contains a space separated list of layout tokens '&lt;n&gt;fr', '&lt;x&gt;px', '&lt;x&gt;%' or 'auto',
+ where x is a number and n is an integer.
+ </p><br />Type: <code>java.lang.String</code></td>
+                        </tr>
+                        <tr id="directLinkCount" class="rowColor">
+                            <td class="colFirst"><a href="#directLinkCount"><code>directLinkCount</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Integer</code>)
+					</td><td class="colLast">The count of rendered direct paging links in the sheet's footer.<br><br />Type: <code>java.lang.Integer</code><br />Default: <code>9</code></td>
+                        </tr>
+                        <tr id="first" class="altColor">
+                            <td class="colFirst"><a href="#first"><code>first</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Integer</code>)
+					</td><td class="colLast">Zero-relative row number of the first row to be displayed.<br />Type: <code>int</code><br />Default: <code>0</code></td>
+                        </tr>
+                        <tr id="id" class="rowColor">
+                            <td class="colFirst"><a href="#id"><code>id</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>java.lang.String</code></td><td class="colLast">The component identifier for this component.
+ This value must be unique within the closest parent component that is a naming container.<br />Type: <code>java.lang.String</code></td>
+                        </tr>
+                        <tr id="lazy" class="altColor">
+                            <td class="colFirst"><a href="#lazy"><code>lazy</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+					</td><td class="colLast">Lazy loading by scroll event.<br />Type: <code>boolean</code><br />Default: <code>false</code></td>
+                        </tr>
+                        <tr id="markup" class="rowColor">
+                            <td class="colFirst"><a href="#markup"><code>markup</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>org.apache.myfaces.tobago.context.Markup</code>)
+					</td><td class="colLast">Indicate markup of this component.
+ The allowed markups can be defined or overridden in the theme.
+ The value 'none' should not be used any longer. Just leave the attribute empty, or use a NULL pointer.<br />Type: <code>org.apache.myfaces.tobago.context.Markup</code></td>
+                        </tr>
+                        <tr id="maxSortColumns" class="altColor">
+                            <td class="colFirst"><a href="#maxSortColumns"><code>maxSortColumns</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Integer</code>)
+					</td><td class="colLast">The maximum count of multi-sorted columns to indicate.<br />Type: <code>java.lang.Integer</code><br />Default: <code>0</code></td>
+                        </tr>
+                        <tr id="rendered" class="rowColor">
+                            <td class="colFirst"><a href="#rendered"><code>rendered</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+					</td><td class="colLast">Flag indicating whether or not this component should be rendered
+ (during Render Response Phase), or processed on any subsequent form submit.<br />Type: <code>boolean</code><br />Default: <code>true</code></td>
+                        </tr>
+                        <tr id="rows" class="altColor">
+                            <td class="colFirst"><a href="#rows"><code>rows</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Integer</code>)
+					</td><td class="colLast">The number of rows to display, starting with the one identified by the
+ "first" property.
+ <br> The default has been changed from 100 to 0 because this is the default
+ in the JSF standard (since Tobago 1.5).<br />Type: <code>int</code><br />Default: <code>0</code></td>
+                        </tr>
+                        <tr id="selectable" class="rowColor">
+                            <td class="colFirst"><a href="#selectable"><code>selectable</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>org.apache.myfaces.tobago.model.Selectable</code>)
+					</td><td class="colLast">Indicating the selection mode of the sheet.<br />Type: <code>org.apache.myfaces.tobago.model.Selectable</code><br />Default: <code>multi</code><br />Allowed Values: <code>[none, single, singleOrNone, multi]</code></td>
+                        </tr>
+                        <tr id="showDirectLinks" class="altColor">
+                            <td class="colFirst"><a href="#showDirectLinks"><code>showDirectLinks</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>org.apache.myfaces.tobago.layout.ShowPosition</code>)
+					</td><td class="colLast">Flag indicating whether or not a range of direct paging links should be
+ rendered in the sheet's footer.<br />Type: <code>org.apache.myfaces.tobago.layout.ShowPosition</code><br />Default: <code>center</code><br />Allowed Values: <code>[left, center, right, none]</code></td>
+                        </tr>
+                        <tr id="showDirectLinksArrows" class="rowColor">
+                            <td class="colFirst"><a href="#showDirectLinksArrows"><code>showDirectLinksArrows</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+					</td><td class="colLast">Flag indicating if paging arrows are shown near direct links<br />Type: <code>boolean</code><br />Default: <code>false</code></td>
+                        </tr>
+                        <tr id="showHeader" class="altColor">
+                            <td class="colFirst"><a href="#showHeader"><code>showHeader</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+					</td><td class="colLast">Flag indicating the header should be rendered.<br />Type: <code>boolean</code><br />Default: <code>true</code></td>
+                        </tr>
+                        <tr id="showPageRange" class="rowColor">
+                            <td class="colFirst"><a href="#showPageRange"><code>showPageRange</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>org.apache.myfaces.tobago.layout.ShowPosition</code>)
+					</td><td class="colLast">Flag indicating whether and where the range pages should
+ rendered in the sheet's footer. Rendering this range also offers the
+ capability to enter the index displayed page directly.<br />Type: <code>org.apache.myfaces.tobago.layout.ShowPosition</code><br />Default: <code>right</code><br />Allowed Values: <code>[left, center, right, none]</code></td>
+                        </tr>
+                        <tr id="showPageRangeArrows" class="altColor">
+                            <td class="colFirst"><a href="#showPageRangeArrows"><code>showPageRangeArrows</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+					</td><td class="colLast">Flag indicating if paging arrows are shown near page range<br />Type: <code>boolean</code><br />Default: <code>true</code></td>
+                        </tr>
+                        <tr id="showPagingAlways" class="rowColor">
+                            <td class="colFirst"><a href="#showPagingAlways"><code>showPagingAlways</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+					</td><td class="colLast">Flag indicating whether or not the paging panel should be display, if it is not needed for paging.<br>
+ <ul>
+ <li>showPagingAlways="false" which is the default means, that the paging footer should be displayed,
+ only when it is needed.
+ <ul>
+ <li>When the rows="0" paging is not needed, so the footer will not be rendered,
+ <li>when rows="N", N &gt; 0 and the size of the data value is &lt;= N paging is not needed
+ and the footer will not be rendered,
+ <li>in any other case the paging footer will be displayed.
+ </ul>
+ <li>showPagingAlways="true" means, that the paging footer should be displayed in any case.
+ </ul><br />Type: <code>boolean</code><br />Default: <code>false</code></td>
+                        </tr>
+                        <tr id="showRoot" class="altColor">
+                            <td class="colFirst"><a href="#showRoot"><code>showRoot</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+					</td><td class="colLast">Only applicable in the case that the data model is a tree.
+ This flag indicates that the root node should be displayed.
+ Often in tree structures the root node is special and should not be displayed.<br />Type: <code>boolean</code><br />Default: <code>false</code></td>
+                        </tr>
+                        <tr id="showRootJunction" class="rowColor">
+                            <td class="colFirst"><a href="#showRootJunction"><code>showRootJunction</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Boolean</code>)
+					</td><td class="colLast">Only applicable in the case that the data model is a tree.
+ This flag indicates that the root node should be displayed with an open-close-switch.<br />Type: <code>boolean</code><br />Default: <code>false</code></td>
+                        </tr>
+                        <tr id="showRowRange" class="altColor">
+                            <td class="colFirst"><a href="#showRowRange"><code>showRowRange</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>org.apache.myfaces.tobago.layout.ShowPosition</code>)
+					</td><td class="colLast">Flag indicating whether or not the range of displayed rows should
+ rendered in the sheet's footer. Rendering this range also offers the
+ capability to enter the index of the start row directly.<br />Type: <code>org.apache.myfaces.tobago.layout.ShowPosition</code><br />Default: <code>left</code><br />Allowed Values: <code>[left, center, right, none]</code></td>
+                        </tr>
+                        <tr id="sortActionListener" class="rowColor">
+                            <td class="colFirst"><a href="#sortActionListener"><code>sortActionListener</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>java.lang.String</code></td><td class="colLast">Method binding representing an actionListener method that will be
+ invoked when sorting was requested by the user.
+ Use this if your application needs special handling for sorting columns.
+ If this is not set and the sortable attribute column is set to true the sheet
+ implementation will use a default sort method.
+ The expression must evaluate to a public method which takes an
+ ActionEvent as parameter and with a return type of void.
+ The method will receive a {@link org.apache.myfaces.tobago.event.SortActionEvent}.
+ The method should sort according to the sortColumnId and direction getting from
+ the sheet's {@link org.apache.myfaces.tobago.model.SheetState} object.</td>
+                        </tr>
+                        <tr id="state" class="altColor">
+                            <td class="colFirst"><a href="#state"><code>state</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>org.apache.myfaces.tobago.model.SheetState</code>)
+					</td><td class="colLast">Sheet state saving object.<br />Type: <code>org.apache.myfaces.tobago.model.SheetState</code></td>
+                        </tr>
+                        <tr id="stateChangeListener" class="rowColor">
+                            <td class="colFirst"><a href="#stateChangeListener"><code>stateChangeListener</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>java.lang.String</code></td><td class="colLast">Method binding representing a stateChangeListener method that will be
+ notified when the state was changed by the user.
+ The expression must evaluate to a public method that takes a
+ SheetStateChangeEvent parameter, with a return type of void.</td>
+                        </tr>
+                        <tr id="value" class="altColor">
+                            <td class="colFirst"><a href="#value"><code>value</code></a></td><td class="colOne"><code>false</code></td><td class="colOne"><code>javax.el.ValueExpression</code>
+                                <br>
+                                (<i>must evaluate to </i><code>java.lang.Object</code>)
+					</td><td class="colLast">The sheet's data.<br />Type: <code>[java.lang.Object[], java.util.List, javax.servlet.jsp.jstl.sql.Result, java.sql.ResultSet, java.lang.Object, javax.faces.model.DataModel]</code></td>
+                        </tr>
+                        <tr id="var" class="rowColor">
+                            <td class="colFirst"><a href="#var"><code>var</code></a></td><td class="colOne"><code>true</code></td><td class="colOne"><code>java.lang.String</code></td><td class="colLast">Name of a request-scope attribute under which the model data for the row
+ selected by the current value of the "rowIndex" property
+ (i.e. also the current value of the "rowData" property) will be exposed.<br />Type: <code>java.lang.String</code></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="bottomNav">
+            <a name="navbar_bottom"></a><a href="#skip-navbar_bottom" title="Skip navigation links"></a><a name="navbar_bottom_firstrow"></a>
+            <ul class="navList" title="Navigation">
+                <li>
+                    <a href="../overview-summary.html">Overview</a>
+                </li>
+                <li>
+                    <a href="tld-summary.html">Library</a>
+                </li>
+                <li class="navBarCell1Rev">Tag</li>
+                <li>
+                    <a href="../help-doc.html">Help</a>
+                </li>
+            </ul>
+        </div>
+        <div class="subNav">
+            <ul class="navList">
+                <li>
+                    <a target="_bottom" href="../index.html?tc/sheet.html">
+									Frames
+								</a>
+                </li>
+                <li>
+                    <a target="_bottom" href="sheet.html">
+									No Frames
+								</a>
+                </li>
+            </ul>
+            <ul class="navList" id="alltags_navbar_bottom">
+                <li>
+                    <a href="../alltags-noframe.html">All Tags</a>
+                </li>
+            </ul>
+            <script type="text/javascript">
+							document.getElementById("alltags_navbar_bottom").style.display = (window == top) ? "block" : "none";
+						</script><a name="skip-navbar_bottom"></a>
+        </div>
+        <p class="about">
+            Output generated by <a href="http://vdldoc.omnifaces.org" target="_blank">Vdldoc</a> View Declaration Language Documentation Generator.
+        </p>
+    </body>
+</html>

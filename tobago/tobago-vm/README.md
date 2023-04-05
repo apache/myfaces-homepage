@@ -10,7 +10,7 @@ https://github.com/apache/infrastructure-p6/ (private).
 
 ## Administration
 
-How to become root access is described on the
+How to become root access (OTP) is described on the
 [Apache site](https://reference.apache.org/committer/opie).
 
 ## Updates of the demo applications
