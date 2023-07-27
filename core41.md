@@ -98,7 +98,6 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.annotation.USE_CDI_FOR_ANNOTATION_SCANNING| 2.2.9| false| | Defines if CDI should be used for annotation scanning to improve the startup performance|
 | o.a.m.STRICT_JSF_2_ORIGIN_HEADER_APP_PATH| 2.3| false| true,false| This parameter specifies whether or not the Origin header app path should be checked|
 | o.a.m.MARK_INITIAL_STATE_WHEN_APPLY_BUILD_VIEW| 2.1| false| true, false| no description|
-| o.a.m.DELEGATE_FACES_SERVLET| 1.2.7| | | Define an alternate class name that will be used to initialize MyFaces, instead the default javax|
 | o.a.m.annotation.SCAN_PACKAGES| 2.0| | | Servlet context init parameter which defines which packages to scan for beans, separated by commas|
 | o.a.m.WEBSOCKET_MAX_IDLE_TIMEOUT| | 300000| | no description|
 | o.a.m.TEMPORAL_RESOURCEHANDLER_CACHE_ENABLED| 2.1.11| false| true, false| If this param is set to true (default false), a temporal directory is created and all files handled by this ResourceLoader are cached there, avoiding the problem described on MYFACES-3586|
