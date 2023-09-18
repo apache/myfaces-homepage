@@ -27,6 +27,7 @@ services:
         max-size: "1m"
         max-file: "5"
     links:
+      - demo-6-snapshot
 #      - demo-5-release
 #      - demo-5-staging
       - demo-5-snapshot
@@ -44,6 +45,7 @@ services:
 #      - demo-1-0-staging
 #      - demo-1-0-snapshot
     depends_on:
+      - demo-6-snapshot
 #      - demo-5-release
 #      - demo-5-staging
       - demo-5-snapshot
@@ -56,6 +58,18 @@ services:
       - demo-2-snapshot
 #      - demo-1-5-release
 #      - demo-1-0-release
+    restart: unless-stopped
+  demo-6-snapshot:
+    build: tomcat10
+    environment:
+      - TOBAGO_VERSION=6.0.0-SNAPSHOT
+      - CONTEXT_PATH=demo-6-snapshot
+    ports:
+      - "8602:8080"
+    logging:
+      options:
+        max-size: "1m"
+        max-file: "5"
     restart: unless-stopped
 #  demo-5-release:
 #    build: tomcat
