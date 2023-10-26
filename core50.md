@@ -1,14 +1,14 @@
-# Apache MyFaces Core 4.1
+# Apache MyFaces Core 5.0
 
-Implementation of the Jakarta Faces 4.1 specification.  
+Implementation of the Jakarta Faces 5.0 specification.  This is still in development and not yet released. 
 
 ## Requirements
-* Java 11
-* Servlet 5.0+
-* EL 5.0
-* CDI 4.0
+* Java 21
+* Servlet 6.1+
+* EL 6.0
+* CDI 4.1
 * JSTL 3.0 (optional)
-* BV 3.0 (optional)
+* BV 3.1 (optional)
 
 ## Source
 [Apache GitBox](https://gitbox.apache.org/repos/asf?p=myfaces.git;a=shortlog;h=refs/heads/master) / [GitHub](https://github.com/apache/myfaces/tree/master)
@@ -27,12 +27,12 @@ Implementation of the Jakarta Faces 4.1 specification.
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-api</artifactId>
-  <version>4.1.0-SNAPSHOT</version>
+  <version>5.0.0-SNAPSHOT</version>
 </dependency>
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-impl</artifactId>
-  <version>4.1.0-SNAPSHOT</version>
+  <version>5.0.0-SNAPSHOT</version>
 </dependency>
 ```
 
