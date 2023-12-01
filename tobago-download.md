@@ -16,6 +16,17 @@ that the *tar.gz* archives contain file names longer than 100 characters and hav
 created using GNU tar extensions. Thus, they must be untarred with a GNU compatible
 version of tar.
 
+## Tobago 6.1.0 Distribution
+
+Release notes can be found in
+[Jira](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12310273&version=12353821)
+
+|   | Type | File                                                                                                                 | Checksum                                                                                                      | Signature                                                                                            |
+|---|---|----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| MyFaces Tobago | tar.gz     | [Download Site](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-tobago-6.1.0-dist.tar.gz)             | [Checksum](https://downloads.apache.org/myfaces/binaries/myfaces-tobago-6.1.0-dist.tar.gz.sha256)             | [Signature](https://downloads.apache.org/myfaces/binaries/myfaces-tobago-6.1.0-dist.tar.gz.asc)      |
+| MyFaces Tobago | zip        | [Download Site](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-tobago-6.1.0-dist.zip)         | [Checksum](https://downloads.apache.org/myfaces/binaries/myfaces-tobago-6.1.0-dist.zip.sha256)         | [Signature](https://downloads.apache.org/myfaces/binaries/myfaces-tobago-6.1.0-dist.zip.asc)         |
+| MyFaces Tobago Source | zip | [Download Site](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-tobago-6.1.0-source-release.zip) | [Checksum](https://downloads.apache.org/myfaces/source/myfaces-tobago-6.1.0-source-release.zip.sha256) | [Signature](https://downloads.apache.org/myfaces/source/myfaces-tobago-6.1.0-source-release.zip.asc) |
+
 ## Tobago 6.0.0 Distribution
 
 Release notes can be found in
@@ -27,6 +38,16 @@ Release notes can be found in
 | MyFaces Tobago | zip        | [Download Site](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-tobago-6.0.0-dist.zip)         | [Checksum](https://downloads.apache.org/myfaces/binaries/myfaces-tobago-6.0.0-dist.zip.sha256)         | [Signature](https://downloads.apache.org/myfaces/binaries/myfaces-tobago-6.0.0-dist.zip.asc)         |
 | MyFaces Tobago Source | zip | [Download Site](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-tobago-6.0.0-source-release.zip) | [Checksum](https://downloads.apache.org/myfaces/source/myfaces-tobago-6.0.0-source-release.zip.sha256) | [Signature](https://downloads.apache.org/myfaces/source/myfaces-tobago-6.0.0-source-release.zip.asc) |
 
+## Tobago 5.9.0 Distribution
+
+Release notes can be found in
+[Jira](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12310273&version=12353822)
+
+|   | Type | File                                                                                                                 | Checksum                                                                                                      | Signature                                                                                            |
+|---|---|----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| MyFaces Tobago | tar.gz     | [Download Site](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-tobago-5.9.0-dist.tar.gz)             | [Checksum](https://downloads.apache.org/myfaces/binaries/myfaces-tobago-5.9.0-dist.tar.gz.sha256)             | [Signature](https://downloads.apache.org/myfaces/binaries/myfaces-tobago-5.9.0-dist.tar.gz.asc)      |
+| MyFaces Tobago | zip        | [Download Site](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-tobago-5.9.0-dist.zip)         | [Checksum](https://downloads.apache.org/myfaces/binaries/myfaces-tobago-5.9.0-dist.zip.sha256)         | [Signature](https://downloads.apache.org/myfaces/binaries/myfaces-tobago-5.9.0-dist.zip.asc)         |
+| MyFaces Tobago Source | zip | [Download Site](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-tobago-5.9.0-source-release.zip) | [Checksum](https://downloads.apache.org/myfaces/source/myfaces-tobago-5.9.0-source-release.zip.sha256) | [Signature](https://downloads.apache.org/myfaces/source/myfaces-tobago-5.9.0-source-release.zip.asc) |
 
 ## Tobago 5.8.0 Distribution
 
