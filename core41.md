@@ -21,12 +21,12 @@ Not yet released
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-api</artifactId>
-  <version>4.1.0-SNAPSHOT</version>
+  <version>4.1.0-RC1</version>
 </dependency>
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-impl</artifactId>
-  <version>4.1.0-SNAPSHOT</version>
+  <version>4.1.0-RC1</version>
 </dependency>
 ```
 
