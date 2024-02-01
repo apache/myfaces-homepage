@@ -3,12 +3,12 @@
 Implementation of the Jakarta Faces 5.0 specification.  This is still in development and not yet released. 
 
 ## Requirements
-* Java 21
-* Servlet 6.1+
+* Java  17 
+* Servlet 6.1
 * EL 6.0
 * CDI 4.1
-* JSTL 3.0 (optional)
-* BV 3.1 (optional)
+* Tags 3.0 (optional)
+* BeanValidation 3.1 (optional)
 
 ## Source
 [Apache GitBox](https://gitbox.apache.org/repos/asf?p=myfaces.git;a=shortlog;h=refs/heads/master) / [GitHub](https://github.com/apache/myfaces/tree/master)
