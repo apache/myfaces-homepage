@@ -11,6 +11,8 @@
 
 [Release Verification](#Verifying-checksums)
 
+[2.2](/core22.md ':include')
+
 [2.1](/core21.md ':include')
 
 [2.0](/core20.md ':include')
