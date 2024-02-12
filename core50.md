@@ -1,38 +1,32 @@
-# Apache MyFaces Core 4.1
+# Apache MyFaces Core 5.0
 
-Implementation of the Jakarta Faces 4.1 specification for Jakarta Enterprise Edition 11. 
+Implementation of the Jakarta Faces 5.0 specification.  This is still in development and not yet released. 
 
 ## Requirements
-* Java 17
-* Servlet 6.1+
+* Java  17 
+* Servlet 6.1
 * EL 6.0
 * CDI 4.1
-* JSTL 3.0 (optional)
-* BV 3.1 (optional)
+* Tags 3.0 (optional)
+* BeanValidation 3.1 (optional)
 
 ## Source
 [Apache GitBox](https://gitbox.apache.org/repos/asf?p=myfaces.git;a=shortlog;h=refs/heads/master) / [GitHub](https://github.com/apache/myfaces/tree/master)
 
 ## Downloads
-|     | Mirrors                                                                                                                      | Checksum                                                                                                                     | Signature                                                                                                                                |
-|-----------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| binary (tar.gz) | [myfaces-core-assembly-4.1.0-RC1-bin.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.1.0-RC1-bin.tar.gz) | [myfaces-core-assembly-4.1.0-RC1-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.1.0-RC1-bin.tar.gz.sha512) | [myfaces-core-assembly-4.1.0-RC1-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.1.0-RC1-bin.tar.gz.asc) |
-| binary (zip)    | [myfaces-core-assembly-4.1.0-RC1-bin.zip](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.1.0-RC1-bin.zip)       | [myfaces-core-assembly-4.1.0-RC1-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.1.0-RC1-bin.zip.sha512)       | [myfaces-core-assembly-4.1.0-RC1-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.1.0-RC1-bin.zip.asc)       |
-| source (tar.gz) | [myfaces-core-assembly-4.1.0-RC1-src.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.1.0-RC1-src.tar.gz)   | [myfaces-core-assembly-4.1.0-RC1-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.1.0-RC1-src.tar.gz.sha512)   | [myfaces-core-assembly-4.1.0-RC1-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.1.0-RC1-src.tar.gz.asc)   |
-| source (zip)    | [myfaces-core-assembly-4.1.0-RC1-src.zip](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.1.0-RC1-src.zip)         | [myfaces-core-assembly-4.1.0-RC1-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.1.0-RC1-src.zip.sha512)         | [myfaces-core-assembly-4.1.0-RC1-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.1.0-RC1-src.zip.asc)         |
-
+Not yet Released
 
 ## Dependency
 ```xml
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-api</artifactId>
-  <version>4.1.0-RC1</version>
+  <version>5.0.0-SNAPSHOT</version>
 </dependency>
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-impl</artifactId>
-  <version>4.1.0-RC1</version>
+  <version>5.0.0-SNAPSHOT</version>
 </dependency>
 ```
 
@@ -172,7 +166,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | ---- | ---- | ---- | ---- | ---- |
 | jakarta.faces.STATE_SAVING_METHOD| 1.1| server| server,client| Define the state method to be used. There are two different options " + "defined by the specification: 'client' and 'server' state.|
 | jakarta.faces.FULL_STATE_SAVING_VIEW_IDS| 2.0| | | Indicate the viewId(s) separated by commas that should be saved and restored fully, without use Partial State Saving (PSS)|
-| jakarta.faces.PARTIAL_STATE_SAVING| 2.0| true (false with 1.2 webapps)| true,false| Enable or disable partial state saving algorithm. Note: Full State Saving is deprecated in 4.1|
+| jakarta.faces.PARTIAL_STATE_SAVING| 2.0| true (false with 1.2 webapps)| true,false| Enable or disable partial state saving algorithm|
 | jakarta.faces.SERIALIZE_SERVER_STATE| 2.2| false| true,false| Indicate if the state should be serialized before save it on the session|
 | o.a.m.USE_ENCRYPTION| 1.1| true| true,false| Indicate if the view state is encrypted or not|
 | o.a.m.SECRET| 1.1| | | Defines the secret (Base64 encoded) used to initialize the secret key for encryption algorithm|

@@ -8,6 +8,7 @@
   - [Release Checklist](/coreReleaseChecklist.md)
   - [Concepts](/coreConcepts.md)
   - Versions
+    - [5.0](/core50.md)
     - [4.1](/core41.md)
     - [4.0](/core40.md)
     - [3.0](/core30.md)    
