@@ -16,10 +16,10 @@ Implementation of the Jakarta Faces 4.1 specification for Jakarta Enterprise Edi
 ## Downloads
 |     | Mirrors                                                                                                                      | Checksum                                                                                                                     | Signature                                                                                                                                |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| binary (tar.gz) | [myfaces-core-assembly-4.1.0-RC1-bin.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.1.0-RC1-bin.tar.gz) | [myfaces-core-assembly-4.1.0-RC1-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.1.0-RC1-bin.tar.gz.sha512) | [myfaces-core-assembly-4.1.0-RC1-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.1.0-RC1-bin.tar.gz.asc) |
-| binary (zip)    | [myfaces-core-assembly-4.1.0-RC1-bin.zip](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.1.0-RC1-bin.zip)       | [myfaces-core-assembly-4.1.0-RC1-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.1.0-RC1-bin.zip.sha512)       | [myfaces-core-assembly-4.1.0-RC1-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.1.0-RC1-bin.zip.asc)       |
-| source (tar.gz) | [myfaces-core-assembly-4.1.0-RC1-src.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.1.0-RC1-src.tar.gz)   | [myfaces-core-assembly-4.1.0-RC1-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.1.0-RC1-src.tar.gz.sha512)   | [myfaces-core-assembly-4.1.0-RC1-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.1.0-RC1-src.tar.gz.asc)   |
-| source (zip)    | [myfaces-core-assembly-4.1.0-RC1-src.zip](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.1.0-RC1-src.zip)         | [myfaces-core-assembly-4.1.0-RC1-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.1.0-RC1-src.zip.sha512)         | [myfaces-core-assembly-4.1.0-RC1-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.1.0-RC1-src.zip.asc)         |
+| binary (tar.gz) | [myfaces-core-assembly-4.1.0-RC2-bin.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.1.0-RC2-bin.tar.gz) | [myfaces-core-assembly-4.1.0-RC2-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.1.0-RC2-bin.tar.gz.sha512) | [myfaces-core-assembly-4.1.0-RC2-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.1.0-RC2-bin.tar.gz.asc) |
+| binary (zip)    | [myfaces-core-assembly-4.1.0-RC2-bin.zip](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.1.0-RC2-bin.zip)       | [myfaces-core-assembly-4.1.0-RC2-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.1.0-RC2-bin.zip.sha512)       | [myfaces-core-assembly-4.1.0-RC2-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.1.0-RC2-bin.zip.asc)       |
+| source (tar.gz) | [myfaces-core-assembly-4.1.0-RC2-src.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.1.0-RC2-src.tar.gz)   | [myfaces-core-assembly-4.1.0-RC2-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.1.0-RC2-src.tar.gz.sha512)   | [myfaces-core-assembly-4.1.0-RC2-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.1.0-RC2-src.tar.gz.asc)   |
+| source (zip)    | [myfaces-core-assembly-4.1.0-RC2-src.zip](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.1.0-RC2-src.zip)         | [myfaces-core-assembly-4.1.0-RC2-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.1.0-RC2-src.zip.sha512)         | [myfaces-core-assembly-4.1.0-RC2-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.1.0-RC2-src.zip.asc)         |
 
 
 ## Dependency
@@ -27,12 +27,12 @@ Implementation of the Jakarta Faces 4.1 specification for Jakarta Enterprise Edi
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-api</artifactId>
-  <version>4.1.0-RC1</version>
+  <version>4.1.0-RC2</version>
 </dependency>
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-impl</artifactId>
-  <version>4.1.0-RC1</version>
+  <version>4.1.0-RC2</version>
 </dependency>
 ```
 
@@ -171,7 +171,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | Name | Since | Default value | Expected values | Description |
 | ---- | ---- | ---- | ---- | ---- |
 | jakarta.faces.STATE_SAVING_METHOD| 1.1| server| server,client| Define the state method to be used. There are two different options " + "defined by the specification: 'client' and 'server' state.|
-| jakarta.faces.FULL_STATE_SAVING_VIEW_IDS| 2.0| | | Indicate the viewId(s) separated by commas that should be saved and restored fully, without use Partial State Saving (PSS)|
+| jakarta.faces.FULL_STATE_SAVING_VIEW_IDS| 2.0| | | Indicate the viewId(s) separated by commas that should be saved and restored fully, without use Partial State Saving (PSS) Note: This parameter is deprecated in 4.1|
 | jakarta.faces.PARTIAL_STATE_SAVING| 2.0| true (false with 1.2 webapps)| true,false| Enable or disable partial state saving algorithm. Note: Full State Saving is deprecated in 4.1|
 | jakarta.faces.SERIALIZE_SERVER_STATE| 2.2| false| true,false| Indicate if the state should be serialized before save it on the session|
 | o.a.m.USE_ENCRYPTION| 1.1| true| true,false| Indicate if the view state is encrypted or not|
@@ -202,7 +202,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN| 2.2.0| none| secureRandom, random| Defines how to generate the csrf session token|
 | o.a.m.COMPRESS_STATE_IN_SESSION| 1.1| true| true,false| Indicates that the serialized state will be compressed before it is written to the session|
 | o.a.m.USE_FLASH_SCOPE_PURGE_VIEWS_IN_SESSION| 2.0.6| false| true, false| Allow use flash scope to keep track of the views used in session and the previous ones, so server side state saving can delete old views even if POST-REDIRECT-GET pattern is used|
-| o.a.m.AUTOCOMPLETE_OFF_VIEW_STATE| 2.2.8, 2.1.18, 2.0.24| true| true, false| Add autocomplete="off" to the view state hidden field|
+| o.a.m.AUTOCOMPLETE_OFF_VIEW_STATE| 2.2.8, 2.1.18, 2.0.24| false| true, false| Add autocomplete="off" to the view state hidden field|
 | o.a.m.NUMBER_OF_VIEWS_IN_SESSION| 1.1| 20| | Defines the amount (default = 20) of the latest views are stored in session|
 | o.a.m.NUMBER_OF_SEQUENTIAL_VIEWS_IN_SESSION| 2.0.6| 4| | Indicates the amount of views (default is not active) that should be stored in session between sequential POST or POST-REDIRECT-GET if org|
 | o.a.m.CHECK_ID_PRODUCTION_MODE| 2.0.12, 2.1.6| auto| true, auto, false| Define how duplicate ids are checked when ProjectStage is Production, by default (auto) it only check ids of components that does not encapsulate markup (like facelets UILeaf)|
