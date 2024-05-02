@@ -30,7 +30,8 @@ To install the comparator you simply have to set a web.xml config parameter:
 ### Default implementations shipping with MyFaces core
 
 MyFaces core already provides three implementations of java.util.Comparator<ELResolver>.
-* `org.apache.myfaces.el.unified.OpenWebBeansELResolverComparator`: optimized for Apache OpenWebBeans
+* `org.apache.myfaces.el.unified.CdiELResolverComparator`: optimized for CDI (OpenWebBeans and Weld)
+* REMOVED in 4.0.1: `org.apache.myfaces.el.unified.OpenWebBeansELResolverComparator`: optimized for Apache OpenWebBeans
 * `org.apache.myfaces.el.unified.CustomFirstELResolverComparator`: puts your custom ELResolvers to the first place
 * `org.apache.myfaces.el.unified.CustomLastELResolverComparator`: puts your custom ELResolvers to the last place
 
