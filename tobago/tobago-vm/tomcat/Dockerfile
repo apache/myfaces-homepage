@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM tomcat:8.5-jdk8-temurin
+FROM tomcat:9-jdk17
 MAINTAINER dev@myfaces.apache.org
 
 RUN rm -r /usr/local/tomcat/webapps.dist
