@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM tomcat:10-jdk11
+FROM tomcat:10-jdk17
 MAINTAINER dev@myfaces.apache.org
 
 RUN rm -r /usr/local/tomcat/webapps.dist
