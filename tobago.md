@@ -23,6 +23,14 @@ it different from other frameworks:
 
 ## News
 
+### October 19, 2024 Apache Tobago 6.6.0 and 5.14.0 Released
+
+The Apache Tobago component library in version 6.6.0 and 5.14.0 has been released.
+
+Release notes can be found in Jira.
+[Tobago 6.6.0](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12310273&version=12355068)
+[Tobago 5.14.0](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12310273&version=12355069)
+
 ### August 31, 2024 Apache Tobago 6.5.0, 5.13.0 and 2.5.3 Released
 
 The Apache Tobago component library in version 6.5.0, 5.13.0 and 2.5.3 has been released.
