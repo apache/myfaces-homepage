@@ -13,7 +13,7 @@ This list is not exhaustive, additions are welcome.
       <th>3.x [archived]</th>
       <th>4.x</th>
       <th>5.x</th>
-      <th>6.x [in development]</th>
+      <th>6.x</th>
     </tr>
     <tr>
       <th colspan="8">Specifications</th>
@@ -25,9 +25,9 @@ This list is not exhaustive, additions are welcome.
       <td> 1.5, 1.6, 1.7, 1.8, 9, 11, 17
         (since Tobago 2.5 Java 1.7 or higher is required)</td>
       <td>1.8, 9, 10</td>
-      <td>8, 11, 17 (others should work)</td>
-      <td>8, 11, 17 (others should work)</td>
-      <td>11, 17 (others should work)</td>
+      <td>8 or higher</td>
+      <td>17 or higher</td>
+      <td>17 or higher</td>
     </tr>
     <tr>
       <td>JSF</td>
@@ -37,7 +37,7 @@ This list is not exhaustive, additions are welcome.
       <td>2.0, 2.1, 2.2</td>
       <td>2.0, 2.1, 2.2, 2.3</td>
       <td>2.3</td>
-      <td>3.0</td>
+      <td>4.0</td>
     </tr>
     <tr>
       <td>Facelets</td>
@@ -58,7 +58,7 @@ This list is not exhaustive, additions are welcome.
       <td>3.0, 3.1</td>
       <td>3.0, 3.1, 4.0</td>
       <td>4.0</td>
-      <td>5.0</td>
+      <td>6.0</td>
     </tr>
     <tr>
       <td>JSP</td>
@@ -104,7 +104,7 @@ This list is not exhaustive, additions are welcome.
       <td>7, 8</td>
       <td>7, 8, 9</td>
       <td>9</td>
-      <td>10</td>
+      <td>10.1</td>
     </tr>
     <tr>
       <td>Jetty</td>
