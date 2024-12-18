@@ -93,7 +93,7 @@ Some useful links/resources:
 * Create the new version
 * Find resolved issues and close them
 * Move unresolved issues moved to new version
-* Don't forget to change to "released" the version you are trying to release in the JIRA dashboard
+* Don't forget to change to "released" the version you are trying to release in the JIRA dashboard!
 
 Go to the following link perform these steps under the MyFaces Core Project: [JIRA Dashboard](https://issues.apache.org/jira/secure/Dashboard.jspa)
 
@@ -118,7 +118,7 @@ Example link: https://repository.apache.org/content/repositories/orgapachemyface
 
 **NOTE**: Providing MD5 or SHA1 checksum files is now discouraged for new releases, but still allowed for past releases.
 
-#### 4.2 Generate manually
+#### 4.2 Generate manually (May be skipped as people.apache.org is shut down)
 
 Otherwise you can generate them manually. Try to do it automatically javadoc and other stuff SUCCESS. It generate myfaces-core-2.3.0-bin.tar.gz and zip
 
@@ -142,7 +142,7 @@ gpg --armor --output myfaces-core-2.3.0-bin.tar.gz.asc --detach-sig myfaces-core
 gpg --armor --output myfaces-core-2.3.0-bin.zip.asc --detach-sig myfaces-core-2.3.0-bin.zip
 ```
 
-Copy to ftp private account on people.apache.org
+Copy to ftp private account on people.apache.org /  home.apache.org  (Note: [Shut down as of Sept, 2024](https://infra.apache.org/blog/end_of_home.html))
 
 ```
 scp -p -r myfaces-core-2.3.0-bin* embreijo@people.apache.org:/home/embreijo/public_html/myfaces230binsrc/binaries
@@ -243,7 +243,7 @@ for file in $(find . -type f -name "${PATTERN}" -exec basename \{\} \; ) ; do
 ```
 
 
-##### 7.2.2 Upload it manually
+##### 7.2.2 Upload it manually 
 Otherwise, use an SVN client and add the release artifacts to the SVN dist repo: [MyFaces Distribution Repository](https://dist.apache.org/repos/dist/release/myfaces)
 * myfaces-core-assembly-${VERSION}-bin.* should go under the binaries directory
 * myfaces-core-assembly-${VERSION}-src.* should go under the source directory
@@ -260,14 +260,14 @@ Remove the previous release from both binaries and source directories of the svn
 
 #### 7.3 Add release to Reporter
 Add the release version and date to the Apache Committee Report Helper: [Add Release](https://reporter.apache.org/addrelease.html?myfaces)
-
+**NOTE**: If not release in JIRA yet (from Step 2), then the version change to "released" in the JIRA dashboard!
 
 ## 8. Update Homepage
 
 * Checkout the homapage via [GitBox](https://gitbox.apache.org/repos/asf?p=myfaces-homepage.git)
 * Update coreX.md: Update the links in the Download section and the version in the Depedency section
 * Update news.md: Add a new entry for the release
-* The Apache Bot will synchronize it after some minutes
+* The Apache Bot will synchronize it after some minutes - Verify the website is updated!
 
 ## 9. Announce
 
