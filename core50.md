@@ -68,7 +68,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.VIEW_POOL_MAX_DYNAMIC_PARTIAL_LIMIT| | 2| | Defines the limit of the views that cannot be reused partially|
 | o.a.m.VIEW_POOL_ENTRY_MODE| | soft| weak,soft| Defines the type of memory reference that is used to hold the view into memory|
 | o.a.m.VIEW_POOL_DEFERRED_NAVIGATION| | false| true, false| Defines if the view pool uses deferred navigation to recycle views when navigation is performed|
-| o.a.m.USE_LAMBDA_METAFACTORY| 2.3-next| false | true,false| Defines if Lambda expressions (via LambdaMetafactory) are used for getter/setter instead of Reflection|
+| o.a.m.USE_LAMBDAS_OVER_REFLECTION| 5.0| false | true,false| Defines if Lambdas should be used for getter/setter instead of Reflection|
 | o.a.m.CONFIG_REFRESH_PERIOD| 1.1| 2| | Set the time in seconds that check for updates of web|
 | o.a.m.VALIDATE_XML| 2.0| | true, false, on, off, yes, no| If set to <code>true</code>, tag library XML files and faces config XML files using schema 
 | o.a.m.FACES_INIT_PLUGINS| 2.0| | | comma delimited list of plugin classes which can be hooked into myfaces|
