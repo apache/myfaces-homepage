@@ -17,22 +17,22 @@ Implementation of the JavaServer™ Faces (JSF) 2.3 specification.
 
 |     | Mirrors                                                                                                                      | Checksum                                                                                                                     | Signature                                                                                                                                |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| binary (tar.gz) | [myfaces-core-assembly-2.3.10-bin.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-2.3.10-bin.tar.gz) | [myfaces-core-assembly-2.3.10-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3.10-bin.tar.gz.sha512) | [myfaces-core-assembly-2.3.10-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3.10-bin.tar.gz.asc) |
-| binary (zip)    | [myfaces-core-assembly-2.3.10-bin.zip](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-2.3.10-bin.zip)       | [myfaces-core-assembly-2.3.10-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3.10-bin.zip.sha512)       | [myfaces-core-assembly-2.3.10-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3.10-bin.zip.asc)       |
-| source (tar.gz) | [myfaces-core-assembly-2.3.10-src.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-2.3.10-src.tar.gz)   | [myfaces-core-assembly-2.3.10-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3.10-src.tar.gz.sha512)   | [myfaces-core-assembly-2.3.10-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3.10-src.tar.gz.asc)   |
-| source (zip)    | [myfaces-core-assembly-2.3.10-src.zip](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-2.3.10-src.zip)         | [myfaces-core-assembly-2.3.10-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3.10-src.zip.sha512)         | [myfaces-core-assembly-2.3.10-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3.10-src.zip.asc)         |
+| binary (tar.gz) | [myfaces-core-assembly-2.3.11-bin.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-2.3.11-bin.tar.gz) | [myfaces-core-assembly-2.3.11-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3.11-bin.tar.gz.sha512) | [myfaces-core-assembly-2.3.11-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3.11-bin.tar.gz.asc) |
+| binary (zip)    | [myfaces-core-assembly-2.3.11-bin.zip](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-2.3.11-bin.zip)       | [myfaces-core-assembly-2.3.11-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3.11-bin.zip.sha512)       | [myfaces-core-assembly-2.3.11-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-2.3.11-bin.zip.asc)       |
+| source (tar.gz) | [myfaces-core-assembly-2.3.11-src.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-2.3.11-src.tar.gz)   | [myfaces-core-assembly-2.3.11-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3.11-src.tar.gz.sha512)   | [myfaces-core-assembly-2.3.11-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3.11-src.tar.gz.asc)   |
+| source (zip)    | [myfaces-core-assembly-2.3.11-src.zip](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-2.3.11-src.zip)         | [myfaces-core-assembly-2.3.11-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3.11-src.zip.sha512)         | [myfaces-core-assembly-2.3.11-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-2.3.11-src.zip.asc)         |
 
 ## Dependency
 ```xml
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-api</artifactId>
-  <version>2.3.10</version>
+  <version>2.3.11</version>
 </dependency>
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-impl</artifactId>
-  <version>2.3.10</version>
+  <version>2.3.11</version>
 </dependency>
 ```
 
@@ -215,7 +215,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN_SECURE_RANDOM_CLASS | 2.2.0 |  |  | Sets the random class to initialize the secure random id generator |
 | o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN_SECURE_RANDOM_PROVIDER | 2.2.0 |  |  | Sets the random provider to initialize the secure random id generator |
 | o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN_SECURE_RANDOM_ALGORITM | 2.2.0 | SHA1PRNG |  | Sets the random algorithm to initialize the secure random id generator |
-| o.a.m.AUTOCOMPLETE_OFF_VIEW_STATE | 2.2.8, 2.1.18, 2.3.6 | true | true, false | Add autocomplete="off" to the view state hidden field |
+| o.a.m.AUTOCOMPLETE_OFF_VIEW_STATE | 2.2.8, 2.1.18, 2.3.6 | false | true, false | Add autocomplete="off" to the view state hidden field. Changed to false in 2.3.11 |
 | o.a.m.RANDOM_KEY_IN_WEBSOCKET_SESSION_TOKEN | 2.2.0 | secureRandom | secureRandom, random | Defines how to generate the csrf session token. As of version 2.3.8 the default switched from `random` to `secureRandom`. |
 
 ### Deprecated
