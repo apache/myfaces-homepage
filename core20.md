@@ -133,7 +133,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.VIEW_UNIQUE_IDS_CACHE_ENABLED | 2.0.13 | true | true, false | Enable or disable a cache used to 'remember'  the generated facelets unique ids and reduce the impact over memory usage. |
 | o.a.m.COMPONENT_UNIQUE_IDS_CACHE_SIZE | 2.0.13 | 100 |  | Set the size of the cache used to store strings generated using SectionUniqueIdCounter for component ids |
 | o.a.m.CHECKED_VIEWID_CACHE_SIZE | 2.0.2 | 500 |  | Controls the size of the cache used to 'remember' if a view exists or not. |
-| o.a.m.CHECKED_VIEWID_CACHE_ENABLED | 2.0.2 | true | true, false | Enable or disable a cache used to 'remember' if a view exists or not and reduce the impact of sucesive calls to ExternalContext.getResource(). |
+| o.a.m.CHECKED_VIEWID_CACHE_ENABLED | 2.0.2 | true | true, false | Enable or disable a cache used to 'remember' if a view exists or not and reduce the impact of successive calls to ExternalContext.getResource(). |
 
 ###  Resources
 | Name | Since | Default value | Expected values | Description |

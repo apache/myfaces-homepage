@@ -128,11 +128,11 @@ MyFaces core behavior can be customized, adding some web config params into your
 | javax.faces.FACELETS_SUFFIX| 2.0| .xhtml|| The default extension used to handle facelets pages |
 | javax.faces.FACELETS_VIEW_MAPPINGS| 2.0||| Set of extensions handled by facelets, separated by ';' |
 | o.a.m.CHECKED_VIEWID_CACHE_SIZE| 2.0.2|500|| Controls the size of the cache used to 'remember' if a view exists or not. |
-| o.a.m.CHECKED_VIEWID_CACHE_ENABLED| 2.0.2| true| true, false|Enable or disable a cache used to 'remember' if a view exists or not and reduce the impact of sucesive calls to ExternalContext.getResource(). |
+| o.a.m.CHECKED_VIEWID_CACHE_ENABLED| 2.0.2| true| true, false|Enable or disable a cache used to 'remember' if a view exists or not and reduce the impact of successive calls to ExternalContext.getResource(). |
 | o.a.m.COMPONENT_UNIQUE_IDS_CACHE_SIZE| 2.0.13, 2.1.7|100|| Set the size of the cache used to store strings generated using SectionUniqueIdCounter for component ids |
 | o.a.m.STRICT_JSF_2_VIEW_NOT_FOUND| 2.1.13| false| true,false| If this param is set to true, a check will be done in Restore View Phase to check if the viewId exists or not and if it does not exists, a 404 response will be thrown |
 | o.a.m.CHECKED_VIEWID_CACHE_SIZE| 2.0.2|500|| Controls the size of the cache used to 'remember' if a view exists or not. |
-| o.a.m.CHECKED_VIEWID_CACHE_ENABLED| 2.0.2| true| true, false|Enable or disable a cache used to 'remember' if a view exists or not and reduce the impact of sucesive calls to ExternalContext.getResource(). |
+| o.a.m.CHECKED_VIEWID_CACHE_ENABLED| 2.0.2| true| true, false|Enable or disable a cache used to 'remember' if a view exists or not and reduce the impact of successive calls to ExternalContext.getResource(). |
 | javax.faces.DISABLE_FACELET_JSF_VIEWHANDLER| 2.0| false| true,false| Disable facelets VDL from the current application project |
 
 ###  Resources
