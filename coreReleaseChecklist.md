@@ -153,7 +153,7 @@ scp -p -r myfaces-core-2.3.0-src* embreijo@people.apache.org:/home/embreijo/publ
 
 > :warning: **This step can be skipped on 2.3-next as the API JAR now contains `org.apache.myfaces` packages.**
 
-In the past Clirr was used but it doesnt work anymore. We use a similar tool called japicmp now:  
+In the past Clirr was used but it doesn't work anymore. We use a similar tool called japicmp now:  
 Github: https://github.com/siom79/japicmp  
 Website: https://siom79.github.io/japicmp/  
 
@@ -264,8 +264,8 @@ Add the release version and date to the Apache Committee Report Helper: [Add Rel
 
 ## 8. Update Homepage
 
-* Checkout the homapage via [GitBox](https://gitbox.apache.org/repos/asf?p=myfaces-homepage.git)
-* Update coreX.md: Update the links in the Download section and the version in the Depedency section
+* Checkout the homepage via [GitBox](https://gitbox.apache.org/repos/asf?p=myfaces-homepage.git)
+* Update coreX.md: Update the links in the Download section and the version in the Dependency section
 * Update news.md: Add a new entry for the release
 * The Apache Bot will synchronize it after some minutes - Verify the website is updated!
 
