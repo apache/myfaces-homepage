@@ -1,0 +1,14 @@
+{
+  "name": "docsify",
+  "scripts": {
+    "copy-docsify": "node copy-docsify.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henningn/myfaces-homepage.git"
+  },
+  "private": true,
+  "dependencies": {
+    "docsify": "^4.13.1"
+  }
+}
