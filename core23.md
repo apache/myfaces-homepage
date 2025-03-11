@@ -168,7 +168,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | Name | Since | Default value | Expected values | Description |
 | ---- | ---- | ---- | ---- | ---- |
 | javax.faces.RESOURCE_EXCLUDES | 2.0 | .class .jsp .jspx .properties .xhtml .groovy |  | Space separated file extensions that will not be served by the default ResourceHandler implementation |
-| o.a.m.RESOURCE_MAX_TIME_EXPIRES | 2.0 | 604800000 |  | Set the max time in miliseconds set on the "Expires" header for a resource rendered by the default ResourceHandler |
+| o.a.m.RESOURCE_MAX_TIME_EXPIRES | 2.0 | 604800000 |  | Set the max time in milliseconds set on the "Expires" header for a resource rendered by the default ResourceHandler |
 | o.a.m.RESOURCE_HANDLER_CACHE_SIZE | 2.0.2 | 500 |  | Controls the size of the cache used to check if a resource exists or not |
 | o.a.m.RESOURCE_HANDLER_CACHE_ENABLED | 2.0.2 | true | true,false | Enable or disable the cache used to "remember" if a resource handled by the default ResourceHandler exists or not |
 | o.a.m.STRICT_JSF_2_ALLOW_SLASH_LIBRARY_NAME | 2.1.6, 2.0.12 | false | true, false | Allow slash in the library name of a Resource |

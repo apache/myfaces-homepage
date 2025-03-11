@@ -158,7 +158,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.RESOURCE_BUFFER_SIZE| 2.1.10, 2.0.16| 2048| | Define the default buffer size that is used between Resource|
 | o.a.m.RESOURCE_HANDLER_CACHE_SIZE| 2.0.2| 500| | Controls the size of the cache used to check if a resource exists or not|
 | o.a.m.RESOURCE_HANDLER_CACHE_ENABLED| 2.0.2| true| true,false| Enable or disable the cache used to "remember" if a resource handled by the default ResourceHandler exists or not|
-| o.a.m.RESOURCE_MAX_TIME_EXPIRES| 2.0| 604800000| | Set the max time in miliseconds set on the "Expires" header for a resource rendered by the default ResourceHandler|
+| o.a.m.RESOURCE_MAX_TIME_EXPIRES| 2.0| 604800000| | Set the max time in milliseconds set on the "Expires" header for a resource rendered by the default ResourceHandler|
 
 
 ### State
