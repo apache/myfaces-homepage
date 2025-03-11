@@ -116,7 +116,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.FLASH_SCOPE_DISABLED| 2.0.5| false| | Defines whether flash scope is disabled, preventing add the Flash cookie to the response|
 | o.a.m.LAZY_LOAD_CONFIG_OBJECTS| 2.0| true| | Indicate if the classes associated to components, converters, validators or behaviors should be loaded as soon as they are added to the current application instance or instead loaded in a lazy way| 
 | o.a.m.EL_RESOLVER_TRACING | 4.0 | false | | Defines if ELResolvers should be traced on each request and logged. Only active on Development ProjectStage. |
-| o.a.m.EXCEPTION_TYPES_TO_IGNORE_IN_LOGGING | 4.0.3 | | | Defines exceptions, seperated by commas, which should be skipped for logging in the ExcceptionHandler. |
+| o.a.m.EXCEPTION_TYPES_TO_IGNORE_IN_LOGGING | 4.0.3 | | | Defines exceptions, separated by commas, which should be skipped for logging in the ExcceptionHandler. |
 
 ### Validation
 | Name | Since | Default value | Expected values | Description |

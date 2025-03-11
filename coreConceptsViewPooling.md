@@ -40,8 +40,8 @@ In fact, the first option is not really an option and it was discarded after som
 Build a view can be described as a repetitive calculation. Many components are created and assembled in a predictable way with attributes that most of them are defined to their associated templates or facelets.
 
 In JSF 2.0, PSS algorithm takes advantage of that predictable behavior and make a distinction between the "initial state" and the "delta state".
-In this way, a view is a composition of the initial state and its delta state. But in the same way, if it is substracted the delta from the current state, the result is the initial state.
-So, if we can somehow "substract" or "reset" the delta from the current state, we could derive a view into its initial state in the same way as a view is created from scratch.
+In this way, a view is a composition of the initial state and its delta state. But in the same way, if it is subtracted the delta from the current state, the result is the initial state.
+So, if we can somehow "subtract" or "reset" the delta from the current state, we could derive a view into its initial state in the same way as a view is created from scratch.
 
 In other words, we are taking advantage of the current JSF spec and we are taking it to the next level. PSS algorithm can be used to check if a view has been modified or not, checking its state.
 That information can help us to decide if a component is reusable (no state) or not (with state).
