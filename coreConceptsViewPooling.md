@@ -71,7 +71,7 @@ The pool uses these attributes as a key to group similar views, so there are dif
 But a view can have a different structure too if it is used one of the following facelets tags.
 
 According to its dynamic behavior, views can be classified into two groups: "static structure views" and "dynamic structure views".
-This distinction is important because dynamic structure views requires a special treatement.
+This distinction is important because dynamic structure views requires a special treatment.
 
 There are two basic operation that any pool must do: create objects and store them in the pool and take the objects from the pool.
 In the JSF lifecycle, there are the following points where the pool must take some action:

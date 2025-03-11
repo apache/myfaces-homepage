@@ -14,7 +14,7 @@ What are the benefits compared to 2.3?
 * Better default parameters, optimized for developer-usability and performance
 
 What are the disadvantages compared to 2.3?
-* We completely removed the `ManagedBeans` implementaiton, but we delegate the `@ManagedBean` and scope annotations to CDI
+* We completely removed the `ManagedBeans` implementation, but we delegate the `@ManagedBean` and scope annotations to CDI
 * `ManagedBeans` configured via XML are completely ignored
 * The implementation of the old FacesEL (`javax.faces.el.*`) also has been completely removed.  
 
