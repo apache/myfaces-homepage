@@ -93,7 +93,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.CONFIG_REFRESH_PERIOD| 1.1| 2| | Set the time in seconds that check for updates of web|
 | o.a.m.VALIDATE_XML| 2.0| | true, false, on, off, yes, no| If set to <code>true</code>, tag library XML files and faces config XML files using schema 
 | o.a.m.FACES_INIT_PLUGINS| 2.0| | | comma delimited list of plugin classes which can be hooked into myfaces|
-| o.a.m.INITIALIZE_SKIP_JAR_FACES_CONFIG_SCAN| 2.2.10| false| true, false| If the flag is true, the algoritm skip jar scanning for faces-config files to check if the current application requires FacesServlet to be added dynamically (servlet spec 3). This parameter can also be set as a system property. |
+| o.a.m.INITIALIZE_SKIP_JAR_FACES_CONFIG_SCAN| 2.2.10| false| true, false| If the flag is true, the algorithm skip jar scanning for faces-config files to check if the current application requires FacesServlet to be added dynamically (servlet spec 3). This parameter can also be set as a system property. |
 | o.a.m.INITIALIZE_ALWAYS_STANDALONE| 2.0.3| false| | If this param is set to true, the check for faces servlet mapping is not done|
 | o.a.m.WRAP_TAG_EXCEPTIONS_AS_CONTEXT_AWARE| 2.0.9, 2.1.3| true| true, false| Wrap exception caused by calls to EL expressions, so information like the location, expression string and tag name can be retrieved by the ExceptionHandler implementation and used to output meaningful information about itself|
 | o.a.m.RESOURCE_CACHE_LAST_MODIFIED| 2.3-next| true| true, false| Defines if the last-modified should be cached of the resources when the ProjectStage is Production|

@@ -73,7 +73,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.VALIDATE| 2.0| false| true, false| Validate if the managed beans and navigations rules are correct |
 | o.a.m.annotation.SCAN_PACKAGES| 2.0||| Servlet context init parameter which defines which packages to scan for beans, separated by commas |
 | o.a.m.config.annotation.LifecycleProvider| 1.1||| no description |
-| o.a.m.INITIALIZE_SKIP_JAR_FACES_CONFIG_SCAN| 2.2.10, 2.1.19| false| true, false| If the flag is true, the algoritm skip jar scanning for faces-config files to check if the current application requires FacesServlet to be added dynamically (servlet spec 3). This property can also be set as a system property. |
+| o.a.m.INITIALIZE_SKIP_JAR_FACES_CONFIG_SCAN| 2.2.10, 2.1.19| false| true, false| If the flag is true, the algorithm skip jar scanning for faces-config files to check if the current application requires FacesServlet to be added dynamically (servlet spec 3). This property can also be set as a system property. |
 | o.a.m.ERROR_TEMPLATE_RESOURCE| 1.2.4| META-INF/rsc/myfaces-dev-error.xml|| Indicate the template name used to render the default error page used by MyFaces specific error handler implementation |
 | o.a.m.DEBUG_TEMPLATE_RESOURCE| 1.2.4| META-INF/rsc/myfaces-dev-debug.xml|| Indicate the template name used to render the default debug page (see ui:debug tag) |
 | o.a.m.ERROR_HANDLING| 1.2.4| false, on Development Project stage: true| true,false| Indicate if myfaces is responsible to handle errors |
