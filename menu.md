@@ -23,7 +23,7 @@
   - [Getting started](https://tobago-demo.apache.org/getting-started.html)
   - [Download](/tobago-download.md)
   - [Issue Tracker](https://issues.apache.org/jira/projects/TOBAGO/issues/)
-  - [Github](https://github.com/apache/myfaces-tobago/tree/tobago-5.x)
+  - [GitHub](https://github.com/apache/myfaces-tobago/tree/tobago-5.x)
   
 - [Legacy Wiki](https://cwiki.apache.org/confluence/display/MYFACES2/Home)
 - [Inactive Projects](/inactiveProjects.md)

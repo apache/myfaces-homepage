@@ -63,7 +63,7 @@ Release notes can be found in
 ## Latest Source Code from GIT Repository
 
 The source code is available on
-[Github](https://github.com/apache/myfaces-tobago) and Apache
+[GitHub](https://github.com/apache/myfaces-tobago) and Apache
 [Gitbox](https://gitbox.apache.org/repos/asf?p=myfaces-tobago.git).
 
 ## Archive of Old Releases

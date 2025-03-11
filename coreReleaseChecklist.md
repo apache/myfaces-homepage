@@ -154,7 +154,7 @@ scp -p -r myfaces-core-2.3.0-src* embreijo@people.apache.org:/home/embreijo/publ
 > :warning: **This step can be skipped on 2.3-next as the API JAR now contains `org.apache.myfaces` packages.**
 
 In the past Clirr was used but it doesn't work anymore. We use a similar tool called japicmp now:  
-Github: https://github.com/siom79/japicmp  
+GitHub: https://github.com/siom79/japicmp  
 Website: https://siom79.github.io/japicmp/  
 
 Comparison should be done between MyFaces 2.3 API and Mojarra 2.3 API jars, that is, myfaces-api-2.3.x.jar and javax.faces-api-2.3.jar.
