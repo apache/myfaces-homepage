@@ -81,7 +81,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.annotation.USE_CDI_FOR_ANNOTATION_SCANNING | 2.2.9 |  |  | Defines if CDI should be used for annotation scanning to improve the startup performance |
 | o.a.m.annotation.SCAN_PACKAGES | 2.0 |  |  | Servlet context init parameter which defines which packages to scan for beans, separated by commas |
 | o.a.m.config.annotation.LifecycleProvider | 1.1 |  |  | no description |
-| o.a.m.INITIALIZE_SKIP_JAR_FACES_CONFIG_SCAN | 2.2.10 | false | true, false | If the flag is true, the algoritm skip jar scanning for faces-config files to check if the current application requires FacesServlet to be added dynamically (servlet spec 3). This parameter can also be set as a system property. |
+| o.a.m.INITIALIZE_SKIP_JAR_FACES_CONFIG_SCAN | 2.2.10 | false | true, false | If the flag is true, the algorithm skip jar scanning for faces-config files to check if the current application requires FacesServlet to be added dynamically (servlet spec 3). This parameter can also be set as a system property. |
 | o.a.m.DEFAULT_WINDOW_MODE | 2.2 | url |  | no description |
 | o.a.m.ERROR_TEMPLATE_RESOURCE | 1.2.4 | META-INF/rsc/myfaces-dev-error.xml |  | Indicate the template name used to render the default error page used by MyFaces specific  error handler implementation |
 | o.a.m.DEBUG_TEMPLATE_RESOURCE | 1.2.4 | META-INF/rsc/myfaces-dev-debug.xml |  | Indicate the template name used to render the default debug page (see ui:debug tag) |
