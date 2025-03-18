@@ -151,11 +151,11 @@ MyFaces core behavior can be customized, adding some web config params into your
 | Name | Since | Default value | Expected values | Description |
 | ---- | ---- | ---- | ---- | ---- |
 | o.a.m.STRICT_XHTML_LINKS| 1.1.6| true| true, false, on, off, yes, no| Use "&amp;amp;" entity instead a plain "&amp;" character within HTML|
-| o.a.m.RENDER_CLEAR_JAVASCRIPT_FOR_BUTTON| 1.2.3| false| true, false, on, off, yes, no| This param renders the clear javascript on button necessary only for compatibility with hidden fields feature of myfaces|
+| o.a.m.RENDER_CLEAR_JAVASCRIPT_FOR_BUTTON| 1.2.3| false| true, false, on, off, yes, no| This param renders the clear JavaScript on button necessary only for compatibility with hidden fields feature of myfaces|
 | o.a.m.WRAP_SCRIPT_CONTENT_WITH_XML_COMMENT_TAG| 2.0.1| false| true, false, on, off, yes, no| Wrap content inside script with xml comment to prevent old browsers to display it|
 | o.a.m.EARLY_FLUSH_ENABLED| 2.2.0| false| true, false| Enable or disable an early flush which allows to send e.g. the HTML-Head to the client " + "while the rest gets rendered. It's a well known technique to reduce the time for loading a page.|
 | o.a.m.RENDER_FORM_VIEW_STATE_AT_BEGIN| 2.2.4| false| true,false| This param makes h:form component to render the view state and other hidden fields at the beginning of the form|
-| o.a.m.USE_MULTIPLE_JS_FILES_FOR_JSF_UNCOMPRESSED_JS| 2.0.1| false| true,false| If this param is true and the project stage is development mode, the source javascript files will be loaded separately instead have all in just one file, to preserve line numbers and make javascript debugging of the default jsf javascript file more simple|
+| o.a.m.USE_MULTIPLE_JS_FILES_FOR_JSF_UNCOMPRESSED_JS| 2.0.1| false| true,false| If this param is true and the project stage is development mode, the source JavaScript files will be loaded separately instead have all in just one file, to preserve line numbers and make JavaScript debugging of the default jsf JavaScript file more simple|
 | o.a.m.JSF_JS_MODE| 2.0.10,2.1.4| normal| normal, minimal-modern, minimal| Define the mode used for jsf|
 | o.a.m.DEFAULT_RESPONSE_WRITER_CONTENT_TYPE_MODE| 2.0.11,2.1.5| text/html| text/html, application/xhtml+xml| Define the default content type that the default ResponseWriter generates, when no match can be derived from HTTP Accept Header|
 
