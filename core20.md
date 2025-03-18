@@ -115,12 +115,12 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.RENDER_FORM_SUBMIT_SCRIPT_INLINE | 2.0.2 | false | true, false, on, off, yes, no | If set true, render the form submit script inline, as in myfaces core 1 |
 | o.a.m.DEFAULT_RESPONSE_WRITER_CONTENT_TYPE_MODE | 2.0.11 | text/html | text/html, application/xhtml+xml | Define the default content type that the default ResponseWriter generates, when no match can be derived from HTTP Accept Header |
 | o.a.m.PRETTY_HTML | 1.1 | true | true, false, on, off, yes, no | If true, rendered HTML code will be formatted, so that it is "human readable" |
-| o.a.m.ALLOW_JAVASCRIPT | 1.1 | true | true, false, on, off, yes, no | This parameter tells MyFaces if javascript code should be allowed in the rendered HTML output |
+| o.a.m.ALLOW_JAVASCRIPT | 1.1 | true | true, false, on, off, yes, no | This parameter tells MyFaces if JavaScript code should be allowed in the rendered HTML output |
 | o.a.m.STRICT_XHTML_LINKS | 1.1.6 | true | true, false, on, off, yes, no | Use "&amp;amp;" entity instead a plain "&amp;" character within HTML |
-| o.a.m.RENDER_CLEAR_JAVASCRIPT_FOR_BUTTON | 1.2.3 | false | true, false, on, off, yes, no | This param renders the clear javascript on button necessary only for compatibility with hidden fields feature of myfaces |
-| o.a.m.RENDER_HIDDEN_FIELDS_FOR_LINK_PARAMS | 1.2.9 | false | true, false, on, off, yes, no | This param renders hidden fields at the end of h:form for link params when h:commandLink + f:param is used, instead use javascript to create them |
+| o.a.m.RENDER_CLEAR_JAVASCRIPT_FOR_BUTTON | 1.2.3 | false | true, false, on, off, yes, no | This param renders the clear JavaScript on button necessary only for compatibility with hidden fields feature of myfaces |
+| o.a.m.RENDER_HIDDEN_FIELDS_FOR_LINK_PARAMS | 1.2.9 | false | true, false, on, off, yes, no | This param renders hidden fields at the end of h:form for link params when h:commandLink + f:param is used, instead use JavaScript to create them |
 | o.a.m.SAVE_FORM_SUBMIT_LINK_IE | 1.1 | false | true, false, on, off, yes, no | Add a code that save the form before submit using a link |
-| o.a.m.USE_MULTIPLE_JS_FILES_FOR_JSF_UNCOMPRESSED_JS | 2.0.1 | false | true,false | If this param is true and the project stage is development mode, the source javascript files will be loaded separately instead have all in just one file, to preserve line numbers and make javascript debugging of the default jsf javascript file more simple |
+| o.a.m.USE_MULTIPLE_JS_FILES_FOR_JSF_UNCOMPRESSED_JS | 2.0.1 | false | true,false | If this param is true and the project stage is development mode, the source JavaScript files will be loaded separately instead have all in just one file, to preserve line numbers and make JavaScript debugging of the default jsf JavaScript file more simple |
 | o.a.m.JSF_JS_MODE | 2.0.10 | normal | normal, minimal-modern, minimal | Define the mode used for jsf |
 
 ### ViewHandler
@@ -193,7 +193,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | facelets.SKIP_COMMENTS | 2.0 |  |  | Skip comments found on a facelet file |
 | facelets.LIBRARIES | 2.0 |  |  | Set of .taglib.xml files, separated by ';' that should be loaded by facelet engine. |
 | o.a.m.ERROR_HANDLER | 1.2.4 |  |  | Deprecated: use JSF 2.0 ExceptionHandler |
-| o.a.m.VIEWSTATE_JAVASCRIPT | 1.1 | false | true, false, on, off, yes, no | Set the view state using a javascript function instead a hidden input field |
+| o.a.m.VIEWSTATE_JAVASCRIPT | 1.1 | false | true, false, on, off, yes, no | Set the view state using a JavaScript function instead a hidden input field |
 
 
 ## Integration / SPI

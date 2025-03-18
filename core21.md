@@ -116,9 +116,9 @@ MyFaces core behavior can be customized, adding some web config params into your
 | Name | Since | Default value | Expected values | Description |
 | ---- | ---- | ---- | ---- | ---- |
 | o.a.m.PRETTY_HTML| 1.1| true| true, false, on, off, yes, no| If true, rendered HTML code will be formatted, so that it is "human readable" |
-| o.a.m.ALLOW_JAVASCRIPT| 1.1| true| true, false, on, off, yes, no| This parameter tells MyFaces if javascript code should be allowed in the rendered HTML output |
+| o.a.m.ALLOW_JAVASCRIPT| 1.1| true| true, false, on, off, yes, no| This parameter tells MyFaces if JavaScript code should be allowed in the rendered HTML output |
 | o.a.m.STRICT_XHTML_LINKS| 1.1.6| true| true, false, on, off, yes, no|Use "&amp;amp;" entity instead a plain "&amp;" character within HTML |
-| o.a.m.USE_MULTIPLE_JS_FILES_FOR_JSF_UNCOMPRESSED_JS| 2.0.1| false| true,false| If this param is true and the project stage is development mode, the source javascript files will be loaded separately instead have all in just one file, to preserve line numbers and make javascript debugging of the default jsf javascript file more simple |
+| o.a.m.USE_MULTIPLE_JS_FILES_FOR_JSF_UNCOMPRESSED_JS| 2.0.1| false| true,false| If this param is true and the project stage is development mode, the source JavaScript files will be loaded separately instead have all in just one file, to preserve line numbers and make JavaScript debugging of the default jsf JavaScript file more simple |
 | o.a.m.JSF_JS_MODE| 2.0.10,2.1.4| normal| normal, minimal-modern, minimal| Define the mode used for jsf |
 
 ### ViewHandler
@@ -183,7 +183,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 ### Deprecated
 | Name | Since | Default value | Expected values | Description |
 | ---- | ---- | ---- | ---- | ---- |
-| o.a.m.VIEWSTATE_JAVASCRIPT| 1.1| false| true, false, on, off, yes, no| Set the view state using a javascript function instead a hidden input field |
+| o.a.m.VIEWSTATE_JAVASCRIPT| 1.1| false| true, false, on, off, yes, no| Set the view state using a JavaScript function instead a hidden input field |
 | facelets.BUFFER_SIZE| 2.0||| Define the default buffer size value passed to ExternalContext |
 | facelets.DECORATORS| 2.0|||Set of class names, separated by ';', implementing TagDecorator interface, used to transform a view definition in a facelet abstract syntax tree, that is used later to generate a component tree |
 | facelets.LIBRARIES| 2.0|||Set of .taglib.xml files, separated by ';' that should be loaded by facelet engine. |
