@@ -131,7 +131,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.EL_RESOLVER_COMPARATOR | 1.2.10, 2.0.2 |  |  | The Class of an Comparator&lt;ELResolver&gt; implementation. |
 | o.a.m.EL_RESOLVER_PREDICATE | 2.1.0 |  |  | The Class of an org.apache.commons.collections.Predicate&lt;ELResolver&gt; implementation.If used and returns true for a ELResolver instance, such resolver will not be installed in ELResolvers chain. Use with caution - can break functionality defined in JSF specification 'ELResolver Instances Provided by Faces' |
 | o.a.m.STRICT_JSF_2_CC_EL_RESOLVER | 2.0.10 | false | true, false | Change default getType() behavior for composite component EL resolver, from return null (see JSF 2_0 spec section 5_6_2_2) to use the metadata information added by composite:attribute, ensuring components working with chained EL expressions to find the right type when a getType() is called over the source EL expression |
-| o.a.m.SUPPORT_JSP_AND_FACES_EL | 2.0.13,2.1.7 | true | true,false | If set false, myfaces won't support JSP and javax.faces.el. JSP are deprecated in JSF 2.X, javax.faces.el in in JSF 1.2. Default value is true. |
+| o.a.m.SUPPORT_JSP_AND_FACES_EL | 2.0.13,2.1.7 | true | true,false | If set false, myfaces won't support JSP and javax.faces.el. JSP are deprecated in JSF 2.X, javax.faces.el in JSF 1.2. Default value is true. |
 | o.a.m.SUPPORT_MANAGED_BEANS | 2.3 | true | true,false | If set false, myfaces won't support ManagedBeans anymore. ManagedBeans are deprecated in JSF 2.3, Default value is true. |
 
 
