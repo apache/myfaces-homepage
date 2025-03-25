@@ -28,22 +28,22 @@ What are the benefits compared to our older versions?
 
 |     | Mirrors                                                                                                                      | Checksum                                                                                                                     | Signature                                                                                                                                |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| binary (tar.gz) | [myfaces-core-assembly-4.0.2-bin.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.0.2-bin.tar.gz) | [myfaces-core-assembly-4.0.2-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.2-bin.tar.gz.sha512) | [myfaces-core-assembly-4.0.2-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.2-bin.tar.gz.asc) |
-| binary (zip)    | [myfaces-core-assembly-4.0.2-bin.zip](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.0.2-bin.zip)       | [myfaces-core-assembly-4.0.2-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.2-bin.zip.sha512)       | [myfaces-core-assembly-4.0.2-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.2-bin.zip.asc)       |
-| source (tar.gz) | [myfaces-core-assembly-4.0.2-src.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.0.2-src.tar.gz)   | [myfaces-core-assembly-4.0.2-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.2-src.tar.gz.sha512)   | [myfaces-core-assembly-4.0.2-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.2-src.tar.gz.asc)   |
-| source (zip)    | [myfaces-core-assembly-4.0.2-src.zip](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.0.2-src.zip)         | [myfaces-core-assembly-4.0.2-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.2-src.zip.sha512)         | [myfaces-core-assembly-4.0.2-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.2-src.zip.asc)         |
+| binary (tar.gz) | [myfaces-core-assembly-4.0.3-bin.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.0.3-bin.tar.gz) | [myfaces-core-assembly-4.0.3-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.3-bin.tar.gz.sha512) | [myfaces-core-assembly-4.0.3-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.3-bin.tar.gz.asc) |
+| binary (zip)    | [myfaces-core-assembly-4.0.3-bin.zip](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.0.3-bin.zip)       | [myfaces-core-assembly-4.0.3-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.3-bin.zip.sha512)       | [myfaces-core-assembly-4.0.3-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.0.3-bin.zip.asc)       |
+| source (tar.gz) | [myfaces-core-assembly-4.0.3-src.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.0.3-src.tar.gz)   | [myfaces-core-assembly-4.0.3-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.3-src.tar.gz.sha512)   | [myfaces-core-assembly-4.0.3-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.3-src.tar.gz.asc)   |
+| source (zip)    | [myfaces-core-assembly-4.0.3-src.zip](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.0.3-src.zip)         | [myfaces-core-assembly-4.0.3-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.3-src.zip.sha512)         | [myfaces-core-assembly-4.0.3-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.0.3-src.zip.asc)         |
 
 ## Dependency
 ```xml
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-api</artifactId>
-  <version>4.0.2</version>
+  <version>4.0.3</version>
 </dependency>
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-impl</artifactId>
-  <version>4.0.2</version>
+  <version>4.0.3</version>
 </dependency>
 ```
 
@@ -215,7 +215,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN| 2.2.0| none| secureRandom, random| Defines how to generate the csrf session token|
 | o.a.m.COMPRESS_STATE_IN_SESSION| 1.1| true| true,false| Indicates that the serialized state will be compressed before it is written to the session|
 | o.a.m.USE_FLASH_SCOPE_PURGE_VIEWS_IN_SESSION| 2.0.6| false| true, false| Allow use flash scope to keep track of the views used in session and the previous ones, so server side state saving can delete old views even if POST-REDIRECT-GET pattern is used|
-| o.a.m.AUTOCOMPLETE_OFF_VIEW_STATE| 2.2.8, 2.1.18, 2.0.24| true| true, false| Add autocomplete="off" to the view state hidden field|
+| o.a.m.AUTOCOMPLETE_OFF_VIEW_STATE| 2.2.8, 2.1.18, 2.0.24| false| true, false| Add autocomplete="off" to the view state hidden field|
 | o.a.m.NUMBER_OF_VIEWS_IN_SESSION| 1.1| 20| | Defines the amount (default = 20) of the latest views are stored in session|
 | o.a.m.NUMBER_OF_SEQUENTIAL_VIEWS_IN_SESSION| 2.0.6| 4| | Indicates the amount of views (default is not active) that should be stored in session between sequential POST or POST-REDIRECT-GET if org|
 | o.a.m.CHECK_ID_PRODUCTION_MODE| 2.0.12, 2.1.6| auto| true, auto, false| Define how duplicate ids are checked when ProjectStage is Production, by default (auto) it only check ids of components that does not encapsulate markup (like facelets UILeaf)|
