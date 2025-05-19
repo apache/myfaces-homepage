@@ -12,6 +12,7 @@ https://github.com/apache/infrastructure-p6/ (private).
 
 How to become root access (OTP) is described on the
 [Apache site](https://reference.apache.org/committer/opie).
+For OTP you may use: https://selfserve.apache.org/otp-calculator.html
 
 ## Updates of the demo applications
 
