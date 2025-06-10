@@ -1,7 +1,7 @@
 # Run the different Tobago versions on tobago-demo.apache.org 
 
 The demo on https://tobago-demo.apache.org/ works with docker. 
-The system user to run manage the containers is "tobago".
+The name of the system user to manage the containers is "tobago".
 
 ## Setup
 
@@ -10,7 +10,7 @@ https://github.com/apache/infrastructure-p6/ (private).
 
 ## Administration
 
-How to become root access (OTP) is described on the
+How to obtain root access (OTP) is described on the
 [Apache site](https://reference.apache.org/committer/opie).
 For OTP you may use: https://selfserve.apache.org/otp-calculator.html
 
