@@ -30,7 +30,7 @@ services:
       - demo-6-snapshot
 #      - demo-5-release
 #      - demo-5-staging
-      - demo-5-snapshot
+#      - demo-5-snapshot
 #      - demo-4-release
 #      - demo-4-staging
       - demo-4-snapshot
@@ -48,7 +48,7 @@ services:
       - demo-6-snapshot
 #      - demo-5-release
 #      - demo-5-staging
-      - demo-5-snapshot
+#      - demo-5-snapshot
 #      - demo-4-release
 #      - demo-4-staging
       - demo-4-snapshot
@@ -62,7 +62,7 @@ services:
   demo-6-snapshot:
     build: tomcat10
     environment:
-      - TOBAGO_VERSION=6.8.0-SNAPSHOT
+      - TOBAGO_VERSION=6.8.1-SNAPSHOT
       - CONTEXT_PATH=demo-6-snapshot
     ports:
       - "8602:8080"
