@@ -94,18 +94,18 @@ services:
 #      options:
 #        max-size: "1m"
 #        max-file: "5"
-  demo-5-snapshot:
-    build: tomcat
-    environment:
-      - TOBAGO_VERSION=5.15.3-SNAPSHOT
-      - CONTEXT_PATH=demo-5-snapshot
-    ports:
-      - "8502:8080"
-    logging:
-      options:
-        max-size: "1m"
-        max-file: "5"
-    restart: unless-stopped
+#  demo-5-snapshot:
+#    build: tomcat
+#    environment:
+#      - TOBAGO_VERSION=5.15.3-SNAPSHOT
+#      - CONTEXT_PATH=demo-5-snapshot
+#    ports:
+#      - "8502:8080"
+#    logging:
+#      options:
+#        max-size: "1m"
+#        max-file: "5"
+#    restart: unless-stopped
 #  demo-4-release:
 #    build: tomcat
 #    environment:
