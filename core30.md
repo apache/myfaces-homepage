@@ -17,10 +17,10 @@ Implementation of the Jakarta Server Faces 3.0 specification.
 
 |     | Mirrors                                                                                                                      | Checksum                                                                                                                     | Signature                                                                                                                                |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| binary (tar.gz) | [myfaces-core-assembly-3.0.2-bin.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-3.0.2-bin.tar.gz) | [myfaces-core-assembly-3.0.2-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-3.0.2-bin.tar.gz.sha512) | [myfaces-core-assembly-3.0.2-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-3.0.2-bin.tar.gz.asc) |
-| binary (zip)    | [myfaces-core-assembly-3.0.2-bin.zip](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-3.0.2-bin.zip)       | [myfaces-core-assembly-3.0.2-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-3.0.2-bin.zip.sha512)       | [myfaces-core-assembly-3.0.2-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-3.0.2-bin.zip.asc)       |
-| source (tar.gz) | [myfaces-core-assembly-3.0.2-src.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-3.0.2-src.tar.gz)   | [myfaces-core-assembly-3.0.2-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-3.0.2-src.tar.gz.sha512)   | [myfaces-core-assembly-3.0.2-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-3.0.2-src.tar.gz.asc)   |
-| source (zip)    | [myfaces-core-assembly-3.0.2-src.zip](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-3.0.2-src.zip)         | [myfaces-core-assembly-3.0.2-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-3.0.2-src.zip.sha512)         | [myfaces-core-assembly-3.0.2-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-3.0.2-src.zip.asc)         |
+| binary (tar.gz) | [myfaces-core-assembly-3.0.3-bin.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-3.0.3-bin.tar.gz) | [myfaces-core-assembly-3.0.3-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-3.0.3-bin.tar.gz.sha512) | [myfaces-core-assembly-3.0.3-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-3.0.3-bin.tar.gz.asc) |
+| binary (zip)    | [myfaces-core-assembly-3.0.3-bin.zip](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-3.0.3-bin.zip)       | [myfaces-core-assembly-3.0.3-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-3.0.3-bin.zip.sha512)       | [myfaces-core-assembly-3.0.3-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-3.0.3-bin.zip.asc)       |
+| source (tar.gz) | [myfaces-core-assembly-3.0.3-src.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-3.0.3-src.tar.gz)   | [myfaces-core-assembly-3.0.3-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-3.0.3-src.tar.gz.sha512)   | [myfaces-core-assembly-3.0.3-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-3.0.3-src.tar.gz.asc)   |
+| source (zip)    | [myfaces-core-assembly-3.0.3-src.zip](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-3.0.3-src.zip)         | [myfaces-core-assembly-3.0.3-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-3.0.3-src.zip.sha512)         | [myfaces-core-assembly-3.0.3-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-3.0.3-src.zip.asc)         |
 
 ## Dependency
 
@@ -28,12 +28,12 @@ Implementation of the Jakarta Server Faces 3.0 specification.
 <dependency>
     <groupId>org.apache.myfaces.core</groupId>
     <artifactId>myfaces-api</artifactId>
-    <version>3.0.2</version>
+    <version>3.0.3</version>
 </dependency>
 <dependency>
     <groupId>org.apache.myfaces.core</groupId>
     <artifactId>myfaces-impl</artifactId>
-    <version>3.0.2</version>
+    <version>3.0.3</version>
 </dependency>
 ```
 
@@ -212,7 +212,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN_SECURE_RANDOM_CLASS | 2.2.0 |  |  | Sets the random class to initialize the secure random id generator |
 | o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN_SECURE_RANDOM_PROVIDER | 2.2.0 |  |  | Sets the random provider to initialize the secure random id generator |
 | o.a.m.RANDOM_KEY_IN_CSRF_SESSION_TOKEN_SECURE_RANDOM_ALGORITM | 2.2.0 | SHA1PRNG |  | Sets the random algorithm to initialize the secure random id generator |
-| o.a.m.AUTOCOMPLETE_OFF_VIEW_STATE | 2.2.8, 2.1.18, 2.3.6 | true | true, false | Add autocomplete="off" to the view state hidden field |
+| o.a.m.AUTOCOMPLETE_OFF_VIEW_STATE | 2.2.8, 2.1.18, 2.3.6 | true | true, false, one-time-code | Add autocomplete="off" to the view state hidden field. one-time-code added in 3.0.3 |
 | o.a.m.RANDOM_KEY_IN_WEBSOCKET_SESSION_TOKEN | 2.2.0 | secureRandom | secureRandom, random | Defines how to generate the csrf session token |
 
 ### Deprecated
