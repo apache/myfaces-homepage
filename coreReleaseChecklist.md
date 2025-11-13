@@ -10,6 +10,8 @@ Before performing the release you need to configure your environment if you have
 * Go to: Publishing Maven Artifacts
 * Go to the section SETUP YOUR DEVELOPMENT ENVIRONMENT and generate the pgp key signature. Don't forget to distribute the public key step. [Generate PGP signature](https://blog.sonatype.com/2010/01/how-to-generate-pgp-signatures-with-maven/#.Vm9Km8q22-q).
 
+**NOTE**: For convenience, if you have multiple GPG keys, you can update your settings.xml to include a profile containing the gpg.executable, gpg.keyname, and gpg.passphrase properties. This profile can also be specified as an active profile. By including the GPG keyname, Maven will use that specific key when signing the release JARs.
+,
 **NOTE**: You can ignore sections GETTING YOUR PROJECT SETUP IN THE NEXUS REPOSITORY and MAVEN SPECIFIC PREPARATIONS AND PROCEDURES but reading the whole document will help you understand the release process. Also, we don't need to setup the project in nexus repository by creating a JIRA issue.
 
 Some useful links/resources:
@@ -97,9 +99,9 @@ Some useful links/resources:
 
 Go to the following link perform these steps under the MyFaces Core Project: [JIRA Dashboard](https://issues.apache.org/jira/secure/Dashboard.jspa)
 
-## 3. TKC
+## 3. Technology Compatibility Kit (TCK)
 
-Run the TKC if available
+Run the TCK if available
 
 
 ## 4. Generate assembly
@@ -118,7 +120,7 @@ Example link: https://repository.apache.org/content/repositories/orgapachemyface
 
 **NOTE**: Providing MD5 or SHA1 checksum files is now discouraged for new releases, but still allowed for past releases.
 
-#### 4.2 Generate manually (May be skipped as people.apache.org is shut down)
+#### 4.2 Generate manually (Skip as people.apache.org is shut down)
 
 Otherwise you can generate them manually. Try to do it automatically javadoc and other stuff SUCCESS. It generate myfaces-core-2.3.0-bin.tar.gz and zip
 
@@ -163,6 +165,9 @@ Comparison should be done between MyFaces 2.3 API and Mojarra 2.3 API jars, that
 * Download the Mojarra API via https://mvnrepository.com/artifact/javax.faces/javax.faces-api/2.3
 * Run it: java -jar japicmp-0.11.0-jar-with-dependencies.jar -n myfaces-api-2.3.x.jar -o javax.faces-api-2.3.jar --ignore-missing-classes --html-file <dir_name>/results.html
 
+For example: 
+    java -jar japicmp-0.23.1-jar-with-dependencies.jar -n myfaces-api-2.3.x.jar -o javax.faces-api-2.3.jar --ignore-missing-classes --html-file ./results.html
+
 ## 6. Start vote
 
 Send a mail to
@@ -171,48 +176,49 @@ Send a mail to
 dev@myfaces.apache.org
 ```
 
-with subject
 
 ```
-Subject: [VOTE] release of MyFaces Core 2.3.0
-```
+Subject: [VOTE] release of MyFaces Core {VERSION}
 
-and content
+Hello,
 
-```
-Hi,
+I'm pleased to announce that the Apache MyFaces Core {VERSION} release is ready for review and voting.
 
-I was running the needed tasks to get the 2.3.0 release of Apache
-MyFaces core out.
+This vote encompasses the following:
 
+Maven artifact group "org.apache.myfaces.core" v{VERSION} [1]
+The release artifacts (binary and source packages) have been deployed to the Nexus repository [1], and the release notes are available at [4].
 
-Please note that this vote concerns all of the following parts:
-   1. Maven artifact group "org.apache.myfaces.core" v2.3.0  [1]
+Additionally, the japicmp tool analysis confirms there are no binary incompatibilities with myfaces-api.
 
-The artifacts were deployed on nexus repo [1] for binary and source packages.
+I invite you to review the {VERSION} artifacts [3] and cast your vote.
 
-The release notes could be found at [4].
-
-Also the japicmp tool (similar to clirr) does not show binary incompatibilities with myfaces-api.
-
-Please take a look at the "2.3.0" artifacts and vote! (see [3])
-
-Please note: This vote is "majority approval" with a minimum of three +1 votes (see [2]).
+Voting Guidelines:
+This is a "majority approval" vote requiring a minimum of three +1 votes [2].
 
 ------------------------------------------------
-[ ] +1 for community members who have reviewed the bits
-[ ] +0
-[ ] -1 for fatal flaws that should cause these bits not to be released, and why..............
+[ ] +1 - I have reviewed the artifacts and approve this release 
+[ ] +0 - No opinion 
+[ ] -1 - I have identified fatal flaws that should prevent this release (please provide details)
 ------------------------------------------------
 
-Thanks,
-Eduardo M. Breijo
+Thank you for your time and consideration.
 
-[1] https://repository.apache.org/content/repositories/orgapachemyfaces-1130/org/apache/myfaces/core/
+Best regards,
+The MyFaces Team
+
+References:
+[1] https://repository.apache.org/content/repositories/{REPO_ID}/org/apache/myfaces/core/
 [2] http://www.apache.org/foundation/voting.html#ReleaseVotes
-[3] https://repository.apache.org/content/repositories/orgapachemyfaces-1130/org/apache/myfaces/core/myfaces-core-assembly/
-[4] https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12339569
+[3] https://repository.apache.org/content/repositories/{REPO_ID}/org/apache/myfaces/core/myfaces-core-assembly/
+[4] https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version={JIRA_VERSION_ID}
 ```
+
+Placeholders to replace:
+
+{VERSION} - The release version (e.g., 2.3.0)
+{REPO_ID} - The Nexus repository ID (e.g., orgapachemyfaces-1130)
+{JIRA_VERSION_ID} - The JIRA version ID (e.g., 12339569)
 
 **NOTE**: To generate the ReleaseNote you need to go to the JIRA dashboard. Then go to MyFaces Core project. Finally go to the version to be released (example 2.3.0) and click "Release Notes" button.
 
@@ -277,33 +283,38 @@ To: announce@apache.org, announce@myfaces.apache.org
 Cc: dev@myfaces.apache.org, users@myfaces.apache.org   
 ```
 
-with subject
-
 ```
-Subject: [ANNOUNCE] MyFaces Core v2.3.0 Release
-```
+Subject: [ANNOUNCE] Apache MyFaces Core {VERSION} Released
 
-and content
+The Apache MyFaces team is pleased to announce the release of MyFaces Core {VERSION}.
 
-```
-The Apache MyFaces team is pleased to announce the release of MyFaces Core 2.3.0.
+{SPEC_DESCRIPTION}
 
-MyFaces Core is a JavaServer(tm) Faces 2.3 implementation as specified by JSR-372.
+Availability: 
+MyFaces Core {VERSION} is available in both binary and source distributions:
 
-JavaServer Faces (JSF) is a Java specification for building component-based user interfaces for web applications.
+Download: 
+http://myfaces.apache.org/download.html
 
-MyFaces Core 2.3.0 is available in both binary and source distributions.
+Maven Central: 
+Group ID "org.apache.myfaces.core"
 
-    * http://myfaces.apache.org/download.html
+Release Notes: 
+https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version={JIRA_VERSION_ID}
 
-MyFaces Core is also available in the central Maven repository under Group ID "org.apache.myfaces.core".
-
-Release Notes - MyFaces Core - Version 2.3.0 can be found in the following link: 
-https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12339569
-
-Regards,
-Eduardo M. Breijo
+Best regards,
+Apache MyFaces Team
 ```    
 
+Placeholders to replace:
+
+{VERSION} - The release version (e.g., 2.3.0, 3.0.0, 4.0.0)
+{SPEC_DESCRIPTION} - Use one of the following based on version:
+For JSF 2.3 and lower: "MyFaces Core is a JavaServer™ Faces {JSF_VERSION} implementation as specified by JSR-{JSR_NUMBER}. JavaServer Faces (JSF) is a Java specification for building component-based user interfaces for web applications."
+For Jakarta Faces 3.0 and higher: "MyFaces Core is a Jakarta™ Faces {FACES_VERSION} implementation as specified by the Jakarta Faces specification. Jakarta Faces is a Jakarta EE specification for building component-based user interfaces for web applications."
+{JSF_VERSION} - The JSF specification version (e.g., 2.3) - Only for JSF 2.3 and lower
+{JSR_NUMBER} - The JSR specification number (e.g., JSF 2.2: JSR-344, JSF 2.3: JSR-372) - Only for JSF 2.3 and lower
+{FACES_VERSION} - The Jakarta Faces version (e.g., 3.0, 4.0) - Only for Jakarta Faces 3.0 and higher
+{JIRA_VERSION_ID} - The JIRA version ID (e.g., 12356000)
 
 **NOTE**: If you use your personal email to send the announcement to announce@apache.org and announce@myfaces.apache.org it will bounce back and it will not be delivered. To get around this, please login into the apache webclient Announce @ Apache and Announce @ MyFaces Apache. You need to use your apache id credentials and from each list, start a new discussion in the top right corner.
