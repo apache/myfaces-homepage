@@ -16,10 +16,10 @@ Implementation of the Jakarta Faces 4.1 specification for Jakarta Enterprise Edi
 ## Downloads
 |     | Mirrors                                                                                                                      | Checksum                                                                                                                     | Signature                                                                                                                                |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| binary (tar.gz) | [myfaces-core-assembly-4.1.1-bin.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.1.1-bin.tar.gz) | [myfaces-core-assembly-4.1.1-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.1.1-bin.tar.gz.sha512) | [myfaces-core-assembly-4.1.1-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.1.1-bin.tar.gz.asc) |
-| binary (zip)    | [myfaces-core-assembly-4.1.1-bin.zip](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.1.1-bin.zip)       | [myfaces-core-assembly-4.1.1-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.1.1-bin.zip.sha512)       | [myfaces-core-assembly-4.1.1-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.1.1-bin.zip.asc)       |
-| source (tar.gz) | [myfaces-core-assembly-4.1.1-src.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.1.1-src.tar.gz)   | [myfaces-core-assembly-4.1.1-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.1.1-src.tar.gz.sha512)   | [myfaces-core-assembly-4.1.1-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.1.1-src.tar.gz.asc)   |
-| source (zip)    | [myfaces-core-assembly-4.1.1-src.zip](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.1.1-src.zip)         | [myfaces-core-assembly-4.1.1-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.1.1-src.zip.sha512)         | [myfaces-core-assembly-4.1.1-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.1.1-src.zip.asc)         |
+| binary (tar.gz) | [myfaces-core-assembly-4.1.2-bin.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.1.2-bin.tar.gz) | [myfaces-core-assembly-4.1.2-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.1.2-bin.tar.gz.sha512) | [myfaces-core-assembly-4.1.2-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.1.2-bin.tar.gz.asc) |
+| binary (zip)    | [myfaces-core-assembly-4.1.2-bin.zip](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-4.1.2-bin.zip)       | [myfaces-core-assembly-4.1.2-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.1.2-bin.zip.sha512)       | [myfaces-core-assembly-4.1.2-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-4.1.2-bin.zip.asc)       |
+| source (tar.gz) | [myfaces-core-assembly-4.1.2-src.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.1.2-src.tar.gz)   | [myfaces-core-assembly-4.1.2-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.1.2-src.tar.gz.sha512)   | [myfaces-core-assembly-4.1.2-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.1.2-src.tar.gz.asc)   |
+| source (zip)    | [myfaces-core-assembly-4.1.2-src.zip](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-4.1.2-src.zip)         | [myfaces-core-assembly-4.1.2-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.1.2-src.zip.sha512)         | [myfaces-core-assembly-4.1.2-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-4.1.2-src.zip.asc)         |
 
 
 ## Dependency
@@ -27,12 +27,12 @@ Implementation of the Jakarta Faces 4.1 specification for Jakarta Enterprise Edi
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-api</artifactId>
-  <version>4.1.1</version>
+  <version>4.1.2</version>
 </dependency>
 <dependency>
   <groupId>org.apache.myfaces.core</groupId>
   <artifactId>myfaces-impl</artifactId>
-  <version>4.1.1</version>
+  <version>4.1.2</version>
 </dependency>
 ```
 
@@ -128,6 +128,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.EXPRESSION_FACTORY| 1.2.7| | | This parameter specifies the ExpressionFactory implementation to use|
 | o.a.m.CACHE_EL_EXPRESSIONS| 2.0.8| noCache| noCache, strict, allowCset, always, alwaysRecompile| Indicates if expressions generated by facelets should be cached or not|
 | o.a.m.STRICT_JSF_2_CC_EL_RESOLVER| 2.0.10| false| true, false| Change default getType() behavior for composite component EL resolver, from return null (see JSF 2_0 spec section 5_6_2_2) to use the metadata information added by composite:attribute, ensuring components working with chained EL expressions to find the right type when a getType() is called over the source EL expression|
+| org.apache.myfaces.enableOptionalELResolver | 4.1.2 | false | true, false | Determines whether to add the jakarta.el.OptionalELResolver to the EL Resolver Chain |
 
 ### Render
 | Name | Since | Default value | Expected values | Description |
