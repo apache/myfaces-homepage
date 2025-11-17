@@ -216,9 +216,9 @@ References:
 
 Placeholders to replace:
 
-{VERSION} - The release version (e.g., 2.3.0)
-{REPO_ID} - The Nexus repository ID (e.g., orgapachemyfaces-1130)
-{JIRA_VERSION_ID} - The JIRA version ID (e.g., 12339569)
+* {VERSION} - The release version (e.g., 2.3.0)
+* {REPO_ID} - The Nexus repository ID (e.g., orgapachemyfaces-1130)
+* {JIRA_VERSION_ID} - The JIRA version ID (e.g., 12339569)
 
 **NOTE**: To generate the ReleaseNote you need to go to the JIRA dashboard. Then go to MyFaces Core project. Finally go to the version to be released (example 2.3.0) and click "Release Notes" button.
 
@@ -308,13 +308,13 @@ Apache MyFaces Team
 
 Placeholders to replace:
 
-{VERSION} - The release version (e.g., 2.3.0, 3.0.0, 4.0.0)
-{SPEC_DESCRIPTION} - Use one of the following based on version:
+* {VERSION} - The release version (e.g., 2.3.0, 3.0.0, 4.0.0)
+* {SPEC_DESCRIPTION} - Use one of the following based on version:
 For JSF 2.3 and lower: "MyFaces Core is a JavaServer™ Faces {JSF_VERSION} implementation as specified by JSR-{JSR_NUMBER}. JavaServer Faces (JSF) is a Java specification for building component-based user interfaces for web applications."
 For Jakarta Faces 3.0 and higher: "MyFaces Core is a Jakarta™ Faces {FACES_VERSION} implementation as specified by the Jakarta Faces specification. Jakarta Faces is a Jakarta EE specification for building component-based user interfaces for web applications."
-{JSF_VERSION} - The JSF specification version (e.g., 2.3) - Only for JSF 2.3 and lower
-{JSR_NUMBER} - The JSR specification number (e.g., JSF 2.2: JSR-344, JSF 2.3: JSR-372) - Only for JSF 2.3 and lower
-{FACES_VERSION} - The Jakarta Faces version (e.g., 3.0, 4.0) - Only for Jakarta Faces 3.0 and higher
-{JIRA_VERSION_ID} - The JIRA version ID (e.g., 12356000)
+* {JSF_VERSION} - The JSF specification version (e.g., 2.3) - Only for JSF 2.3 and lower
+* {JSR_NUMBER} - The JSR specification number (e.g., JSF 2.2: JSR-344, JSF 2.3: JSR-372) - Only for JSF 2.3 and lower
+* {FACES_VERSION} - The Jakarta Faces version (e.g., 3.0, 4.0) - Only for Jakarta Faces 3.0 and higher
+* {JIRA_VERSION_ID} - The JIRA version ID (e.g., 12356000)
 
 **NOTE**: If you use your personal email to send the announcement to announce@apache.org and announce@myfaces.apache.org it will bounce back and it will not be delivered. To get around this, please login into the apache webclient Announce @ Apache and Announce @ MyFaces Apache. You need to use your apache id credentials and from each list, start a new discussion in the top right corner.
