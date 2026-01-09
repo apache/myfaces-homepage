@@ -64,6 +64,7 @@ MyFaces core behavior can be customized, adding some web config params into your
 | jakarta.faces.FACELETS_RESOURCE_RESOLVER| 2.0| | | Class implementing ResourceResolver interface used to locate facelet resources|
 | jakarta.faces.WEBSOCKET_ENDPOINT_PORT| 2.3| | | Indicates the port used for websocket connections|
 | jakarta.faces.AUTOMATIC_EXTENSIONLESS_MAPPING| 4.0| false| true, false| This parameter enables automatic extensionless mapping for all JSF views|
+| jakarta.faces.EXCEPTION_TYPES_TO_IGNORE_IN_LOGGING | 5.0 | | | Defines exceptions, separated by commas, which should be skipped for logging in the ExcceptionHandler. |
 | o.a.m.VIEW_POOL_MAX_POOL_SIZE| | 5| | Defines the number of views to be hold per each view metadata definition|
 | o.a.m.VIEW_POOL_MAX_DYNAMIC_PARTIAL_LIMIT| | 2| | Defines the limit of the views that cannot be reused partially|
 | o.a.m.VIEW_POOL_ENTRY_MODE| | soft| weak,soft| Defines the type of memory reference that is used to hold the view into memory|
@@ -98,7 +99,6 @@ MyFaces core behavior can be customized, adding some web config params into your
 | o.a.m.FLASH_SCOPE_DISABLED| 2.0.5| false| | Defines whether flash scope is disabled, preventing add the Flash cookie to the response|
 | o.a.m.LAZY_LOAD_CONFIG_OBJECTS| 2.0| true| | Indicate if the classes associated to components, converters, validators or behaviors should be loaded as soon as they are added to the current application instance or instead loaded in a lazy way| 
 | o.a.m.EL_RESOLVER_TRACING | 4.0 | false | | Defines if ELResolvers should be traced on each request and logged. Only active on Development ProjectStage. |
-| o.a.m.EXCEPTION_TYPES_TO_IGNORE_IN_LOGGING | 5.0 | | | Defines exceptions, separated by commas, which should be skipped for logging in the ExcceptionHandler. |
 
 ### Validation
 | Name | Since | Default value | Expected values | Description |
