@@ -1,5 +1,14 @@
 # News
+##  May 5, 2026 - MyFaces Core  4.1.3 released
+MyFaces Core 4.1.3 have been released. It is available from the [Download](/core41?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".\
+
+Release notes can be found here: [4.1.3](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12356401)
+
+<<<<<<< HEAD
+##  Nov 18, 2025 - MyFaces Core 4.1.2 released
+=======
 ## November 17, 2025 - MyFaces Core 4.1.2 released
+>>>>>>> 0fa8f8a (Small fix)
 MyFaces Core 4.1.2 have been released. It is available from the [Download](/core41?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [4.1.2](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12356000)
@@ -8,6 +17,7 @@ Release notes can be found here: [4.1.2](https://issues.apache.org/jira/secure/R
 MyFaces Core 3.0.3 have been released. It is available from the [Download](/core30?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [2.3.11](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12351783)
+
 ##  March 25, 2025 - MyFaces Core 4.0.3 released
 MyFaces Core 4.0.3 have been released. It is available from the [Download](/core40?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
@@ -27,7 +37,6 @@ Release notes can be found here: [2.3.11](https://issues.apache.org/jira/secure/
 MyFaces Core 4.1.0 have been released. It is available from the [Download](/core41?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [4.1.0](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12355246)
-
 
 ##  November 2, 2024 - MyFaces Core 4.1.0-RC3 released
 MyFaces Core 4.1.0-RC3 have been released. It is available from the [Download](/core41?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
