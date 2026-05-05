@@ -1,104 +1,100 @@
 # News
-##  May 5, 2026 - MyFaces Core  4.1.3 released
-MyFaces Core 4.1.3 have been released. It is available from the [Download](/core41?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".\
+## May 5, 2026 - MyFaces Core 4.1.3 released
+MyFaces Core 4.1.3 have been released. It is available from the [Download](/core41?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [4.1.3](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12356401)
 
-<<<<<<< HEAD
-##  Nov 18, 2025 - MyFaces Core 4.1.2 released
-=======
 ## November 17, 2025 - MyFaces Core 4.1.2 released
->>>>>>> 0fa8f8a (Small fix)
 MyFaces Core 4.1.2 have been released. It is available from the [Download](/core41?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [4.1.2](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12356000)
 
-##  July 1, 2025 - MyFaces Core 3.0.3 released
+## July 1, 2025 - MyFaces Core 3.0.3 released
 MyFaces Core 3.0.3 have been released. It is available from the [Download](/core30?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
-Release notes can be found here: [2.3.11](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12351783)
+Release notes can be found here: [3.0.3](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12351783)
 
-##  March 25, 2025 - MyFaces Core 4.0.3 released
+## March 25, 2025 - MyFaces Core 4.0.3 released
 MyFaces Core 4.0.3 have been released. It is available from the [Download](/core40?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [4.0.3](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12354227)
 
-##  March 25, 2025 - MyFaces Core 4.1.1 released
+## March 25, 2025 - MyFaces Core 4.1.1 released
 MyFaces Core 4.1.1 have been released. It is available from the [Download](/core41?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [4.1.1](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12355340)
 
-##  January 13, 2025 - MyFaces Core 2.3.11 released
+## January 13, 2025 - MyFaces Core 2.3.11 released
 MyFaces Core 2.3.11 have been released. It is available from the [Download](/core23?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [2.3.11](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12351783)
 
-##  December 10, 2024 - MyFaces Core 4.1.0 released
+## December 10, 2024 - MyFaces Core 4.1.0 released
 MyFaces Core 4.1.0 have been released. It is available from the [Download](/core41?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [4.1.0](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12355246)
 
-##  November 2, 2024 - MyFaces Core 4.1.0-RC3 released
+## November 2, 2024 - MyFaces Core 4.1.0-RC3 released
 MyFaces Core 4.1.0-RC3 have been released. It is available from the [Download](/core41?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [4.1.0-RC3](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12354624)
 
-##  April 29, 2024 - MyFaces Core 4.1.0-RC2 released
+## April 29, 2024 - MyFaces Core 4.1.0-RC2 released
 MyFaces Core 4.1.0-RC2 have been released. It is available from the [Download](/core41?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [4.1.0-RC2](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12354226)
 
-##  February 1, 2024 - MyFaces Core 4.0.2 released
+## February 1, 2024 - MyFaces Core 4.0.2 released
 MyFaces Core 4.0.2 have been released. It is available from the [Download](/core40?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
-Release notes can be found here: [4.1.0-RC1](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12353333)
+Release notes can be found here: [4.0.2](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12353333)
 
-##  January 29, 2024 - MyFaces Core 4.1.0-RC1 released
+## January 29, 2024 - MyFaces Core 4.1.0-RC1 released
 MyFaces Core 4.1.0-RC1 have been released. It is available from the [Download](/core41?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [4.1.0-RC1](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12353454)
 
-##  May 24, 2023 - MyFaces Core 4.0.1 released
+## May 24, 2023 - MyFaces Core 4.0.1 released
 MyFaces Core 4.0.1 have been released. It is available from the [Download](/core40?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [4.0.1](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12352978)
 
-##  April 13, 2023 - MyFaces Core 2.3-next-M8 released
+## April 13, 2023 - MyFaces Core 2.3-next-M8 released
 MyFaces Core 2.3-next-M8 has been released. It is available from the [Download](/core23next?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [2.3-next-M8](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12351789)
 
-##  March 4, 2023 - MyFaces Core 4.0.0 released
+## March 4, 2023 - MyFaces Core 4.0.0 released
 MyFaces Core 4.0.0 have been released. It is available from the [Download](/core40?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [4.0.0](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12352967)
 
-##  February 17, 2023 - MyFaces Core 4.0.0-RC5 released
+## February 17, 2023 - MyFaces Core 4.0.0-RC5 released
 MyFaces Core 4.0.0-RC5 have been released. It is available from the [Download](/core40?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [4.0.0-RC5](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12352858)
 
-##  January 26, 2023 - MyFaces Core 4.0.0-RC4 released
+## January 26, 2023 - MyFaces Core 4.0.0-RC4 released
 MyFaces Core 4.0.0-RC4 have been released. It is available from the [Download](/core40?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [4.0.0-RC4](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12352692)
 
-##  January 3, 2023 - MyFaces Core 4.0.0-RC3 released
+## January 3, 2023 - MyFaces Core 4.0.0-RC3 released
 MyFaces Core 4.0.0-RC3 have been released. It is available from the [Download](/core40?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [4.0.0-RC3](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12352404)
 
-##  October 24, 2022 - MyFaces Core 4.0.0-RC2 released
+## October 24, 2022 - MyFaces Core 4.0.0-RC2 released
 MyFaces Core 4.0.0-RC2 have been released. It is available from the [Download](/core40?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [4.0.0-RC2](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12351839&projectId=10600)
 
-##  July 7, 2022 - MyFaces Core 4.0.0-RC1 released
+## July 7, 2022 - MyFaces Core 4.0.0-RC1 released
 MyFaces Core 4.0.0-RC1 have been released. It is available from the [Download](/core40?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [4.0.0-RC1](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12349323)
 
-##  June 16, 2022 - MyFaces Core 2.2.15 released
+## June 16, 2022 - MyFaces Core 2.2.15 released
 MyFaces Core 2.2.15 have been released. It is available from the [Download](/core22?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [2.2.15](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12349664)
@@ -137,55 +133,46 @@ MyFaces Core 2.3.9 have been released. It is available from the [Download](/core
 Release notes can be found here: [2.3.9](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12349634)
 
 ## February 15, 2021 - MyFaces Core 2.3-next-M5 released
-
 MyFaces Core 2.3-next-M5 have been released. It is available from the [Download](/core23next?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [2.3-next-M5](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12348727)
 
 ## February 08, 2021 - MyFaces Core 2.2.14 released
-
 MyFaces Core 2.2.14 have been released. It is available from the [Download](/core22?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [2.2.14](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12348436)
 
 ## February 02, 2021 - MyFaces Core 2.3.8 released
-
 MyFaces Core 2.3.8 have been released. It is available from the [Download](/core23?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [2.3.8](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12349324)
 
 ## January 29, 2021 - MyFaces Core 3.0.0 released
-
 MyFaces Core 3.0.0 have been released. It is available from the [Download](/core30?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [3.0.0](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12348851)
 
-## Nov 9, 2020 - MyFaces Core 2.3.7 released
-
+## November 9, 2020 - MyFaces Core 2.3.7 released
 MyFaces Core 2.3.7 have been released. It is available from the [Download](/core23?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [2.3.7](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12346524)
 
-## Sep 4, 2020 - MyFaces Core 2.3-next-M4 released
-
+## September 4, 2020 - MyFaces Core 2.3-next-M4 released
 MyFaces Core 2.3-next-M4 have been released. It is available from the [Download](/core23next?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [2.3-next-M4](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12348458)
 
 ## August 20, 2020 - MyFaces Core 3.0.0-RC1 released
-
 MyFaces Core 3.0.0-RC1 have been released. It is available from the [Download](/core30?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [3.0.0-RC1](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12347158)
 
 ## July 9, 2020 - MyFaces Core 2.2.13 released
-
 MyFaces Core 2.2.13 have been released. It is available from the [Download](/core22?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [2.2.13](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12339346)
 
 ## December 2, 2019 - MyFaces Core 2.3.6 released
-
 MyFaces Core 2.3.6 have been released. It is available from the [Download](/core23?id=downloads) page, and in the central Maven repository under Group ID "org.apache.myfaces.core".
 
 Release notes can be found here: [2.3.6](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10600&version=12346352)
