@@ -17,10 +17,10 @@ Implementation of the Jakarta Server Faces 3.0 specification.
 
 |     | Mirrors                                                                                                                      | Checksum                                                                                                                     | Signature                                                                                                                                |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| binary (tar.gz) | [myfaces-core-assembly-3.0.3-bin.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-3.0.3-bin.tar.gz) | [myfaces-core-assembly-3.0.3-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-3.0.3-bin.tar.gz.sha512) | [myfaces-core-assembly-3.0.3-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-3.0.3-bin.tar.gz.asc) |
-| binary (zip)    | [myfaces-core-assembly-3.0.3-bin.zip](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-3.0.3-bin.zip)       | [myfaces-core-assembly-3.0.3-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-3.0.3-bin.zip.sha512)       | [myfaces-core-assembly-3.0.3-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-3.0.3-bin.zip.asc)       |
-| source (tar.gz) | [myfaces-core-assembly-3.0.3-src.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-3.0.3-src.tar.gz)   | [myfaces-core-assembly-3.0.3-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-3.0.3-src.tar.gz.sha512)   | [myfaces-core-assembly-3.0.3-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-3.0.3-src.tar.gz.asc)   |
-| source (zip)    | [myfaces-core-assembly-3.0.3-src.zip](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-3.0.3-src.zip)         | [myfaces-core-assembly-3.0.3-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-3.0.3-src.zip.sha512)         | [myfaces-core-assembly-3.0.3-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-3.0.3-src.zip.asc)         |
+| binary (tar.gz) | [myfaces-core-assembly-3.0.4-bin.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-3.0.4-bin.tar.gz) | [myfaces-core-assembly-3.0.4-bin.tar.gz.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-3.0.4-bin.tar.gz.sha512) | [myfaces-core-assembly-3.0.4-bin.tar.gz.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-3.0.4-bin.tar.gz.asc) |
+| binary (zip)    | [myfaces-core-assembly-3.0.4-bin.zip](https://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-core-assembly-3.0.4-bin.zip)       | [myfaces-core-assembly-3.0.4-bin.zip.sha512](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-3.0.4-bin.zip.sha512)       | [myfaces-core-assembly-3.0.4-bin.zip.asc](https://downloads.apache.org/myfaces/binaries/myfaces-core-assembly-3.0.4-bin.zip.asc)       |
+| source (tar.gz) | [myfaces-core-assembly-3.0.4-src.tar.gz](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-3.0.4-src.tar.gz)   | [myfaces-core-assembly-3.0.4-src.tar.gz.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-3.0.4-src.tar.gz.sha512)   | [myfaces-core-assembly-3.0.4-src.tar.gz.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-3.0.4-src.tar.gz.asc)   |
+| source (zip)    | [myfaces-core-assembly-3.0.4-src.zip](https://www.apache.org/dyn/closer.lua/myfaces/source/myfaces-core-assembly-3.0.4-src.zip)         | [myfaces-core-assembly-3.0.4-src.zip.sha512](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-3.0.4-src.zip.sha512)         | [myfaces-core-assembly-3.0.4-src.zip.asc](https://downloads.apache.org/myfaces/source/myfaces-core-assembly-3.0.4-src.zip.asc)         |
 
 ## Dependency
 
@@ -28,12 +28,12 @@ Implementation of the Jakarta Server Faces 3.0 specification.
 <dependency>
     <groupId>org.apache.myfaces.core</groupId>
     <artifactId>myfaces-api</artifactId>
-    <version>3.0.3</version>
+    <version>3.0.4</version>
 </dependency>
 <dependency>
     <groupId>org.apache.myfaces.core</groupId>
     <artifactId>myfaces-impl</artifactId>
-    <version>3.0.3</version>
+    <version>3.0.4</version>
 </dependency>
 ```
 
