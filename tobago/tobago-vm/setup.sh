@@ -21,10 +21,10 @@ curl -o demo-6-snapshot.war "https://repository.apache.org/service/local/artifac
 curl -o demo-4-snapshot.war "https://repository.apache.org/service/local/artifact/maven/content?r=snapshots&g=org.apache.myfaces.tobago&a=tobago-example-demo&p=war&v=${TOBAGO_4_VERSION}"
 curl -o demo-2-snapshot.war "https://repository.apache.org/service/local/artifact/maven/content?r=snapshots&g=org.apache.myfaces.tobago&a=tobago-example-demo&p=war&v=${TOBAGO_2_VERSION}"
 
-/usr/local/bin/docker compose down
+/usr/bin/docker compose down
 /usr/bin/docker system prune --all -f
-/usr/local/bin/docker compose build --pull
-/usr/local/bin/docker compose up -d
+/usr/bin/docker compose build --pull
+/usr/bin/docker compose up -d
 
 # need to wait for Let's encrypt doing its job
 sleep 60
