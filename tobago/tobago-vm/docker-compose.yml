@@ -59,13 +59,15 @@ services:
 #      - demo-1-0-release
     restart: unless-stopped
   demo-6-snapshot:
-    build: tomcat10
+    image: tomcat:11-jdk25
     environment:
       - TOBAGO_VERSION=6.12.3-SNAPSHOT
       - CONTEXT_PATH=demo-6-snapshot
       - CATALINA_OPTS=-Xms1024m -Xmx1024m -XX:MaxMetaspaceSize=512m -XX:+UseG1GC
     ports:
       - "8602:8080"
+    volumes:
+      - ./demo-6-snapshot.war:/usr/local/tomcat/webapps/demo-6-snapshot.war:ro
     logging:
       options:
         max-size: "1m"
@@ -130,13 +132,15 @@ services:
 #        max-size: "1m"
 #        max-file: "5"
   demo-4-snapshot:
-    build: tomcat
+    image: tomcat:9-jdk25
     environment:
       - TOBAGO_VERSION=4.7.0-SNAPSHOT
       - CONTEXT_PATH=demo-4-snapshot
       - CATALINA_OPTS=-Xms1024m -Xmx1024m -XX:MaxMetaspaceSize=512m -XX:+UseG1GC
     ports:
       - "8402:8080"
+    volumes:
+      - ./demo-4-snapshot.war:/usr/local/tomcat/webapps/demo-4-snapshot.war:ro
     logging:
       options:
         max-size: "1m"
@@ -178,12 +182,15 @@ services:
 #        max-file: "5"
   demo-2-snapshot:
     build: tomcat
+#    image: tomcat:9-jdk17
     environment:
       - TOBAGO_VERSION=2.6.0-SNAPSHOT
       - CONTEXT_PATH=demo-2-snapshot
       - CATALINA_OPTS=-Xms1024m -Xmx1024m -XX:MaxMetaspaceSize=512m -XX:+UseG1GC
     ports:
       - "8202:8080"
+    volumes:
+      - ./demo-2-snapshot.war:/usr/local/tomcat/webapps/demo-2-snapshot.war:ro
     logging:
       options:
         max-size: "1m"
