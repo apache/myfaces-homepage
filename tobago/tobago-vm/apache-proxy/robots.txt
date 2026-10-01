@@ -13,27 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM debian:trixie-slim
-
-ENV APACHE_RUN_USER=www-data
-ENV APACHE_RUN_GROUP=www-data
-ENV APACHE_RUN_DIR=/var/run/apache2
-ENV APACHE_LOG_DIR=/var/log/apache2
-ENV APACHE_PID_FILE=$APACHE_RUN_DIR/apache2.pid
-
-RUN apt-get update \
- && apt-get upgrade -y \
- && apt-get install -y apache2 \
- && apt-get clean \
- && rm -rf /var/lib/apt/lists/* \
- && a2enmod proxy proxy_http ssl md
-
-COPY 000-default.conf 001-ssl.conf /etc/apache2/sites-enabled/
-COPY *.html *.css *.css.map *.txt /var/www/html/
-
-RUN rm /etc/apache2/sites-available/* \
- && mkdir -p ${APACHE_RUN_DIR} ${APACHE_LOG_DIR}
-
-EXPOSE 80
-
-CMD ["/usr/sbin/apache2", "-D", "FOREGROUND"]
+User-agent: *
+Crawl-delay: 30
+Disallow: /demo-2-snapshot/
+Disallow: /demo-4-snapshot/
+Allow: /
