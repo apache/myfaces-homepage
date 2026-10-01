@@ -26,7 +26,7 @@ RUN apt-get update \
  && apt-get install -y apache2 \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/* \
- && a2enmod proxy proxy_http ssl md
+ && a2enmod proxy proxy_http ssl md rewrite
 
 COPY 000-security.conf 001-default.conf 002-ssl.conf /etc/apache2/sites-available/
 COPY *.html *.css *.css.map *.txt /var/www/html/
