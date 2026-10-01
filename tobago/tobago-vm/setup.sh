@@ -28,4 +28,4 @@ curl -o demo-2-snapshot.war "https://repository.apache.org/service/local/artifac
 
 # need to wait for Let's encrypt doing its job
 sleep 60
-/usr/bin/docker exec tobago-vm_apache_1 apachectl graceful
+/usr/bin/docker exec apache apachectl graceful

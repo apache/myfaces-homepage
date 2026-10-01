@@ -15,6 +15,7 @@
 
 services:
   apache:
+    container_name: apache
     build: apache-proxy
     ports:
       - "80:80"
@@ -59,6 +60,7 @@ services:
 #      - demo-1-0-release
     restart: unless-stopped
   demo-6-snapshot:
+    container_name: tobago-6
     image: tomcat:11-jdk25
     environment:
       - TOBAGO_VERSION=6.12.3-SNAPSHOT
@@ -132,6 +134,7 @@ services:
 #        max-size: "1m"
 #        max-file: "5"
   demo-4-snapshot:
+    container_name: tobago-4
     image: tomcat:9-jdk25
     environment:
       - TOBAGO_VERSION=4.7.0-SNAPSHOT
@@ -181,6 +184,7 @@ services:
 #        max-size: "1m"
 #        max-file: "5"
   demo-2-snapshot:
+    container_name: tobago-2
     build: tomcat
 #    image: tomcat:9-jdk17
     environment:
