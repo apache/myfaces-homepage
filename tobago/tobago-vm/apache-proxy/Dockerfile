@@ -32,6 +32,7 @@ COPY 000-security.conf 001-default.conf 002-ssl.conf /etc/apache2/sites-availabl
 COPY *.html *.css *.css.map *.txt /var/www/html/
 
 RUN mkdir -p ${APACHE_RUN_DIR} ${APACHE_LOG_DIR} \
+ && a2dissite 000-default \
  && a2ensite 000-security \
  && a2ensite 001-default \
  && a2ensite 002-ssl
