@@ -35,6 +35,8 @@
                   staging: "",
                   snapshot: "4.7.0-SNAPSHOT",
                   link: "4",
+                  // XXX temporary disabled
+                  disabled: true,
                   archived: false,
                   current: false
               },
@@ -44,6 +46,8 @@
                   staging: "",
                   snapshot: "2.6.0-SNAPSHOT",
                   link: "2",
+                  // XXX temporary disabled
+                  disabled: true,
                   archived: false,
                   current: false
               },
@@ -84,6 +88,17 @@
                       buttonClassList.remove("btn-success");
                       buttonClassList.add("btn-secondary");
                       clone.querySelector(".x-release-version").append(" (archived)");
+                  }
+              }
+
+              if (version.disabled) {
+                  let button = clone.querySelector(".btn");
+                  if (button) {
+                      const buttonClassList = button.classList;
+                      button.disabled = true;
+                      buttonClassList.add("disabled");
+                      button.removeAttribute("href");
+                      button.innerText = button.innerText + " (temporarily disabled)";
                   }
               }
 

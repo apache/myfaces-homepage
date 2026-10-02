@@ -20,44 +20,18 @@ services:
     ports:
       - "80:80"
       - "443:443"
-#    volumes:
-#      - /var/log/tobago:/var/log/apache2
     logging:
       options:
         max-size: "1m"
         max-file: "5"
     links:
       - demo-6-snapshot
-#      - demo-5-release
-#      - demo-5-staging
-#      - demo-5-snapshot
-#      - demo-4-release
-#      - demo-4-staging
-      - demo-4-snapshot
-#      - demo-3-release
-#      - demo-2-release
-#      - demo-2-staging
-      - demo-2-snapshot
-#      - demo-1-5-release
-#      - demo-1-5-staging
-#      - demo-1-5-snapshot
-#      - demo-1-0-release
-#      - demo-1-0-staging
-#      - demo-1-0-snapshot
+#      - demo-4-snapshot
+#      - demo-2-snapshot
     depends_on:
       - demo-6-snapshot
-#      - demo-5-release
-#      - demo-5-staging
-#      - demo-5-snapshot
-#      - demo-4-release
-#      - demo-4-staging
-      - demo-4-snapshot
-#      - demo-3-release
-#      - demo-2-release
-#      - demo-2-staging
-      - demo-2-snapshot
-#      - demo-1-5-release
-#      - demo-1-0-release
+#      - demo-4-snapshot
+#      - demo-2-snapshot
     restart: unless-stopped
   demo-6-snapshot:
     container_name: tobago-6
@@ -75,150 +49,36 @@ services:
         max-size: "1m"
         max-file: "5"
     restart: unless-stopped
-#  demo-5-release:
-#    build: tomcat
+#  demo-4-snapshot:
+#    container_name: tobago-4
+#    image: tomcat:9-jdk25
 #    environment:
-#      - TOBAGO_VERSION=5.0.0
-#      - CONTEXT_PATH=demo-5-release
+#      - TOBAGO_VERSION=4.7.0-SNAPSHOT
+#      - CONTEXT_PATH=demo-4-snapshot
+#      - CATALINA_OPTS=-Xms1024m -Xmx1024m -XX:MaxMetaspaceSize=512m -XX:+UseG1GC
 #    ports:
-#      - "8500:8080"
-#    logging:
-#      options:
-#        max-size: "1m"
-#        max-file: "5"
-#  demo-5-staging:
-#    build: tomcat
-#    environment:
-#      - TOBAGO_VERSION=5.0.0
-#      - STAGING_NUMBER=1196
-#      - CONTEXT_PATH=demo-5-staging
-#    ports:
-#      - "8501:8080"
-#    logging:
-#      options:
-#        max-size: "1m"
-#        max-file: "5"
-#  demo-5-snapshot:
-#    build: tomcat
-#    environment:
-#      - TOBAGO_VERSION=5.15.3-SNAPSHOT
-#      - CONTEXT_PATH=demo-5-snapshot
-#    ports:
-#      - "8502:8080"
+#      - "8402:8080"
+#    volumes:
+#      - ./demo-4-snapshot.war:/usr/local/tomcat/webapps/demo-4-snapshot.war:ro
 #    logging:
 #      options:
 #        max-size: "1m"
 #        max-file: "5"
 #    restart: unless-stopped
-#  demo-4-release:
+#  demo-2-snapshot:
+#    container_name: tobago-2
 #    build: tomcat
+##    image: tomcat:9-jdk17
 #    environment:
-#      - TOBAGO_VERSION=4.5.4
-#      - CONTEXT_PATH=demo-4-release
+#      - TOBAGO_VERSION=2.6.0-SNAPSHOT
+#      - CONTEXT_PATH=demo-2-snapshot
+#      - CATALINA_OPTS=-Xms1024m -Xmx1024m -XX:MaxMetaspaceSize=512m -XX:+UseG1GC
 #    ports:
-#      - "8400:8080"
+#      - "8202:8080"
+#    volumes:
+#      - ./demo-2-snapshot.war:/usr/local/tomcat/webapps/demo-2-snapshot.war:ro
 #    logging:
 #      options:
 #        max-size: "1m"
 #        max-file: "5"
-#  demo-4-staging:
-#    build: tomcat
-#    environment:
-#      - TOBAGO_VERSION=4.5.4
-#      - STAGING_NUMBER=1191
-#      - CONTEXT_PATH=demo-4-staging
-#    ports:
-#      - "8401:8080"
-#    logging:
-#      options:
-#        max-size: "1m"
-#        max-file: "5"
-  demo-4-snapshot:
-    container_name: tobago-4
-    image: tomcat:9-jdk25
-    environment:
-      - TOBAGO_VERSION=4.7.0-SNAPSHOT
-      - CONTEXT_PATH=demo-4-snapshot
-      - CATALINA_OPTS=-Xms1024m -Xmx1024m -XX:MaxMetaspaceSize=512m -XX:+UseG1GC
-    ports:
-      - "8402:8080"
-    volumes:
-      - ./demo-4-snapshot.war:/usr/local/tomcat/webapps/demo-4-snapshot.war:ro
-    logging:
-      options:
-        max-size: "1m"
-        max-file: "5"
-    restart: unless-stopped
-#  demo-3-release:
-#    build: tomcat
-#    environment:
-#      - TOBAGO_VERSION=3.1.1
-#      - CONTEXT_PATH=demo-3-release
-#    ports:
-#      - "8300:8080"
-#    logging:
-#      options:
-#        max-size: "1m"
-#        max-file: "5"
-#  demo-2-release:
-#    build: tomcat
-#    environment:
-#      - TOBAGO_VERSION=2.4.4
-#      - CONTEXT_PATH=demo-2-release
-#    ports:
-#      - "8200:8080"
-#    logging:
-#      options:
-#        max-size: "1m"
-#        max-file: "5"
-#  demo-2-staging:
-#    build: tomcat
-#    environment:
-#      - TOBAGO_VERSION=2.4.4
-#      - STAGING_NUMBER=1179
-#      - CONTEXT_PATH=demo-2-staging
-#    ports:
-#      - "8201:8080"
-#    logging:
-#      options:
-#        max-size: "1m"
-#        max-file: "5"
-  demo-2-snapshot:
-    container_name: tobago-2
-    build: tomcat
-#    image: tomcat:9-jdk17
-    environment:
-      - TOBAGO_VERSION=2.6.0-SNAPSHOT
-      - CONTEXT_PATH=demo-2-snapshot
-      - CATALINA_OPTS=-Xms1024m -Xmx1024m -XX:MaxMetaspaceSize=512m -XX:+UseG1GC
-    ports:
-      - "8202:8080"
-    volumes:
-      - ./demo-2-snapshot.war:/usr/local/tomcat/webapps/demo-2-snapshot.war:ro
-    logging:
-      options:
-        max-size: "1m"
-        max-file: "5"
-    restart: unless-stopped
-#  demo-1-5-release:
-#    build: tomcat
-#    environment:
-#      - TOBAGO_VERSION=1.5.13
-#      - CONTEXT_PATH=demo-1-5-release
-#    ports:
-#      - "8150:8080"
-#    logging:
-#      options:
-#        max-size: "1m"
-#        max-file: "5"
-#  demo-1-0-release:
-#    build: tomcat
-#    environment:
-#      - TOBAGO_VERSION=1.0.42
-#      - CONTEXT_PATH=demo-1-0-release
-#    ports:
-#      - "8100:8080"
-#    logging:
-#      options:
-#        max-size: "1m"
-#        max-file: "5"
+#    restart: unless-stopped
