@@ -18,8 +18,8 @@ services:
     container_name: apache
     build: apache-proxy
     environment:
-      - LETSENCRYPT_URL=https://acme-staging-v02.api.letsencrypt.org/directory
-#      - LETSENCRYPT_URL=https://acme-v02.api.letsencrypt.org/directory
+#      - LETSENCRYPT_URL=https://acme-staging-v02.api.letsencrypt.org/directory
+      - LETSENCRYPT_URL=https://acme-v02.api.letsencrypt.org/directory
     ports:
       - "80:80"
       - "443:443"
