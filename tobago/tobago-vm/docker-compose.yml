@@ -40,7 +40,7 @@ services:
     container_name: tobago-6
     image: tomcat:11-jdk25
     environment:
-      - TOBAGO_VERSION=6.12.3-SNAPSHOT
+      - TOBAGO_VERSION=6.13.0-SNAPSHOT
       - CONTEXT_PATH=demo-6-snapshot
       - CATALINA_OPTS=-Xms1024m -Xmx1024m -XX:MaxMetaspaceSize=512m -XX:+UseG1GC
     ports:

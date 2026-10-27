@@ -13,7 +13,7 @@ curl https://codeload.github.com/apache/myfaces-homepage/tar.gz/refs/heads/${BRA
 
 cd tobago-vm
 
-TOBAGO_6_VERSION=6.12.3-SNAPSHOT
+TOBAGO_6_VERSION=6.13.0-SNAPSHOT
 TOBAGO_4_VERSION=4.7.0-SNAPSHOT
 TOBAGO_2_VERSION=2.6.0-SNAPSHOT
 
