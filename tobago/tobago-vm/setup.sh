@@ -14,12 +14,12 @@ curl https://codeload.github.com/apache/myfaces-homepage/tar.gz/refs/heads/${BRA
 cd tobago-vm
 
 TOBAGO_6_VERSION=6.13.1-SNAPSHOT
-TOBAGO_4_VERSION=4.7.0-SNAPSHOT
-TOBAGO_2_VERSION=2.6.0-SNAPSHOT
+#TOBAGO_4_VERSION=4.7.0-SNAPSHOT
+#TOBAGO_2_VERSION=2.6.0-SNAPSHOT
 
 curl -o demo-6-snapshot.war "https://repository.apache.org/service/local/artifact/maven/content?r=snapshots&g=org.apache.myfaces.tobago&a=tobago-example-demo&p=war&v=${TOBAGO_6_VERSION}"
-curl -o demo-4-snapshot.war "https://repository.apache.org/service/local/artifact/maven/content?r=snapshots&g=org.apache.myfaces.tobago&a=tobago-example-demo&p=war&v=${TOBAGO_4_VERSION}"
-curl -o demo-2-snapshot.war "https://repository.apache.org/service/local/artifact/maven/content?r=snapshots&g=org.apache.myfaces.tobago&a=tobago-example-demo&p=war&v=${TOBAGO_2_VERSION}"
+#curl -o demo-4-snapshot.war "https://repository.apache.org/service/local/artifact/maven/content?r=snapshots&g=org.apache.myfaces.tobago&a=tobago-example-demo&p=war&v=${TOBAGO_4_VERSION}"
+#curl -o demo-2-snapshot.war "https://repository.apache.org/service/local/artifact/maven/content?r=snapshots&g=org.apache.myfaces.tobago&a=tobago-example-demo&p=war&v=${TOBAGO_2_VERSION}"
 
 /usr/bin/docker compose down
 /usr/bin/docker system prune --all -f

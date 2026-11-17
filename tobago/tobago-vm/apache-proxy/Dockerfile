@@ -35,7 +35,8 @@ RUN mkdir -p ${APACHE_RUN_DIR} ${APACHE_LOG_DIR} \
  && a2dissite 000-default \
  && a2ensite 000-security \
  && a2ensite 001-default \
- && a2ensite 002-ssl
+ && a2ensite 002-ssl \
+ && a2dismod status
 
 EXPOSE 80
 

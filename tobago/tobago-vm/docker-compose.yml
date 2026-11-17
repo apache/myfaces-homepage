@@ -18,7 +18,9 @@ services:
     container_name: apache
     build: apache-proxy
     environment:
+#   staging
 #      - LETSENCRYPT_URL=https://acme-staging-v02.api.letsencrypt.org/directory
+#   prod
       - LETSENCRYPT_URL=https://acme-v02.api.letsencrypt.org/directory
     ports:
       - "80:80"
@@ -38,7 +40,8 @@ services:
     restart: unless-stopped
   demo-6-snapshot:
     container_name: tobago-6
-    image: tomcat:11-jdk25
+    build: tomcat
+#    image: tomcat:11-jdk25
     environment:
       - TOBAGO_VERSION=6.13.1-SNAPSHOT
       - CONTEXT_PATH=demo-6-snapshot
@@ -46,7 +49,12 @@ services:
     ports:
       - "8602:8080"
     volumes:
-      - ./demo-6-snapshot.war:/usr/local/tomcat/webapps/demo-6-snapshot.war:ro
+    - type: bind
+      source: ./demo-6-snapshot.war
+      target: /usr/local/tomcat/webapps/demo-6-snapshot.war
+      read_only: true
+      bind:
+        create_host_path: false
     logging:
       options:
         max-size: "1m"

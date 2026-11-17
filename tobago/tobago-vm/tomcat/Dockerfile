@@ -13,21 +13,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM tomcat:9-jdk17
+FROM tomcat:11-jdk25
 MAINTAINER dev@myfaces.apache.org
 
 RUN rm -r /usr/local/tomcat/webapps.dist
 RUN rm /usr/local/tomcat/conf/logging.properties
 
 COPY server.xml /usr/local/tomcat/conf
-COPY download-deploy-and-run.sh /usr/local/tomcat/bin
-RUN chmod +x /usr/local/tomcat/bin/download-deploy-and-run.sh
-
-#ENV TOBAGO_VERSION undefined
-#ENV CONTEXT_PATH ROOT
 
 RUN chown -R www-data:www-data /usr/local/tomcat
 
 USER www-data
 
-CMD ["download-deploy-and-run.sh"]
+CMD ["catalina.sh", "run"]
